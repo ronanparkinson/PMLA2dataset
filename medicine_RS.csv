@@ -1,0 +1,2584 @@
+Patient_ID,Age,Gender,Condition,Symptoms,Recommended_Medicine,Dosage,KeepContact
+1,14.0,Female,Diabetes,"Shortness of breath, Fatigue",Aspirin,7364.0,No
+2,37.0,Other,Diabetes,Fatigue,Ventolin,4190.0,No
+3,62.0,Female,Flu,"Cough, Fever, Sneezing",Cetirizine,5779.0,Yes
+4,3.0,Male,COVID-19,Fever,Amoxicillin,4120.0,Yes
+5,49.0,Other,Flu,Cough,Ventolin,3001.0,No
+6,56.0,Female,Allergy,"Fever, Fatigue",Aspirin,2667.0,No
+7,97.0,Female,Hypertension,"Shortness of breath, Headache, Fatigue",Cetirizine,5782.0,Yes
+8,68.0,Other,Flu,"Sneezing, Fatigue",Amoxicillin,7740.0,Yes
+9,66.0,Female,Flu,"Cough, Fatigue, Fever",Insulin,6798.0,Yes
+10,94.0,Male,Asthma,"Fatigue, Headache, Sneezing",Cetirizine,6784.0,No
+11,46.0,Female,Asthma,Fatigue,Paracetamol,3997.0,No
+12,6.0,Female,Diabetes,"Headache, Sneezing",Cetirizine,5730.0,Yes
+13,91.0,Female,Migraine,"Cough, Fever, Headache",Amoxicillin,2995.0,Yes
+14,22.0,Other,Allergy,"Cough, Headache, Fever",Insulin,2486.0,Yes
+15,59.0,Female,Allergy,"Fatigue, Fever",Aspirin,3310.0,No
+16,14.0,Female,Allergy,"Headache, Shortness of breath, Cough",Paracetamol,6577.0,No
+17,25.0,Female,COVID-19,"Shortness of breath, Cough, Fever",Ventolin,4003.0,No
+18,22.0,Female,COVID-19,"Headache, Fatigue",Metformin,4834.0,Yes
+19,10.0,Female,Hypertension,Sneezing,Insulin,4680.0,Yes
+20,100.0,Other,Asthma,"Fatigue, Sneezing, Fever",Amoxicillin,6023.0,No
+21,32.0,Other,Migraine,"Headache, Sneezing, Shortness of breath",Ventolin,5973.0,No
+22,43.0,Other,Diabetes,Cough,Insulin,3480.0,Yes
+23,81.0,Female,Asthma,Fever,Amoxicillin,7976.0,Yes
+24,87.0,Male,Allergy,"Sneezing, Headache",Insulin,6387.0,No
+25,76.0,Female,Flu,"Fatigue, Cough",Metformin,3875.0,No
+26,2.0,Other,COVID-19,"Shortness of breath, Headache, Fatigue",Metformin,3010.0,No
+27,80.0,Female,Hypertension,"Fatigue, Cough",Insulin,6174.0,Yes
+28,28.0,Male,Migraine,"Fatigue, Headache, Shortness of breath",Metformin,5915.0,No
+29,87.0,Male,Asthma,"Fever, Fatigue",Amoxicillin,5835.0,Yes
+30,88.0,Male,Flu,"Headache, Sneezing, Shortness of breath",Cetirizine,7342.0,Yes
+31,45.0,Male,COVID-19,"Shortness of breath, Headache, Fever",Amoxicillin,2162.0,No
+32,80.0,Female,Flu,"Fatigue, Fever, Sneezing",Amoxicillin,4101.0,No
+33,,Male,Hypertension,Sneezing,Ventolin,4014.0,No
+34,67.0,Female,Hypertension,"Sneezing, Shortness of breath, Headache",Paracetamol,2467.0,No
+35,52.0,Other,Allergy,"Cough, Shortness of breath",Ventolin,5257.0,Yes
+36,90.0,Other,Migraine,"Headache, Fatigue, Shortness of breath",Cetirizine,2833.0,Yes
+37,18.0,Female,COVID-19,"Cough, Sneezing, Fatigue",Amoxicillin,2878.0,No
+38,39.0,Male,Allergy,Cough,Insulin,3264.0,No
+39,6.0,,COVID-19,"Fatigue, Headache",Cetirizine,3529.0,Yes
+40,78.0,Male,Allergy,"Fatigue, Headache, Shortness of breath",Cetirizine,3434.0,No
+41,21.0,Female,Flu,"Cough, Sneezing",Paracetamol,4325.0,Yes
+42,3.0,Other,Flu,"Fatigue, Headache, Fever",Aspirin,2433.0,No
+43,4.0,Male,Diabetes,"Fatigue, Shortness of breath, Sneezing",Insulin,6081.0,Yes
+44,84.0,Other,Hypertension,"Shortness of breath, Fatigue",Insulin,4443.0,Yes
+45,82.0,Other,Diabetes,Sneezing,Amoxicillin,6881.0,Yes
+46,70.0,Other,Flu,"Shortness of breath, Headache",Aspirin,5873.0,Yes
+47,53.0,Other,Migraine,Fatigue,Cetirizine,6628.0,No
+48,63.0,Male,Flu,"Headache, Shortness of breath",Ventolin,2066.0,No
+49,85.0,Other,Migraine,"Fever, Cough",Ventolin,6989.0,Yes
+50,71.0,Male,Flu,"Fever, Headache, Shortness of breath",Paracetamol,3690.0,Yes
+51,92.0,Other,Diabetes,Fatigue,Cetirizine,4907.0,No
+52,63.0,Other,COVID-19,"Cough, Shortness of breath",Aspirin,7335.0,Yes
+53,4.0,Female,COVID-19,"Fever, Headache, Sneezing",Cetirizine,6288.0,No
+54,70.0,Other,Migraine,"Headache, Fever",Ventolin,6262.0,No
+55,9.0,Male,Diabetes,Cough,Ventolin,3493.0,Yes
+56,16.0,Female,COVID-19,"Sneezing, Shortness of breath, Fatigue",Aspirin,2903.0,No
+57,94.0,Female,Diabetes,Shortness of breath,Cetirizine,7019.0,Yes
+58,55.0,Other,COVID-19,Fatigue,Amoxicillin,495.0,No
+59,77.0,Female,Allergy,"Sneezing, Fever",Aspirin,2565.0,No
+60,,Other,Asthma,Fever,Paracetamol,3964.0,Yes
+61,61.0,Male,Migraine,"Shortness of breath, Fatigue, Fever",Ventolin,2480.0,Yes
+62,108.0,Female,Allergy,"Cough, Shortness of breath, Headache",Ventolin,4286.0,No
+63,75.0,Other,Allergy,Headache,Cetirizine,4937.0,No
+64,83.0,Male,Asthma,Cough,Ventolin,6950.0,No
+65,48.0,Male,Hypertension,"Sneezing, Headache",Aspirin,4879.0,Yes
+66,,Male,Migraine,"Cough, Sneezing",Ventolin,5320.0,Yes
+67,56.0,Other,Asthma,"Sneezing, Cough, Shortness of breath",Cetirizine,2347.0,Yes
+68,100.0,Other,Asthma,"Fever, Sneezing, Cough",Metformin,2387.0,No
+69,21.0,Other,COVID-19,"Fatigue, Shortness of breath, Sneezing",Metformin,7223.0,Yes
+70,92.0,Other,Migraine,"Fever, Shortness of breath, Fatigue",Metformin,7054.0,No
+71,41.0,Other,Allergy,"Sneezing, Headache",Paracetamol,2999.0,No
+72,67.0,Other,COVID-19,"Fever, Shortness of breath, Sneezing",Cetirizine,6835.0,No
+73,92.0,Male,Flu,"Shortness of breath, Headache, Sneezing",Metformin,2712.0,No
+74,68.0,Female,COVID-19,"Shortness of breath, Sneezing, Fever",Paracetamol,2997.0,Yes
+75,6.0,Female,Asthma,"Cough, Headache",Paracetamol,4197.0,Yes
+76,19.0,Other,Hypertension,Cough,Insulin,4183.0,Yes
+77,78.0,Male,COVID-19,"Shortness of breath, Sneezing",Metformin,5737.0,No
+78,20.0,Male,Allergy,"Sneezing, Fever, Fatigue",Insulin,13964.0,No
+79,27.0,Other,Allergy,Fever,Aspirin,2475.0,Yes
+80,63.0,Other,Allergy,"Cough, Fever, Sneezing",Paracetamol,2780.0,No
+81,30.0,Female,Migraine,"Shortness of breath, Fever",Paracetamol,4662.0,Yes
+82,61.0,Other,Allergy,"Shortness of breath, Sneezing",Amoxicillin,5530.0,No
+83,72.0,Other,Hypertension,"Fever, Shortness of breath",Cetirizine,3113.0,No
+84,1.0,Female,Hypertension,Cough,Metformin,5503.0,Yes
+85,58.0,Male,Migraine,"Cough, Shortness of breath",Cetirizine,7241.0,Yes
+86,52.0,Female,Hypertension,"Cough, Fever",Cetirizine,6717.0,Yes
+87,78.0,Female,Allergy,"Cough, Shortness of breath, Sneezing",Insulin,6212.0,Yes
+88,14.0,Other,Diabetes,"Fever, Headache, Sneezing",Amoxicillin,3879.0,No
+89,15.0,Female,Asthma,"Shortness of breath, Fatigue, Fever",Ventolin,6271.0,No
+90,56.0,Female,Diabetes,Shortness of breath,Amoxicillin,2258.0,Yes
+91,33.0,Other,Migraine,Shortness of breath,Amoxicillin,7828.0,No
+92,31.0,Other,Flu,"Fatigue, Cough, Fever",Metformin,7674.0,Yes
+93,77.0,Other,Migraine,Headache,Ventolin,4893.0,Yes
+94,86.0,Other,Asthma,"Fatigue, Fever, Headache",Ventolin,6597.0,No
+95,13.0,Male,Allergy,Fever,Ventolin,3839.0,No
+96,100.0,Female,Hypertension,"Shortness of breath, Sneezing, Fatigue",Ventolin,4364.0,
+97,15.0,Other,Asthma,Fatigue,Amoxicillin,712.0,No
+98,54.0,Female,Hypertension,Fatigue,Insulin,7228.0,Yes
+99,18.0,Female,Asthma,Sneezing,Paracetamol,2530.0,No
+100,58.0,Female,Hypertension,"Shortness of breath, Fever",Paracetamol,7840.0,No
+101,36.0,Male,Hypertension,,Metformin,5669.0,Yes
+102,70.0,Female,Migraine,"Sneezing, Fever",Ventolin,7791.0,Yes
+103,18.0,Other,Allergy,"Headache, Fever",Paracetamol,7996.0,No
+104,60.0,Male,Asthma,Headache,Paracetamol,3774.0,No
+105,79.0,Other,Flu,"Shortness of breath, Cough",Paracetamol,6416.0,Yes
+106,5.0,Female,Migraine,"Sneezing, Shortness of breath",Paracetamol,7795.0,No
+107,19.0,Other,Asthma,"Sneezing, Shortness of breath",Paracetamol,5421.0,No
+108,24.0,Other,Migraine,"Fever, Headache",Metformin,5854.0,No
+109,94.0,Female,Asthma,Cough,Insulin,3961.0,No
+110,47.0,Other,Allergy,"Headache, Shortness of breath",Ventolin,6746.0,No
+111,23.0,,Hypertension,"Cough, Fatigue",Insulin,7351.0,Yes
+112,56.0,Male,Migraine,Cough,Amoxicillin,2186.0,Yes
+113,56.0,Other,COVID-19,"Shortness of breath, Sneezing",Paracetamol,3311.0,Yes
+114,57.0,Male,Asthma,Headache,Amoxicillin,7390.0,No
+115,67.0,Male,Asthma,Fatigue,Cetirizine,876.0,Yes
+116,57.0,Female,Hypertension,"Headache, Cough, Fever",Insulin,6241.0,No
+117,79.0,Female,COVID-19,"Fatigue, Sneezing",Insulin,5339.0,Yes
+118,59.0,Other,COVID-19,Shortness of breath,Cetirizine,2375.0,Yes
+119,83.0,Other,Hypertension,"Fatigue, Fever, Sneezing",Paracetamol,7861.0,Yes
+120,7.0,Female,Hypertension,Shortness of breath,Paracetamol,6969.0,Yes
+121,98.0,Female,Hypertension,"Sneezing, Headache",Ventolin,578.0,No
+122,67.0,Female,Migraine,"Shortness of breath, Headache",Aspirin,7574.0,Yes
+123,37.0,Male,Allergy,"Shortness of breath, Fever, Sneezing",Cetirizine,,Yes
+124,93.0,Other,COVID-19,Fever,Metformin,7215.0,No
+125,15.0,Other,Migraine,"Sneezing, Fatigue, Headache",Cetirizine,7570.0,Yes
+126,40.0,Female,Allergy,Fatigue,Insulin,5842.0,No
+127,20.0,Other,Allergy,"Fever, Headache, Fatigue",Ventolin,6724.0,Yes
+128,68.0,Female,COVID-19,"Fatigue, Shortness of breath",Ventolin,5755.0,Yes
+129,89.0,Female,Hypertension,Fatigue,Amoxicillin,2913.0,No
+130,86.0,Female,Hypertension,"Shortness of breath, Sneezing, Fever",Amoxicillin,2758.0,No
+131,30.0,Female,Diabetes,"Headache, Cough, Fever",Cetirizine,6526.0,Yes
+132,13.0,Male,COVID-19,"Sneezing, Headache, Cough",Ventolin,3196.0,No
+133,72.0,Female,COVID-19,Cough,Paracetamol,4997.0,No
+134,91.0,Female,Asthma,"Cough, Sneezing",Metformin,7716.0,No
+135,86.0,Male,Migraine,"Fatigue, Fever, Shortness of breath",Insulin,5083.0,Yes
+136,94.0,Male,COVID-19,"Shortness of breath, Fever",Aspirin,2893.0,No
+137,100.0,Other,Flu,Headache,Ventolin,6014.0,Yes
+138,84.0,Female,Hypertension,"Fatigue, Headache",Paracetamol,838.0,Yes
+139,82.0,Female,Allergy,"Sneezing, Fatigue",Insulin,3063.0,No
+140,10.0,Male,Hypertension,"Sneezing, Headache, Cough",Ventolin,5485.0,Yes
+141,69.0,Female,COVID-19,"Shortness of breath, Cough, Fever",Amoxicillin,6097.0,No
+142,5.0,Other,Asthma,"Fatigue, Fever, Shortness of breath",Insulin,2809.0,No
+143,39.0,Male,Allergy,"Fever, Shortness of breath, Fatigue",Ventolin,5865.0,No
+144,93.0,Other,Asthma,"Cough, Fatigue",Metformin,7918.0,Yes
+145,89.0,Female,Diabetes,"Shortness of breath, Headache",Metformin,6153.0,No
+146,10.0,Female,Allergy,"Headache, Shortness of breath",Aspirin,2247.0,No
+147,6.0,Female,Migraine,"Fatigue, Sneezing, Headache",Aspirin,6124.0,Yes
+148,39.0,Other,Flu,Headache,Metformin,,Yes
+149,58.0,Female,Diabetes,"Cough, Headache",Metformin,3135.0,No
+150,6.0,Male,Allergy,"Fatigue, Cough, Shortness of breath",Metformin,4621.0,Yes
+151,41.0,Male,Migraine,Shortness of breath,Ventolin,2007.0,Yes
+152,22.0,Female,Allergy,"Sneezing, Cough",Ventolin,4185.0,No
+153,37.0,Other,Flu,"Sneezing, Shortness of breath",Ventolin,12738.0,No
+154,72.0,Female,Allergy,Headache,Metformin,2064.0,No
+155,98.0,Female,Hypertension,Fever,Insulin,2892.0,No
+156,64.0,Other,Allergy,Sneezing,Amoxicillin,6615.0,No
+157,58.0,Other,Migraine,Cough,Insulin,7004.0,Yes
+158,87.0,Male,Allergy,Shortness of breath,Cetirizine,7028.0,Yes
+159,44.0,Male,Allergy,"Fatigue, Sneezing",Amoxicillin,6949.0,No
+160,94.0,Female,Asthma,"Fever, Shortness of breath",Metformin,6632.0,Yes
+161,7.0,Male,Diabetes,Fever,Insulin,2255.0,No
+162,40.0,Other,Allergy,"Fatigue, Shortness of breath, Fever",Cetirizine,6950.0,No
+163,72.0,Male,Asthma,"Cough, Sneezing, Shortness of breath",Ventolin,2791.0,Yes
+164,92.0,Female,Diabetes,"Shortness of breath, Fever, Cough",Paracetamol,4573.0,No
+165,36.0,Male,COVID-19,"Headache, Sneezing",Aspirin,2180.0,Yes
+166,25.0,Other,Hypertension,Fever,Cetirizine,4958.0,No
+167,42.0,Male,Asthma,"Headache, Fever",Cetirizine,4712.0,No
+168,21.0,Female,Migraine,"Sneezing, Fever, Fatigue",Cetirizine,7565.0,Yes
+169,11.0,Female,Allergy,"Fatigue, Headache",Cetirizine,6863.0,
+170,60.0,Other,Hypertension,"Sneezing, Cough, Headache",Cetirizine,6182.0,Yes
+171,92.0,Female,Diabetes,,Metformin,5253.0,Yes
+172,43.0,Female,Migraine,Fever,Cetirizine,6182.0,Yes
+173,72.0,Female,COVID-19,Fatigue,Aspirin,7381.0,No
+174,49.0,Male,Migraine,Sneezing,Insulin,7299.0,No
+175,60.0,Male,COVID-19,"Sneezing, Headache",Aspirin,4048.0,Yes
+176,73.0,Female,Asthma,"Fever, Fatigue",Paracetamol,5632.0,No
+177,78.0,Female,Hypertension,Cough,Metformin,5245.0,Yes
+178,43.0,Female,Asthma,"Shortness of breath, Fever, Headache",Cetirizine,7589.0,Yes
+179,34.0,Male,COVID-19,"Shortness of breath, Fever, Fatigue",Aspirin,5684.0,No
+180,75.0,Other,Migraine,"Shortness of breath, Cough",Insulin,4037.0,No
+181,55.0,Female,Migraine,Shortness of breath,Metformin,2477.0,Yes
+182,19.0,Male,Migraine,"Fever, Headache, Shortness of breath",Ventolin,6029.0,No
+183,69.0,Male,Diabetes,Fatigue,Metformin,5214.0,No
+184,87.0,Female,Diabetes,"Sneezing, Headache",Aspirin,3823.0,Yes
+185,54.0,Female,Diabetes,"Fatigue, Shortness of breath, Sneezing",Paracetamol,5485.0,No
+186,60.0,Female,Diabetes,"Fever, Shortness of breath, Headache",Paracetamol,6840.0,Yes
+187,6.0,Male,Migraine,Fever,Insulin,2991.0,No
+188,18.0,Male,COVID-19,"Cough, Sneezing",Insulin,5454.0,No
+189,14.0,Female,Flu,Fatigue,Cetirizine,4716.0,Yes
+190,54.0,Male,Allergy,"Fatigue, Shortness of breath, Fever",Paracetamol,5594.0,No
+191,19.0,,Hypertension,"Headache, Fever",Metformin,7350.0,Yes
+192,12.0,Female,COVID-19,Shortness of breath,Cetirizine,745.0,No
+193,46.0,Other,Hypertension,"Sneezing, Headache",Cetirizine,3318.0,Yes
+194,70.0,Male,Flu,"Fever, Cough, Headache",Insulin,3213.0,No
+195,88.0,Other,Asthma,Cough,Cetirizine,2301.0,No
+196,2.0,Other,Flu,Sneezing,Insulin,2597.0,Yes
+197,23.0,Female,Flu,"Shortness of breath, Fever, Sneezing",Cetirizine,5626.0,Yes
+198,5.0,Female,Migraine,Fatigue,Aspirin,7133.0,No
+199,4.0,Female,Allergy,Sneezing,Paracetamol,12618.0,No
+200,55.0,Male,Diabetes,"Fever, Cough",Amoxicillin,6268.0,No
+201,71.0,Male,Diabetes,"Sneezing, Fever",Aspirin,7526.0,Yes
+202,17.0,Male,Allergy,Headache,Paracetamol,4597.0,No
+203,50.0,Other,Diabetes,"Shortness of breath, Fatigue, Fever",Amoxicillin,4628.0,No
+204,86.0,Male,Diabetes,"Sneezing, Fever, Shortness of breath",Ventolin,5804.0,No
+205,87.0,Other,COVID-19,Fatigue,Cetirizine,5818.0,No
+206,94.0,Other,Hypertension,"Cough, Fatigue",Amoxicillin,4235.0,No
+207,97.0,Female,Allergy,"Fatigue, Sneezing",Insulin,2702.0,No
+208,24.0,Other,Asthma,Fatigue,Metformin,6382.0,No
+209,84.0,Male,Flu,Fever,Paracetamol,5557.0,Yes
+210,3.0,Female,Allergy,"Fever, Sneezing, Headache",Insulin,4339.0,No
+211,7.0,Other,Allergy,"Headache, Sneezing",Paracetamol,10182.0,No
+212,76.0,Female,Diabetes,"Shortness of breath, Headache",Metformin,3248.0,Yes
+213,70.0,Other,Asthma,Headache,Paracetamol,2705.0,No
+214,59.0,Female,Allergy,"Shortness of breath, Cough",Insulin,7448.0,No
+215,55.0,Male,Flu,"Headache, Fatigue, Cough",Amoxicillin,6379.0,Yes
+216,96.0,Male,COVID-19,"Sneezing, Cough",,6470.0,Yes
+217,24.0,Other,Asthma,Shortness of breath,Amoxicillin,5857.0,Yes
+218,21.0,Other,Asthma,"Sneezing, Cough, Fatigue",Ventolin,4283.0,No
+219,42.0,Female,COVID-19,"Shortness of breath, Headache, Sneezing",Aspirin,6843.0,No
+220,50.0,Other,Allergy,"Shortness of breath, Fever",Metformin,7046.0,No
+221,19.0,,Allergy,Fatigue,Insulin,2128.0,Yes
+222,14.0,Other,Asthma,"Fever, Headache, Cough",Metformin,6357.0,No
+223,40.0,Male,Allergy,"Sneezing, Fever, Fatigue",Insulin,2452.0,Yes
+224,40.0,Female,Migraine,Headache,Paracetamol,6997.0,Yes
+225,34.0,Male,Migraine,"Fever, Shortness of breath, Fatigue",Insulin,7700.0,Yes
+226,61.0,Male,Flu,"Cough, Fever, Shortness of breath",Amoxicillin,4855.0,No
+227,82.0,,Flu,"Fatigue, Cough, Headache",Ventolin,7512.0,Yes
+228,27.0,Female,Allergy,"Cough, Sneezing",Metformin,3559.0,Yes
+229,14.0,Female,Migraine,"Cough, Fatigue",Amoxicillin,4662.0,Yes
+230,75.0,Other,Flu,"Headache, Fever, Sneezing",Ventolin,2454.0,Yes
+231,63.0,Female,,Headache,Cetirizine,6232.0,Yes
+232,34.0,Other,,"Headache, Fever",Insulin,7973.0,No
+233,59.0,Male,Asthma,Shortness of breath,Aspirin,3044.0,No
+234,74.0,Other,Flu,"Fatigue, Headache",Amoxicillin,4113.0,Yes
+235,4.0,Male,Asthma,"Sneezing, Fatigue, Headache",Cetirizine,2468.0,No
+236,35.0,Other,Diabetes,"Fatigue, Fever",Amoxicillin,3624.0,No
+237,13.0,Other,Hypertension,Fatigue,Ventolin,3469.0,Yes
+238,,Other,Diabetes,"Fatigue, Fever",Ventolin,6241.0,No
+239,6.0,Other,Hypertension,"Fever, Shortness of breath, Fatigue",Metformin,4290.0,No
+240,56.0,Female,Asthma,"Fatigue, Shortness of breath, Headache",Paracetamol,3384.0,No
+241,98.0,Female,Allergy,"Fever, Headache, Fatigue",Ventolin,196.0,No
+242,53.0,Other,Hypertension,"Cough, Fatigue, Shortness of breath",Paracetamol,13056.0,Yes
+243,53.0,Male,Flu,"Headache, Sneezing",Ventolin,5100.0,No
+244,43.0,Male,Allergy,"Cough, Sneezing",Metformin,7329.0,
+245,48.0,Female,Migraine,"Fever, Fatigue, Headache",Aspirin,7579.0,No
+246,69.0,Other,Hypertension,"Headache, Shortness of breath, Fever",Ventolin,7909.0,Yes
+247,64.0,Female,Diabetes,"Fever, Sneezing, Fatigue",Paracetamol,6128.0,No
+248,22.0,Male,Flu,"Sneezing, Fever",Amoxicillin,6295.0,No
+249,50.0,Other,Hypertension,"Shortness of breath, Fever",,2704.0,Yes
+250,17.0,Other,Hypertension,Shortness of breath,Amoxicillin,3108.0,Yes
+251,34.0,Female,Allergy,"Fever, Fatigue",Paracetamol,3406.0,Yes
+252,50.0,Female,Migraine,"Sneezing, Cough",Metformin,6374.0,Yes
+253,47.0,Male,Migraine,"Sneezing, Fatigue",Metformin,4951.0,No
+254,27.0,Female,Asthma,Fever,Cetirizine,5619.0,Yes
+255,18.0,Male,Allergy,"Fever, Cough, Fatigue",Paracetamol,4822.0,Yes
+256,30.0,Other,COVID-19,"Shortness of breath, Fever",Paracetamol,6365.0,Yes
+257,66.0,Female,Diabetes,Headache,Insulin,3383.0,No
+258,92.0,Male,COVID-19,Shortness of breath,Insulin,2775.0,Yes
+259,18.0,Other,COVID-19,"Cough, Fatigue, Shortness of breath",Amoxicillin,2725.0,No
+260,93.0,Male,COVID-19,"Fatigue, Sneezing",Insulin,3512.0,Yes
+261,10.0,Male,Flu,"Fever, Sneezing",Metformin,3525.0,No
+262,,Male,Asthma,"Fever, Headache",Amoxicillin,3061.0,Yes
+263,12.0,Male,Asthma,"Fatigue, Fever, Headache",Metformin,5872.0,No
+264,58.0,Female,Allergy,Sneezing,Paracetamol,6740.0,Yes
+265,60.0,Female,Allergy,Sneezing,Insulin,7108.0,No
+266,73.0,Female,Allergy,"Shortness of breath, Sneezing",Ventolin,2869.0,Yes
+267,3.0,Female,Migraine,Shortness of breath,Ventolin,7029.0,Yes
+268,34.0,Male,COVID-19,"Headache, Fever, Shortness of breath",Cetirizine,5947.0,Yes
+269,23.0,Male,Hypertension,Headache,Paracetamol,3625.0,Yes
+270,71.0,Female,Asthma,"Headache, Shortness of breath, Fever",Aspirin,5592.0,No
+271,85.0,Female,Migraine,Cough,Aspirin,6579.0,Yes
+272,23.0,Other,Diabetes,Fatigue,Ventolin,4843.0,Yes
+273,43.0,Other,Hypertension,Fever,Metformin,4536.0,No
+274,47.0,Male,Asthma,"Cough, Shortness of breath, Sneezing",Insulin,7081.0,No
+275,51.0,Male,Diabetes,"Fever, Headache",Cetirizine,,Yes
+276,18.0,Male,COVID-19,"Shortness of breath, Fatigue, Fever",Paracetamol,14354.0,Yes
+277,25.0,Female,Diabetes,"Fatigue, Cough, Shortness of breath",Aspirin,3755.0,No
+278,85.0,Female,Allergy,"Sneezing, Shortness of breath, Fever",Insulin,4704.0,No
+279,76.0,Male,COVID-19,"Shortness of breath, Fatigue, Fever",Amoxicillin,7974.0,Yes
+280,32.0,Female,Asthma,Cough,Cetirizine,4988.0,Yes
+281,74.0,Male,Asthma,Fatigue,Amoxicillin,2004.0,No
+282,66.0,Female,Hypertension,Cough,Ventolin,2577.0,Yes
+283,77.0,,Migraine,Fever,Ventolin,7070.0,Yes
+284,21.0,Other,Diabetes,"Headache, Fever, Fatigue",Metformin,2273.0,No
+285,58.0,Other,Flu,"Fatigue, Sneezing",Ventolin,7866.0,No
+286,6.0,Other,Flu,Shortness of breath,Metformin,6201.0,No
+287,9.0,Female,Allergy,"Fever, Shortness of breath, Fatigue",Insulin,7726.0,Yes
+288,75.0,Female,Hypertension,"Cough, Headache, Fever",Insulin,3360.0,Yes
+289,69.0,Other,Flu,"Shortness of breath, Cough",Amoxicillin,2859.0,No
+290,36.0,Male,Asthma,"Headache, Fatigue, Sneezing",Cetirizine,7332.0,Yes
+291,44.0,Other,Asthma,"Headache, Cough, Shortness of breath",Ventolin,7268.0,No
+292,93.0,Other,Asthma,"Fatigue, Sneezing, Fever",Insulin,2751.0,Yes
+293,53.0,Male,COVID-19,"Fatigue, Sneezing",Aspirin,4860.0,Yes
+294,49.0,Other,Migraine,"Shortness of breath, Cough",Paracetamol,6334.0,Yes
+295,31.0,Female,Flu,Fever,Paracetamol,7289.0,No
+296,68.0,Other,Diabetes,"Fatigue, Fever, Cough",Insulin,6261.0,Yes
+297,12.0,Female,Flu,"Shortness of breath, Sneezing",Amoxicillin,10137.0,No
+298,38.0,Other,Allergy,"Cough, Fever, Shortness of breath",Ventolin,4581.0,No
+299,30.0,Male,COVID-19,"Fever, Sneezing",Insulin,7003.0,Yes
+300,77.0,Female,Hypertension,Fever,Insulin,4574.0,Yes
+301,30.0,Male,Flu,Cough,Paracetamol,2904.0,Yes
+302,47.0,Other,Flu,"Shortness of breath, Fever, Sneezing",Metformin,,No
+303,92.0,Other,Allergy,Sneezing,Aspirin,5348.0,No
+304,8.0,Male,Hypertension,"Sneezing, Fatigue",Metformin,4908.0,No
+305,19.0,Female,Allergy,"Shortness of breath, Headache",Paracetamol,6434.0,Yes
+306,44.0,Other,Allergy,"Shortness of breath, Cough, Sneezing",Paracetamol,3392.0,Yes
+307,14.0,Other,Migraine,"Cough, Fatigue, Sneezing",Ventolin,6670.0,Yes
+308,20.0,Other,Hypertension,Sneezing,Amoxicillin,4847.0,Yes
+309,19.0,Female,Hypertension,"Fatigue, Cough, Fever",Paracetamol,7594.0,No
+310,1.0,Other,Allergy,"Fatigue, Cough, Sneezing",Amoxicillin,2223.0,No
+311,37.0,Female,Allergy,"Cough, Fatigue",Insulin,5096.0,Yes
+312,37.0,Other,Migraine,"Fatigue, Fever",Aspirin,4276.0,Yes
+313,33.0,Male,Diabetes,"Fatigue, Shortness of breath, Headache",Cetirizine,6411.0,Yes
+314,48.0,Male,Migraine,Cough,Paracetamol,2578.0,No
+315,3.0,Other,Asthma,"Fatigue, Sneezing, Shortness of breath",Insulin,4440.0,Yes
+316,15.0,Male,Migraine,"Fatigue, Shortness of breath, Cough",Aspirin,7371.0,Yes
+317,69.0,Other,Hypertension,Sneezing,Aspirin,6922.0,Yes
+318,46.0,Male,Asthma,"Fever, Fatigue",Metformin,2980.0,Yes
+319,17.0,Other,Hypertension,"Fever, Shortness of breath, Cough",Ventolin,4788.0,No
+320,24.0,Other,Migraine,Fatigue,Paracetamol,7063.0,No
+321,97.0,Female,Diabetes,"Fever, Cough, Headache",Cetirizine,2344.0,Yes
+322,67.0,Female,Migraine,Fatigue,Insulin,2206.0,Yes
+323,80.0,Male,Flu,Fatigue,Ventolin,4192.0,No
+324,2.0,Other,Flu,Fatigue,Amoxicillin,3862.0,No
+325,85.0,Other,Flu,,Insulin,4464.0,No
+326,97.0,Male,Flu,"Sneezing, Fever",Cetirizine,7159.0,Yes
+327,76.0,Female,COVID-19,"Sneezing, Headache, Fatigue",Aspirin,6685.0,No
+328,41.0,Female,Flu,Fatigue,Amoxicillin,4177.0,No
+329,8.0,Female,Allergy,"Cough, Shortness of breath",Amoxicillin,6321.0,No
+330,14.0,Female,Allergy,"Fatigue, Headache, Shortness of breath",Paracetamol,4367.0,No
+331,59.0,Male,Flu,Headache,Paracetamol,4518.0,No
+332,15.0,Other,Diabetes,"Shortness of breath, Fatigue",Paracetamol,,Yes
+333,33.0,Female,Diabetes,"Cough, Shortness of breath",Ventolin,4632.0,No
+334,72.0,Male,Allergy,"Sneezing, Fever",Metformin,4623.0,Yes
+335,51.0,Female,Hypertension,"Shortness of breath, Fever, Fatigue",Ventolin,2140.0,Yes
+336,59.0,Other,Migraine,Sneezing,Metformin,4396.0,Yes
+337,40.0,Female,COVID-19,"Shortness of breath, Cough, Sneezing",Insulin,3755.0,Yes
+338,97.0,Male,Asthma,Fatigue,,7598.0,No
+339,11.0,Male,,"Headache, Fatigue",Metformin,2108.0,Yes
+340,18.0,Other,Asthma,"Shortness of breath, Headache",Paracetamol,5374.0,Yes
+341,75.0,Male,Allergy,"Shortness of breath, Sneezing, Headache",Amoxicillin,7578.0,No
+342,18.0,Other,Asthma,"Fatigue, Sneezing, Shortness of breath",Paracetamol,7801.0,Yes
+343,10.0,Other,Migraine,Fever,Ventolin,5509.0,Yes
+344,57.0,Male,Allergy,"Cough, Fever",Insulin,3676.0,No
+345,75.0,Female,Asthma,"Cough, Headache",Ventolin,6781.0,No
+346,49.0,Female,Hypertension,Fever,Ventolin,5824.0,No
+347,63.0,Male,Hypertension,"Fever, Headache",Ventolin,3705.0,No
+348,22.0,Other,Hypertension,"Headache, Fatigue, Fever",Ventolin,4106.0,
+349,41.0,Female,Migraine,"Fatigue, Shortness of breath",Ventolin,7414.0,No
+350,83.0,Other,COVID-19,Fever,Metformin,5022.0,No
+351,91.0,Male,Flu,Shortness of breath,Insulin,3987.0,Yes
+352,2.0,Male,Migraine,"Fatigue, Shortness of breath, Cough",Aspirin,2233.0,Yes
+353,94.0,Female,Diabetes,Fatigue,Amoxicillin,5375.0,Yes
+354,59.0,Female,COVID-19,Shortness of breath,Aspirin,3397.0,No
+355,45.0,Female,Flu,Headache,Paracetamol,5528.0,No
+356,30.0,Other,Flu,"Fatigue, Fever",Cetirizine,4136.0,Yes
+357,58.0,Other,Asthma,Fatigue,Paracetamol,7581.0,No
+358,7.0,Male,Diabetes,Sneezing,Insulin,5477.0,Yes
+359,3.0,Other,Allergy,"Shortness of breath, Sneezing, Headache",Aspirin,3985.0,Yes
+360,1.0,Other,Migraine,"Sneezing, Fever, Shortness of breath",Paracetamol,7423.0,Yes
+361,40.0,Female,Hypertension,"Headache, Cough, Shortness of breath",Insulin,11966.0,Yes
+362,56.0,Female,Flu,"Fatigue, Sneezing, Fever",Ventolin,3657.0,Yes
+363,75.0,Other,Asthma,Fever,Insulin,5384.0,No
+364,59.0,Female,Flu,"Cough, Headache",Metformin,5959.0,Yes
+365,40.0,Female,Flu,"Fatigue, Headache, Sneezing",,4284.0,No
+366,29.0,Male,Hypertension,"Headache, Cough",Amoxicillin,13813.0,Yes
+367,28.0,Female,Flu,Headache,Insulin,2637.0,No
+368,64.0,Male,Flu,"Sneezing, Headache, Cough",Metformin,2977.0,Yes
+369,17.0,Male,Hypertension,"Shortness of breath, Sneezing",Ventolin,2069.0,No
+370,28.0,Other,Diabetes,"Cough, Shortness of breath",Cetirizine,6687.0,Yes
+371,37.0,Male,Flu,Sneezing,Metformin,14492.0,No
+372,39.0,Other,Diabetes,"Fever, Sneezing, Fatigue",Amoxicillin,2045.0,No
+373,55.0,Male,Diabetes,"Shortness of breath, Sneezing, Cough",Ventolin,3455.0,Yes
+374,95.0,Male,Flu,"Shortness of breath, Cough",Metformin,3158.0,Yes
+375,44.0,Other,Asthma,"Cough, Headache",Insulin,3647.0,No
+376,33.0,Female,Diabetes,Fever,Metformin,5090.0,No
+377,28.0,Female,Allergy,Fatigue,Aspirin,5291.0,Yes
+378,39.0,Other,Asthma,Fever,Paracetamol,4819.0,Yes
+379,61.0,Female,Allergy,,Cetirizine,7646.0,Yes
+380,64.0,Male,Flu,"Sneezing, Headache",Amoxicillin,2723.0,No
+381,25.0,Male,COVID-19,"Fever, Fatigue",Ventolin,2195.0,No
+382,96.0,Female,Migraine,"Headache, Sneezing, Fatigue",Paracetamol,3910.0,Yes
+383,,Other,Flu,Fatigue,Insulin,3059.0,No
+384,26.0,Female,Asthma,"Fatigue, Fever",Cetirizine,4774.0,Yes
+385,33.0,Other,Asthma,"Sneezing, Fatigue, Cough",Cetirizine,7801.0,Yes
+386,18.0,,Asthma,"Fever, Headache, Cough",Insulin,2171.0,No
+387,78.0,Other,Flu,"Cough, Sneezing, Headache",Insulin,7365.0,No
+388,67.0,Male,Diabetes,"Shortness of breath, Sneezing, Cough",Aspirin,6268.0,Yes
+389,56.0,Male,Migraine,Sneezing,Ventolin,5945.0,Yes
+390,62.0,Female,COVID-19,"Shortness of breath, Sneezing, Fatigue",Paracetamol,3441.0,No
+391,77.0,Male,Asthma,"Sneezing, Headache, Fatigue",Ventolin,6409.0,No
+392,49.0,Female,Flu,Sneezing,Aspirin,7630.0,Yes
+393,90.0,Other,Allergy,"Cough, Sneezing",Metformin,6161.0,Yes
+394,2.0,Male,Hypertension,"Sneezing, Fatigue",Paracetamol,5767.0,No
+395,81.0,Female,COVID-19,Cough,Aspirin,7653.0,No
+396,73.0,Male,Migraine,"Sneezing, Headache",Insulin,5670.0,Yes
+397,54.0,Female,Allergy,"Headache, Shortness of breath, Sneezing",Insulin,4189.0,Yes
+398,60.0,Other,Asthma,"Headache, Cough",Cetirizine,6240.0,Yes
+399,35.0,,Hypertension,"Fever, Shortness of breath, Headache",Ventolin,7017.0,No
+400,76.0,Female,Hypertension,"Headache, Fever, Fatigue",Cetirizine,4091.0,Yes
+401,100.0,Female,Allergy,"Shortness of breath, Fatigue, Headache",Aspirin,4793.0,Yes
+402,92.0,Male,COVID-19,"Cough, Sneezing",Ventolin,6921.0,Yes
+403,44.0,Other,Flu,"Cough, Headache, Shortness of breath",Ventolin,6205.0,Yes
+404,27.0,Other,Asthma,"Cough, Sneezing, Headache",Insulin,2209.0,No
+405,26.0,Other,Hypertension,"Fatigue, Shortness of breath, Sneezing",Amoxicillin,,No
+406,68.0,Female,Hypertension,Fever,Ventolin,6333.0,Yes
+407,92.0,Other,Hypertension,"Fatigue, Sneezing",Amoxicillin,3970.0,Yes
+408,5.0,Female,COVID-19,"Fatigue, Sneezing",Ventolin,3604.0,Yes
+409,,Other,Asthma,Shortness of breath,Insulin,5629.0,Yes
+410,82.0,Other,Allergy,"Shortness of breath, Sneezing, Fever",Metformin,4529.0,Yes
+411,52.0,Other,Hypertension,"Cough, Sneezing",Amoxicillin,7846.0,Yes
+412,55.0,Male,Diabetes,"Shortness of breath, Headache, Cough",Cetirizine,3313.0,No
+413,80.0,Male,Asthma,Fatigue,Metformin,5059.0,No
+414,55.0,Other,COVID-19,"Shortness of breath, Fatigue, Headache",Ventolin,2884.0,No
+415,50.0,Female,Diabetes,"Sneezing, Fatigue, Fever",Insulin,648.0,No
+416,30.0,Female,Hypertension,Sneezing,Cetirizine,693.0,Yes
+417,44.0,Female,COVID-19,"Fatigue, Cough",Metformin,2425.0,Yes
+418,74.0,Other,COVID-19,"Shortness of breath, Headache, Sneezing",Insulin,2420.0,No
+419,43.0,Female,COVID-19,"Cough, Fever, Shortness of breath",Cetirizine,992.0,Yes
+420,87.0,Female,Asthma,"Fatigue, Fever, Shortness of breath",Cetirizine,7578.0,Yes
+421,47.0,Other,COVID-19,"Fever, Sneezing, Cough",Metformin,4426.0,No
+422,70.0,Other,Diabetes,"Headache, Shortness of breath, Fever",Ventolin,6106.0,No
+423,54.0,Other,Migraine,"Fever, Fatigue",Paracetamol,14449.0,Yes
+424,2.0,Other,Migraine,"Shortness of breath, Headache, Fatigue",Aspirin,2855.0,No
+425,75.0,Female,Asthma,"Fever, Headache, Cough",Insulin,2999.0,Yes
+426,11.0,Other,Flu,"Fatigue, Fever, Shortness of breath",Aspirin,6640.0,No
+427,20.0,Male,Flu,"Sneezing, Shortness of breath",Amoxicillin,6569.0,Yes
+428,48.0,Female,Flu,Shortness of breath,Metformin,482.0,Yes
+429,44.0,Female,Allergy,"Headache, Cough",Aspirin,7682.0,Yes
+430,91.0,Female,COVID-19,Cough,Amoxicillin,,No
+431,64.0,Other,Diabetes,Sneezing,Metformin,5707.0,No
+432,33.0,Female,Hypertension,"Sneezing, Fever, Cough",Aspirin,5127.0,No
+433,37.0,Female,Hypertension,"Fatigue, Fever",Insulin,5301.0,No
+434,38.0,Female,Allergy,"Sneezing, Shortness of breath",Cetirizine,3122.0,No
+435,38.0,Female,Hypertension,"Cough, Sneezing, Shortness of breath",Ventolin,6595.0,No
+436,21.0,Female,Hypertension,Sneezing,Ventolin,3637.0,No
+437,54.0,Female,Migraine,"Headache, Cough, Fever",Amoxicillin,5452.0,Yes
+438,89.0,Female,Flu,"Headache, Sneezing, Fatigue",Ventolin,7022.0,Yes
+439,36.0,Male,COVID-19,"Cough, Fatigue",Amoxicillin,3859.0,No
+440,60.0,Female,COVID-19,"Fever, Headache",Amoxicillin,2423.0,Yes
+441,23.0,Female,Flu,"Fatigue, Sneezing",Insulin,7760.0,No
+442,13.0,Other,Diabetes,"Shortness of breath, Cough",Insulin,3964.0,Yes
+443,80.0,Other,COVID-19,Shortness of breath,Cetirizine,3596.0,Yes
+444,9.0,Female,Diabetes,Headache,Paracetamol,2536.0,No
+445,42.0,Male,Flu,Shortness of breath,Metformin,3732.0,No
+446,90.0,Other,Hypertension,"Fatigue, Sneezing, Headache",Cetirizine,5595.0,No
+447,79.0,Other,Flu,"Shortness of breath, Cough, Fatigue",Ventolin,4398.0,No
+448,29.0,Female,Hypertension,"Shortness of breath, Headache, Sneezing",Aspirin,5925.0,Yes
+449,82.0,Male,COVID-19,"Fever, Fatigue, Headache",Insulin,4141.0,No
+450,10.0,Other,COVID-19,"Shortness of breath, Sneezing, Fatigue",Insulin,5315.0,Yes
+451,35.0,Female,COVID-19,"Fatigue, Cough, Shortness of breath",Aspirin,5478.0,No
+452,23.0,Other,Allergy,"Fever, Fatigue",Insulin,6206.0,Yes
+453,24.0,Female,Hypertension,"Sneezing, Fatigue",Insulin,7865.0,Yes
+454,96.0,Male,Migraine,"Headache, Sneezing, Shortness of breath",Cetirizine,3690.0,No
+455,66.0,Other,COVID-19,Fever,Cetirizine,2555.0,No
+456,33.0,Other,Hypertension,"Sneezing, Fever, Shortness of breath",Cetirizine,3096.0,No
+457,64.0,Other,Allergy,"Fatigue, Headache",Cetirizine,5043.0,No
+458,92.0,Other,Flu,Sneezing,Ventolin,2958.0,Yes
+459,38.0,Male,COVID-19,"Fever, Fatigue",Cetirizine,5055.0,No
+460,,Female,Allergy,"Sneezing, Headache, Fatigue",Insulin,3383.0,No
+461,54.0,Male,Hypertension,"Sneezing, Fatigue, Fever",Aspirin,5320.0,Yes
+462,14.0,Other,Asthma,Fever,Paracetamol,6193.0,Yes
+463,6.0,Other,Allergy,"Fever, Sneezing, Fatigue",Metformin,11643.0,Yes
+464,10.0,Male,Hypertension,"Fatigue, Cough, Sneezing",Ventolin,6848.0,Yes
+465,95.0,Female,Asthma,"Shortness of breath, Headache, Cough",Cetirizine,12529.0,No
+466,64.0,Male,COVID-19,"Shortness of breath, Fever",Paracetamol,4242.0,No
+467,82.0,Other,Asthma,"Cough, Shortness of breath",Amoxicillin,7222.0,No
+468,53.0,Female,Flu,"Headache, Cough",Insulin,804.0,No
+469,59.0,Other,Diabetes,"Fatigue, Fever",Ventolin,2370.0,Yes
+470,,Other,Asthma,"Fatigue, Fever",Metformin,5437.0,No
+471,55.0,Other,Migraine,Shortness of breath,Insulin,2348.0,No
+472,99.0,Male,Allergy,"Headache, Fever, Sneezing",Insulin,4229.0,No
+473,45.0,,Allergy,"Sneezing, Fatigue, Headache",Amoxicillin,4350.0,No
+474,43.0,Other,Diabetes,"Cough, Fatigue",,6512.0,Yes
+475,32.0,Male,Migraine,"Cough, Fever, Sneezing",Insulin,2817.0,Yes
+476,33.0,Female,Hypertension,Shortness of breath,Paracetamol,7907.0,Yes
+477,92.0,Other,Migraine,Sneezing,Cetirizine,3944.0,Yes
+478,41.0,Other,Flu,"Shortness of breath, Sneezing",Amoxicillin,3704.0,Yes
+479,86.0,Male,Flu,"Headache, Fatigue",Insulin,7072.0,Yes
+480,12.0,Male,Allergy,"Fever, Fatigue",Amoxicillin,4618.0,Yes
+481,4.0,Female,Migraine,"Fatigue, Headache",Amoxicillin,4091.0,No
+482,75.0,Other,Allergy,"Headache, Shortness of breath, Fever",Cetirizine,5192.0,Yes
+483,27.0,Female,Diabetes,"Fatigue, Shortness of breath, Cough",Amoxicillin,4516.0,No
+484,76.0,Other,Hypertension,Fatigue,Ventolin,3139.0,Yes
+485,12.0,Other,COVID-19,"Fever, Sneezing",Metformin,3222.0,No
+486,22.0,Male,Diabetes,"Sneezing, Cough, Fever",Insulin,4927.0,No
+487,8.0,Female,Migraine,Fatigue,Cetirizine,5433.0,No
+488,43.0,Male,Asthma,Shortness of breath,Paracetamol,4917.0,No
+489,58.0,Female,Migraine,"Headache, Sneezing",Cetirizine,7790.0,No
+490,3.0,Female,Asthma,Headache,,6337.0,Yes
+491,57.0,Female,Hypertension,"Shortness of breath, Fever",Metformin,3688.0,No
+492,74.0,Female,Migraine,Headache,Paracetamol,4110.0,No
+493,27.0,Female,Asthma,Fever,Cetirizine,3040.0,Yes
+494,96.0,Other,COVID-19,Cough,Ventolin,4443.0,Yes
+495,76.0,Male,Flu,"Fever, Cough, Fatigue",Ventolin,3177.0,No
+496,32.0,Male,Diabetes,Sneezing,Aspirin,6489.0,No
+497,1.0,Other,Asthma,Fever,Metformin,5671.0,No
+498,80.0,Male,Migraine,"Headache, Sneezing, Shortness of breath",Ventolin,4276.0,Yes
+499,51.0,Other,COVID-19,Sneezing,Aspirin,4670.0,No
+500,70.0,Male,Diabetes,"Fever, Sneezing, Cough",Aspirin,3279.0,Yes
+501,52.0,Male,Allergy,"Fever, Sneezing, Cough",Metformin,7242.0,Yes
+502,26.0,Other,Asthma,"Headache, Cough",Amoxicillin,4152.0,Yes
+503,69.0,Female,Hypertension,"Fever, Cough, Shortness of breath",Aspirin,7095.0,No
+504,35.0,Female,COVID-19,Fatigue,Ventolin,7831.0,Yes
+505,10.0,Other,Allergy,"Sneezing, Shortness of breath, Headache",Insulin,2061.0,No
+506,61.0,Female,Asthma,Fatigue,Cetirizine,2723.0,No
+507,7.0,Other,Asthma,"Fever, Fatigue",Metformin,4714.0,No
+508,3.0,Other,Diabetes,Fever,Metformin,2557.0,No
+509,31.0,Male,Flu,Fatigue,Cetirizine,3667.0,Yes
+510,7.0,Other,Hypertension,Fever,Paracetamol,7167.0,Yes
+511,58.0,Female,Flu,"Fever, Fatigue",Metformin,4579.0,Yes
+512,23.0,Other,Flu,"Headache, Cough, Sneezing",Aspirin,6027.0,No
+513,1.0,Male,Asthma,"Fever, Shortness of breath, Sneezing",Ventolin,2906.0,Yes
+514,33.0,Other,COVID-19,Cough,Paracetamol,6472.0,No
+515,32.0,Female,COVID-19,"Fatigue, Sneezing",Paracetamol,7226.0,No
+516,,Female,COVID-19,Fatigue,Metformin,6799.0,Yes
+517,92.0,Other,Asthma,"Shortness of breath, Fever",Aspirin,2031.0,Yes
+518,76.0,Female,Migraine,Fatigue,Aspirin,4509.0,No
+519,70.0,Male,Migraine,"Shortness of breath, Headache, Fever",Ventolin,13578.0,Yes
+520,17.0,Female,Flu,"Shortness of breath, Fatigue",Insulin,5178.0,No
+521,6.0,Female,Asthma,Fatigue,Insulin,6791.0,Yes
+522,91.0,Male,Asthma,"Headache, Fever",Ventolin,5433.0,Yes
+523,66.0,Male,Hypertension,"Cough, Fatigue, Headache",Paracetamol,2639.0,No
+524,65.0,Female,Asthma,"Headache, Shortness of breath, Cough",Insulin,2459.0,No
+525,45.0,Male,Flu,"Fever, Fatigue, Cough",Cetirizine,3321.0,No
+526,99.0,Other,COVID-19,"Shortness of breath, Fever",Amoxicillin,4541.0,Yes
+527,57.0,Female,Migraine,Fever,Cetirizine,6972.0,No
+528,67.0,Other,Diabetes,"Headache, Shortness of breath, Cough",Cetirizine,4557.0,Yes
+529,,Other,COVID-19,"Headache, Shortness of breath",Insulin,6116.0,Yes
+530,3.0,Other,Flu,"Cough, Shortness of breath",Cetirizine,5789.0,Yes
+531,67.0,Male,Migraine,Fatigue,Paracetamol,6683.0,No
+532,22.0,Other,Allergy,"Sneezing, Cough, Headache",Aspirin,2134.0,Yes
+533,52.0,Other,COVID-19,Sneezing,Metformin,6897.0,Yes
+534,84.0,Other,Migraine,,Amoxicillin,4934.0,Yes
+535,92.0,Other,Migraine,"Sneezing, Fatigue, Fever",Amoxicillin,6395.0,Yes
+536,62.0,Other,Hypertension,"Cough, Fatigue, Sneezing",Metformin,2603.0,No
+537,46.0,Other,Flu,Fever,Cetirizine,7306.0,Yes
+538,57.0,Other,Diabetes,Fatigue,Ventolin,2774.0,Yes
+539,89.0,Female,Hypertension,"Shortness of breath, Headache",Aspirin,6048.0,Yes
+540,79.0,Female,Migraine,Shortness of breath,Ventolin,4702.0,No
+541,76.0,Other,Diabetes,"Sneezing, Fatigue",Insulin,4499.0,No
+542,61.0,Female,Diabetes,Cough,Metformin,7130.0,No
+543,64.0,Male,Asthma,Headache,Insulin,4257.0,No
+544,98.0,Male,Asthma,Shortness of breath,Insulin,439.0,
+545,10.0,Male,COVID-19,Fever,Aspirin,,No
+546,55.0,Other,Asthma,Cough,Paracetamol,5085.0,Yes
+547,50.0,Female,Diabetes,"Headache, Fatigue",Aspirin,7349.0,No
+548,53.0,Female,Migraine,"Shortness of breath, Sneezing, Fatigue",Aspirin,3837.0,Yes
+549,1.0,Male,Allergy,"Fatigue, Shortness of breath",Amoxicillin,3218.0,Yes
+550,11.0,,Allergy,"Fever, Sneezing, Headache",Ventolin,3298.0,Yes
+551,47.0,Female,Allergy,Headache,Metformin,5902.0,No
+552,50.0,Male,COVID-19,Headache,Amoxicillin,4762.0,Yes
+553,78.0,Other,Diabetes,"Cough, Fever",Ventolin,2309.0,Yes
+554,16.0,Female,Diabetes,"Shortness of breath, Fatigue, Cough",Ventolin,7072.0,No
+555,99.0,Male,Allergy,"Cough, Sneezing, Fatigue",Metformin,6072.0,Yes
+556,4.0,Female,Diabetes,Fever,Insulin,7387.0,No
+557,56.0,Male,Hypertension,"Fever, Fatigue",Metformin,6152.0,No
+558,9.0,Male,Diabetes,"Headache, Fatigue, Cough",Insulin,5117.0,No
+559,82.0,Male,Diabetes,Fever,Aspirin,5941.0,Yes
+560,52.0,Female,Migraine,Shortness of breath,Aspirin,6298.0,Yes
+561,4.0,Female,Diabetes,"Headache, Fever, Sneezing",Amoxicillin,5199.0,No
+562,100.0,Male,Diabetes,"Shortness of breath, Sneezing, Fever",Cetirizine,7895.0,No
+563,57.0,Female,Flu,"Fatigue, Shortness of breath",Metformin,3249.0,No
+564,28.0,Other,Migraine,Fever,Paracetamol,7709.0,Yes
+565,98.0,Male,COVID-19,"Sneezing, Fever, Shortness of breath",Cetirizine,3327.0,No
+566,7.0,Female,Flu,"Fatigue, Cough, Fever",Cetirizine,4211.0,Yes
+567,67.0,Male,COVID-19,"Shortness of breath, Headache, Fatigue",Cetirizine,5188.0,Yes
+568,61.0,Male,Hypertension,"Fever, Cough",Cetirizine,4349.0,Yes
+569,35.0,Male,Hypertension,Fatigue,Aspirin,7861.0,No
+570,22.0,Female,Asthma,"Fatigue, Cough, Shortness of breath",Amoxicillin,3730.0,Yes
+571,21.0,Male,Diabetes,Sneezing,Cetirizine,,No
+572,12.0,Other,Asthma,Fatigue,Cetirizine,5597.0,No
+573,100.0,Female,Hypertension,Cough,Metformin,5514.0,No
+574,77.0,Male,COVID-19,"Fatigue, Shortness of breath",Ventolin,7332.0,No
+575,4.0,Male,Allergy,"Shortness of breath, Headache, Fever",Metformin,5749.0,No
+576,4.0,Other,Flu,"Sneezing, Cough",Insulin,6192.0,Yes
+577,72.0,Female,Diabetes,"Fatigue, Fever",Ventolin,7798.0,No
+578,58.0,Other,Asthma,"Fatigue, Fever",Cetirizine,5941.0,Yes
+579,92.0,Other,Diabetes,Shortness of breath,Cetirizine,6210.0,Yes
+580,46.0,Male,Migraine,"Cough, Fatigue",Aspirin,7687.0,No
+581,47.0,Male,Migraine,"Sneezing, Shortness of breath",Insulin,7062.0,Yes
+582,33.0,Male,Migraine,"Headache, Shortness of breath",Aspirin,6832.0,Yes
+583,11.0,Female,Migraine,Headache,Aspirin,4086.0,No
+584,59.0,Female,Asthma,Headache,Ventolin,5117.0,Yes
+585,73.0,Male,Flu,"Fatigue, Cough, Shortness of breath",Amoxicillin,3300.0,No
+586,62.0,Male,Hypertension,"Fever, Cough, Fatigue",Aspirin,3424.0,Yes
+587,42.0,Male,Flu,Headache,Amoxicillin,4132.0,Yes
+588,76.0,Female,Asthma,"Cough, Fever, Fatigue",Cetirizine,975.0,Yes
+589,4.0,Other,Diabetes,Sneezing,Paracetamol,6687.0,Yes
+590,20.0,Other,COVID-19,"Shortness of breath, Fever",Aspirin,2616.0,Yes
+591,53.0,Female,Diabetes,"Fatigue, Shortness of breath",Amoxicillin,7876.0,Yes
+592,94.0,Male,Diabetes,Fatigue,Amoxicillin,5949.0,Yes
+593,68.0,Other,Hypertension,"Shortness of breath, Headache",Amoxicillin,5281.0,Yes
+594,70.0,,Migraine,"Shortness of breath, Headache, Fever",Aspirin,2078.0,No
+595,71.0,Other,Diabetes,"Cough, Fatigue",Paracetamol,2978.0,No
+596,62.0,Other,COVID-19,"Sneezing, Headache, Cough",Paracetamol,2946.0,Yes
+597,97.0,Other,Hypertension,"Fever, Cough, Sneezing",Cetirizine,3986.0,Yes
+598,65.0,Other,Migraine,"Fever, Cough, Sneezing",,4428.0,Yes
+599,29.0,Male,Asthma,Fever,Amoxicillin,2337.0,No
+600,,Other,Diabetes,"Headache, Fever",Amoxicillin,2738.0,No
+601,8.0,Female,COVID-19,Shortness of breath,Paracetamol,6227.0,Yes
+602,77.0,Other,Diabetes,Fatigue,Aspirin,4840.0,No
+603,36.0,Female,Asthma,"Sneezing, Shortness of breath, Headache",Paracetamol,2477.0,No
+604,62.0,Male,Flu,"Sneezing, Shortness of breath, Fever",Amoxicillin,7253.0,Yes
+605,28.0,Other,Diabetes,Fever,Paracetamol,6978.0,Yes
+606,68.0,Male,Hypertension,"Cough, Headache, Fever",Ventolin,4158.0,Yes
+607,46.0,Other,Diabetes,"Cough, Fatigue, Sneezing",Aspirin,2110.0,No
+608,106.0,Other,Flu,,Aspirin,7914.0,Yes
+609,53.0,Other,Allergy,"Shortness of breath, Headache, Fatigue",Cetirizine,5962.0,No
+610,52.0,Female,Allergy,"Shortness of breath, Sneezing, Fever",Metformin,6056.0,No
+611,8.0,Male,Allergy,"Headache, Sneezing",Ventolin,5450.0,No
+612,35.0,Male,COVID-19,,Amoxicillin,7291.0,No
+613,75.0,Male,COVID-19,"Shortness of breath, Cough, Sneezing",Ventolin,4605.0,Yes
+614,54.0,Female,Flu,"Shortness of breath, Fatigue, Cough",Ventolin,5316.0,No
+615,20.0,Female,Flu,Sneezing,Ventolin,6572.0,No
+616,91.0,Female,COVID-19,"Shortness of breath, Cough, Fever",Cetirizine,7755.0,Yes
+617,91.0,Male,Diabetes,"Cough, Fever",Cetirizine,2410.0,No
+618,2.0,Male,Asthma,"Shortness of breath, Fatigue, Sneezing",Metformin,4444.0,No
+619,74.0,Other,Hypertension,Fever,Amoxicillin,3109.0,No
+620,18.0,Other,Asthma,Fatigue,Insulin,2288.0,Yes
+621,67.0,Male,Flu,"Headache, Sneezing",Ventolin,6895.0,No
+622,41.0,Female,Hypertension,"Fever, Sneezing, Shortness of breath",Paracetamol,6436.0,No
+623,36.0,Other,Migraine,"Shortness of breath, Fatigue, Cough",Amoxicillin,4960.0,No
+624,9.0,Other,Hypertension,Fever,Aspirin,4903.0,No
+625,104.0,Male,Migraine,"Headache, Sneezing",Ventolin,5325.0,No
+626,9.0,Female,Flu,Sneezing,Cetirizine,6539.0,No
+627,35.0,Other,,"Headache, Fatigue",Amoxicillin,6728.0,Yes
+628,66.0,Male,Migraine,"Cough, Fever",Aspirin,2199.0,No
+629,6.0,Other,COVID-19,Cough,Amoxicillin,4764.0,No
+630,29.0,Male,Migraine,Sneezing,Ventolin,3209.0,No
+631,94.0,Other,Allergy,"Fatigue, Fever",Ventolin,5413.0,Yes
+632,87.0,Male,Hypertension,Fever,Cetirizine,6398.0,Yes
+633,46.0,Male,Allergy,"Shortness of breath, Headache",Insulin,3264.0,Yes
+634,64.0,Male,Diabetes,Sneezing,Amoxicillin,2806.0,No
+635,17.0,Female,COVID-19,Fatigue,Amoxicillin,3373.0,No
+636,78.0,Other,COVID-19,"Sneezing, Headache",Insulin,2494.0,No
+637,12.0,Female,Asthma,"Fatigue, Sneezing, Headache",Metformin,6901.0,Yes
+638,22.0,Female,Hypertension,"Fever, Fatigue, Headache",Cetirizine,7759.0,No
+639,57.0,Female,Flu,Shortness of breath,Ventolin,7447.0,Yes
+640,51.0,Male,Allergy,Headache,Aspirin,4617.0,No
+641,81.0,Other,COVID-19,"Sneezing, Shortness of breath",Amoxicillin,7935.0,Yes
+642,60.0,Male,Hypertension,Fever,Cetirizine,3647.0,No
+643,12.0,Other,Asthma,Shortness of breath,Amoxicillin,5590.0,No
+644,80.0,Female,Migraine,Shortness of breath,Metformin,7668.0,No
+645,24.0,Female,Flu,"Fever, Fatigue",Amoxicillin,2056.0,No
+646,5.0,Other,Flu,Fever,Amoxicillin,2451.0,Yes
+647,19.0,Other,COVID-19,Fever,Aspirin,4523.0,No
+648,102.0,Male,Hypertension,Cough,Amoxicillin,7634.0,No
+649,80.0,Male,Diabetes,"Fatigue, Cough, Shortness of breath",Insulin,6926.0,No
+650,97.0,Other,Asthma,"Fatigue, Headache, Fever",Amoxicillin,6329.0,Yes
+651,27.0,Female,Flu,Headache,Metformin,2628.0,No
+652,83.0,Female,Migraine,"Fatigue, Shortness of breath, Sneezing",Aspirin,5994.0,Yes
+653,76.0,Other,Migraine,"Shortness of breath, Sneezing",Aspirin,7112.0,No
+654,51.0,Female,Hypertension,"Cough, Headache",Aspirin,7894.0,Yes
+655,72.0,Other,Allergy,"Sneezing, Shortness of breath",Insulin,2722.0,Yes
+656,20.0,,Asthma,"Shortness of breath, Fatigue",Ventolin,2228.0,Yes
+657,70.0,Other,Hypertension,Fatigue,Aspirin,2735.0,No
+658,57.0,Male,Hypertension,Headache,Aspirin,3223.0,No
+659,49.0,Male,Diabetes,"Fatigue, Fever, Sneezing",Cetirizine,5613.0,No
+660,46.0,Female,Hypertension,"Fatigue, Sneezing",Metformin,12229.0,Yes
+661,93.0,Other,Asthma,Sneezing,Insulin,5596.0,No
+662,76.0,Other,Asthma,"Sneezing, Fever, Cough",Metformin,2886.0,No
+663,44.0,Other,Asthma,Cough,Paracetamol,3382.0,Yes
+664,1.0,Female,Hypertension,"Fatigue, Sneezing, Fever",Amoxicillin,6549.0,Yes
+665,1.0,Female,Hypertension,"Fever, Fatigue, Cough",Aspirin,5381.0,No
+666,,Female,Diabetes,"Fever, Sneezing",Ventolin,6345.0,Yes
+667,72.0,Female,Hypertension,"Sneezing, Headache, Shortness of breath",Metformin,6238.0,No
+668,86.0,Female,Flu,"Shortness of breath, Fatigue",Insulin,2797.0,Yes
+669,70.0,Female,Allergy,Cough,Metformin,6458.0,No
+670,91.0,Female,Asthma,"Fatigue, Cough, Sneezing",Metformin,10731.0,Yes
+671,44.0,Male,Hypertension,Cough,Paracetamol,4588.0,No
+672,25.0,Other,Allergy,"Cough, Fever, Shortness of breath",Cetirizine,5857.0,Yes
+673,,Male,Migraine,Cough,Cetirizine,3052.0,No
+674,60.0,Female,COVID-19,"Sneezing, Fatigue",Insulin,3337.0,No
+675,41.0,Other,Hypertension,"Sneezing, Cough, Fatigue",Cetirizine,5691.0,Yes
+676,52.0,Female,COVID-19,Sneezing,Amoxicillin,4240.0,Yes
+677,26.0,Male,Allergy,Sneezing,Amoxicillin,6980.0,Yes
+678,56.0,Male,Flu,"Cough, Fever, Fatigue",Metformin,7998.0,No
+679,88.0,Male,Migraine,Headache,Paracetamol,3769.0,Yes
+680,58.0,Male,Diabetes,"Fever, Shortness of breath",Insulin,3819.0,No
+681,73.0,Male,Hypertension,,Metformin,3674.0,No
+682,75.0,Other,COVID-19,Fatigue,Ventolin,3429.0,Yes
+683,89.0,Female,Hypertension,Fever,Aspirin,3531.0,No
+684,96.0,Male,Allergy,Fever,Insulin,4157.0,No
+685,66.0,Female,Flu,Fatigue,Paracetamol,2033.0,Yes
+686,10.0,Female,COVID-19,"Headache, Fatigue, Cough",Cetirizine,7360.0,Yes
+687,100.0,Other,Allergy,"Headache, Sneezing, Fatigue",Ventolin,4251.0,No
+688,19.0,Female,Flu,"Sneezing, Fatigue, Cough",Paracetamol,7430.0,No
+689,35.0,Male,Flu,"Headache, Shortness of breath",Aspirin,3443.0,Yes
+690,38.0,Female,Hypertension,"Fever, Cough, Headache",Aspirin,5416.0,No
+691,64.0,Female,Asthma,"Headache, Fever, Cough",Insulin,2379.0,Yes
+692,33.0,Other,Migraine,"Fever, Shortness of breath, Fatigue",Ventolin,31.0,No
+693,100.0,Other,Hypertension,"Shortness of breath, Cough",Ventolin,7356.0,No
+694,88.0,Other,Diabetes,"Fever, Shortness of breath, Headache",Aspirin,4346.0,Yes
+695,2.0,Male,Migraine,"Fatigue, Headache",Ventolin,6894.0,
+696,82.0,Other,COVID-19,Fever,Insulin,3870.0,No
+697,90.0,Male,Allergy,Cough,Amoxicillin,977.0,Yes
+698,80.0,Male,Migraine,"Shortness of breath, Fatigue, Headache",Amoxicillin,5409.0,No
+699,23.0,Other,COVID-19,Sneezing,Insulin,7474.0,No
+700,39.0,Female,Migraine,"Cough, Shortness of breath",Insulin,2264.0,No
+701,28.0,Female,Migraine,Cough,Ventolin,5432.0,No
+702,62.0,Male,Allergy,"Cough, Sneezing",Insulin,3630.0,Yes
+703,95.0,Other,Allergy,"Fever, Sneezing, Headache",Cetirizine,490.0,No
+704,,Female,Asthma,Fever,Insulin,6384.0,Yes
+705,34.0,Other,COVID-19,Headache,Aspirin,6639.0,No
+706,98.0,Male,Hypertension,"Fatigue, Cough, Shortness of breath",Insulin,2289.0,No
+707,66.0,Male,Hypertension,Fever,Ventolin,3216.0,No
+708,52.0,Other,Migraine,"Cough, Shortness of breath, Fever",Amoxicillin,7466.0,Yes
+709,69.0,Female,Diabetes,"Fatigue, Fever",Aspirin,6485.0,Yes
+710,53.0,Female,Allergy,"Fever, Headache, Sneezing",Amoxicillin,5192.0,Yes
+711,47.0,Male,Migraine,"Headache, Cough",Paracetamol,4887.0,Yes
+712,45.0,Other,Migraine,"Headache, Cough, Fatigue",Metformin,6650.0,No
+713,57.0,Other,COVID-19,"Headache, Shortness of breath",Metformin,2253.0,Yes
+714,66.0,Other,COVID-19,Shortness of breath,Cetirizine,7035.0,No
+715,92.0,Male,COVID-19,"Sneezing, Fever",Paracetamol,5063.0,No
+716,28.0,Male,Flu,"Sneezing, Fever, Headache",Metformin,3140.0,No
+717,41.0,Other,Flu,"Shortness of breath, Headache, Fever",Cetirizine,2481.0,No
+718,107.0,Male,COVID-19,"Shortness of breath, Fever",Metformin,2105.0,Yes
+719,52.0,Male,Migraine,Fever,Cetirizine,662.0,Yes
+720,84.0,Other,Asthma,"Cough, Headache, Fatigue",Paracetamol,4697.0,Yes
+721,1.0,Other,Hypertension,Shortness of breath,Aspirin,7503.0,Yes
+722,97.0,Female,Diabetes,Cough,Ventolin,2861.0,Yes
+723,24.0,Male,Hypertension,"Fatigue, Sneezing, Headache",Paracetamol,7044.0,No
+724,69.0,Other,Diabetes,"Sneezing, Fever",Amoxicillin,,No
+725,74.0,Male,Hypertension,Shortness of breath,Aspirin,3446.0,No
+726,96.0,Male,Hypertension,"Fever, Fatigue",Cetirizine,4426.0,Yes
+727,29.0,Other,Diabetes,"Shortness of breath, Fatigue, Sneezing",Insulin,7619.0,Yes
+728,65.0,Male,Hypertension,"Fatigue, Fever, Shortness of breath",Insulin,7557.0,Yes
+729,91.0,Male,Flu,Cough,Paracetamol,3194.0,Yes
+730,47.0,Other,Asthma,"Headache, Shortness of breath, Fatigue",Ventolin,3867.0,Yes
+731,65.0,Female,Asthma,"Cough, Headache, Sneezing",Aspirin,4712.0,Yes
+732,13.0,Male,,"Shortness of breath, Sneezing, Cough",Insulin,6705.0,Yes
+733,70.0,Male,Allergy,Fatigue,Insulin,7783.0,No
+734,82.0,Female,Migraine,Fever,Insulin,6640.0,Yes
+735,81.0,Female,Diabetes,"Sneezing, Headache, Cough",Paracetamol,5833.0,No
+736,91.0,Female,COVID-19,"Headache, Cough",Paracetamol,5532.0,Yes
+737,37.0,Female,Flu,Headache,Aspirin,6903.0,No
+738,29.0,Female,Hypertension,"Cough, Fatigue",Paracetamol,5819.0,Yes
+739,66.0,Male,Migraine,"Fatigue, Shortness of breath, Fever",Insulin,2927.0,No
+740,20.0,Other,Allergy,"Headache, Fever, Sneezing",Insulin,2659.0,Yes
+741,69.0,Male,Allergy,"Shortness of breath, Cough",Aspirin,6029.0,Yes
+742,11.0,Male,Flu,Cough,Insulin,3424.0,No
+743,32.0,Female,Allergy,"Fever, Cough",Metformin,7890.0,No
+744,25.0,Female,Asthma,"Fever, Sneezing",Insulin,2068.0,No
+745,67.0,Other,Flu,Shortness of breath,Metformin,4211.0,No
+746,86.0,Male,Hypertension,Fever,Aspirin,7239.0,Yes
+747,90.0,Female,Asthma,"Shortness of breath, Sneezing, Fever",Metformin,3830.0,No
+748,36.0,,Diabetes,"Headache, Sneezing, Cough",Paracetamol,7443.0,Yes
+749,60.0,Male,Flu,"Sneezing, Cough",Insulin,2377.0,No
+750,79.0,Female,Flu,"Headache, Fever",Cetirizine,7738.0,No
+751,68.0,Male,,"Fatigue, Fever",Metformin,4328.0,No
+752,69.0,Female,Flu,"Sneezing, Headache, Fever",Amoxicillin,6968.0,No
+753,81.0,Female,Diabetes,"Sneezing, Cough",Insulin,4553.0,Yes
+754,109.0,Male,COVID-19,Headache,Ventolin,2792.0,No
+755,74.0,Other,Migraine,"Shortness of breath, Headache",Cetirizine,7308.0,No
+756,78.0,Other,Allergy,"Sneezing, Fatigue",Aspirin,5934.0,Yes
+757,22.0,Male,Diabetes,Fatigue,Amoxicillin,2989.0,No
+758,82.0,Female,Flu,"Shortness of breath, Fatigue",Ventolin,4614.0,Yes
+759,40.0,Other,Flu,Cough,Amoxicillin,7675.0,Yes
+760,39.0,Female,COVID-19,Fatigue,Metformin,3711.0,Yes
+761,99.0,Male,Migraine,"Cough, Sneezing",Cetirizine,3772.0,Yes
+762,83.0,Other,Migraine,"Sneezing, Headache, Fever",Cetirizine,4146.0,No
+763,91.0,Female,Diabetes,"Fatigue, Shortness of breath",Aspirin,4007.0,
+764,28.0,Female,Migraine,"Sneezing, Fever, Fatigue",Aspirin,4164.0,No
+765,98.0,Male,Allergy,"Cough, Fatigue, Shortness of breath",Amoxicillin,4041.0,No
+766,,Other,Migraine,"Fatigue, Sneezing",Aspirin,6804.0,Yes
+767,42.0,Other,Diabetes,Fatigue,Ventolin,2558.0,No
+768,4.0,Other,Migraine,"Shortness of breath, Headache, Cough",Paracetamol,7942.0,No
+769,9.0,Other,Asthma,"Shortness of breath, Fever, Headache",Aspirin,5957.0,No
+770,,Female,Migraine,Headache,Metformin,4878.0,No
+771,20.0,Other,COVID-19,"Shortness of breath, Cough, Fever",Cetirizine,5695.0,Yes
+772,15.0,Female,Allergy,"Headache, Cough",Aspirin,6641.0,No
+773,76.0,Other,Flu,"Headache, Sneezing, Fever",Amoxicillin,2486.0,Yes
+774,19.0,Male,Migraine,Fatigue,Paracetamol,2266.0,No
+775,25.0,Male,COVID-19,"Shortness of breath, Fatigue, Fever",Metformin,4954.0,Yes
+776,68.0,Male,Hypertension,"Headache, Fatigue",Amoxicillin,4057.0,Yes
+777,58.0,Female,Allergy,Headache,,2867.0,No
+778,109.0,Other,Flu,"Fatigue, Sneezing",Cetirizine,6605.0,No
+779,72.0,Male,Diabetes,"Sneezing, Cough",Insulin,5360.0,Yes
+780,34.0,Male,Hypertension,"Shortness of breath, Sneezing, Fever",Aspirin,3378.0,No
+781,82.0,Other,Flu,"Sneezing, Headache, Fever",Metformin,6427.0,Yes
+782,88.0,Male,Diabetes,Headache,Insulin,2191.0,No
+783,37.0,Male,COVID-19,"Cough, Sneezing, Shortness of breath",Amoxicillin,3247.0,No
+784,95.0,Female,COVID-19,"Shortness of breath, Sneezing, Fatigue",Aspirin,6754.0,Yes
+785,98.0,Other,Allergy,"Sneezing, Shortness of breath, Fatigue",Aspirin,2643.0,No
+786,41.0,Other,Diabetes,Headache,Ventolin,4546.0,Yes
+787,8.0,Male,Asthma,Headache,Paracetamol,7242.0,Yes
+788,3.0,Other,Hypertension,"Cough, Sneezing",Aspirin,3178.0,Yes
+789,87.0,Female,COVID-19,"Fever, Headache",Metformin,3568.0,No
+790,71.0,Female,Allergy,"Shortness of breath, Headache",Paracetamol,6752.0,Yes
+791,88.0,Female,Migraine,Shortness of breath,Aspirin,5102.0,No
+792,43.0,Female,Allergy,"Cough, Sneezing, Fatigue",Paracetamol,5671.0,No
+793,44.0,Other,COVID-19,Fatigue,Metformin,7672.0,No
+794,63.0,Other,Flu,"Shortness of breath, Headache",Metformin,638.0,Yes
+795,37.0,Male,Flu,"Headache, Cough, Sneezing",,5462.0,Yes
+796,104.0,Other,Hypertension,"Sneezing, Headache, Cough",Paracetamol,4942.0,Yes
+797,17.0,Female,Asthma,"Cough, Shortness of breath",Amoxicillin,6461.0,Yes
+798,21.0,Female,COVID-19,"Fever, Headache, Shortness of breath",Cetirizine,2849.0,No
+799,35.0,Other,Migraine,Fatigue,Metformin,3699.0,Yes
+800,32.0,Male,Asthma,"Cough, Shortness of breath, Fever",Metformin,10216.0,No
+801,2.0,Other,Diabetes,"Fatigue, Headache, Cough",Insulin,278.0,No
+802,38.0,Other,COVID-19,"Headache, Cough",Aspirin,5733.0,Yes
+803,95.0,Male,Asthma,Fatigue,Ventolin,2973.0,Yes
+804,51.0,Other,Flu,"Cough, Fever, Fatigue",Insulin,6083.0,Yes
+805,52.0,Male,Allergy,Sneezing,Aspirin,7653.0,Yes
+806,14.0,Female,Diabetes,"Fatigue, Headache",Insulin,2655.0,No
+807,53.0,Other,Flu,Sneezing,Paracetamol,2445.0,Yes
+808,54.0,Male,Hypertension,Fatigue,Aspirin,3058.0,No
+809,42.0,Female,Asthma,"Sneezing, Shortness of breath, Headache",Ventolin,3131.0,No
+810,96.0,Male,Migraine,"Shortness of breath, Headache, Fatigue",Paracetamol,7291.0,No
+811,82.0,Male,Diabetes,"Sneezing, Shortness of breath",Amoxicillin,11858.0,No
+812,31.0,Female,COVID-19,"Fever, Cough, Shortness of breath",Ventolin,3347.0,Yes
+813,68.0,Male,Allergy,"Shortness of breath, Sneezing, Headache",Aspirin,5692.0,No
+814,83.0,Other,COVID-19,"Shortness of breath, Fever",Cetirizine,3995.0,Yes
+815,52.0,Male,Hypertension,Sneezing,,2420.0,No
+816,8.0,Other,Asthma,Cough,Ventolin,3460.0,No
+817,62.0,Female,Diabetes,"Cough, Fatigue",Amoxicillin,7290.0,Yes
+818,48.0,Other,Allergy,"Fatigue, Shortness of breath",Paracetamol,5879.0,Yes
+819,65.0,Female,Diabetes,"Fever, Sneezing",Ventolin,7412.0,Yes
+820,15.0,Other,Migraine,"Headache, Sneezing",Aspirin,7908.0,No
+821,85.0,Male,COVID-19,"Headache, Fatigue",Paracetamol,2157.0,No
+822,36.0,Female,Hypertension,,Amoxicillin,5253.0,Yes
+823,56.0,Male,Hypertension,"Headache, Cough, Fatigue",Cetirizine,7071.0,No
+824,17.0,Female,Diabetes,"Shortness of breath, Fever, Sneezing",,7569.0,No
+825,41.0,Female,COVID-19,,Amoxicillin,5601.0,Yes
+826,86.0,Other,Diabetes,Cough,Amoxicillin,3579.0,No
+827,43.0,Other,Asthma,Sneezing,Insulin,7553.0,No
+828,53.0,Male,COVID-19,Fever,Cetirizine,7657.0,No
+829,72.0,Male,Allergy,Fatigue,Cetirizine,4951.0,Yes
+830,73.0,Female,Asthma,"Sneezing, Fever, Shortness of breath",Paracetamol,7435.0,No
+831,69.0,Male,Allergy,"Fatigue, Cough, Sneezing",Insulin,3861.0,Yes
+832,53.0,Male,Allergy,Cough,Insulin,3521.0,Yes
+833,65.0,Female,Asthma,Fatigue,Paracetamol,7797.0,No
+834,59.0,Male,Migraine,"Cough, Fever",Ventolin,2185.0,Yes
+835,39.0,Male,COVID-19,"Sneezing, Fatigue",Metformin,5567.0,No
+836,12.0,Other,Migraine,"Fever, Headache",Amoxicillin,4768.0,Yes
+837,79.0,Female,Diabetes,Fever,Ventolin,4992.0,Yes
+838,93.0,Other,Allergy,"Shortness of breath, Headache",Metformin,4683.0,No
+839,84.0,Male,COVID-19,"Cough, Fever, Sneezing",Cetirizine,4893.0,No
+840,12.0,Other,Asthma,,Insulin,2865.0,Yes
+841,35.0,Other,Diabetes,,Cetirizine,3852.0,Yes
+842,68.0,Other,Allergy,Headache,Ventolin,3268.0,No
+843,8.0,Other,COVID-19,"Sneezing, Fever, Shortness of breath",Metformin,5657.0,No
+844,77.0,Female,Asthma,"Headache, Fatigue",Paracetamol,2224.0,Yes
+845,73.0,Other,COVID-19,Shortness of breath,Cetirizine,6825.0,No
+846,80.0,Female,COVID-19,"Shortness of breath, Headache",Metformin,2370.0,No
+847,35.0,Other,Hypertension,"Sneezing, Headache, Shortness of breath",Ventolin,7786.0,Yes
+848,54.0,Male,Allergy,"Shortness of breath, Fatigue, Headache",Cetirizine,6454.0,No
+849,67.0,Female,Hypertension,"Fatigue, Cough",Ventolin,6951.0,No
+850,77.0,Female,COVID-19,Fatigue,Aspirin,6681.0,No
+851,44.0,Female,Diabetes,Shortness of breath,Insulin,3556.0,No
+852,89.0,Other,Migraine,"Fever, Shortness of breath",Aspirin,6699.0,No
+853,8.0,Male,Migraine,Sneezing,Paracetamol,7166.0,Yes
+854,23.0,Male,Migraine,"Fatigue, Cough, Shortness of breath",Cetirizine,7972.0,No
+855,53.0,Other,Migraine,"Cough, Headache",Insulin,,Yes
+856,71.0,Other,Allergy,Sneezing,Metformin,934.0,Yes
+857,41.0,Male,Flu,"Fever, Sneezing, Fatigue",Metformin,4710.0,No
+858,93.0,Female,Diabetes,"Fever, Shortness of breath",Insulin,10613.0,No
+859,83.0,Other,Hypertension,Cough,Paracetamol,7736.0,No
+860,91.0,Female,Hypertension,"Headache, Fatigue, Fever",Cetirizine,2086.0,No
+861,69.0,Female,Flu,Headache,Amoxicillin,5493.0,No
+862,73.0,Female,Hypertension,"Cough, Headache",Metformin,4364.0,Yes
+863,95.0,Other,Flu,"Sneezing, Cough, Headache",Ventolin,2931.0,No
+864,9.0,Male,Flu,Fever,Amoxicillin,4328.0,No
+865,82.0,Male,Migraine,"Headache, Cough",Cetirizine,2096.0,Yes
+866,43.0,Other,Flu,Shortness of breath,Ventolin,5971.0,No
+867,88.0,Female,COVID-19,"Shortness of breath, Sneezing",Paracetamol,13162.0,Yes
+868,32.0,Female,COVID-19,"Cough, Headache, Fever",Ventolin,7959.0,Yes
+869,61.0,Male,Flu,"Fever, Fatigue",Metformin,5959.0,No
+870,19.0,Female,Allergy,"Headache, Shortness of breath",Insulin,2646.0,Yes
+871,,Other,Hypertension,"Sneezing, Fatigue",Paracetamol,7257.0,No
+872,46.0,Other,Asthma,Headache,Metformin,5648.0,Yes
+873,82.0,Male,Hypertension,Fever,Ventolin,5899.0,No
+874,16.0,Male,Migraine,Fever,Metformin,7237.0,No
+875,17.0,Male,Asthma,"Sneezing, Headache, Fatigue",Aspirin,5316.0,Yes
+876,69.0,Other,Asthma,Fatigue,Metformin,2954.0,No
+877,15.0,Female,Diabetes,"Sneezing, Headache, Shortness of breath",Metformin,6873.0,Yes
+878,87.0,Female,Hypertension,Sneezing,Aspirin,2809.0,Yes
+879,77.0,Female,Diabetes,"Sneezing, Shortness of breath, Headache",Paracetamol,3365.0,Yes
+880,59.0,Male,Flu,"Cough, Shortness of breath",Cetirizine,4006.0,Yes
+881,26.0,Male,COVID-19,"Headache, Fatigue",Insulin,6176.0,Yes
+882,46.0,,Asthma,Fever,Insulin,3921.0,Yes
+883,36.0,Male,Flu,"Sneezing, Cough, Fatigue",Metformin,6041.0,Yes
+884,51.0,Other,Allergy,Sneezing,Aspirin,6466.0,No
+885,91.0,Other,Asthma,Cough,Paracetamol,3202.0,Yes
+886,82.0,,Flu,Cough,Aspirin,3162.0,No
+887,43.0,Female,Flu,"Fever, Shortness of breath",Amoxicillin,2829.0,Yes
+888,,Female,Hypertension,Sneezing,Paracetamol,6912.0,Yes
+889,27.0,Male,Asthma,"Shortness of breath, Sneezing",Cetirizine,2624.0,Yes
+890,56.0,Male,Allergy,"Headache, Shortness of breath, Sneezing",Cetirizine,14040.0,No
+891,4.0,Male,Diabetes,Shortness of breath,Cetirizine,7855.0,No
+892,77.0,Other,Diabetes,"Fever, Sneezing, Fatigue",Paracetamol,2254.0,Yes
+893,56.0,Other,COVID-19,"Shortness of breath, Headache",Ventolin,943.0,No
+894,59.0,Other,Asthma,"Fatigue, Headache",Paracetamol,2530.0,No
+895,93.0,Other,Hypertension,Sneezing,Paracetamol,6233.0,No
+896,23.0,Female,Hypertension,"Fatigue, Sneezing",Metformin,6436.0,No
+897,92.0,Male,Asthma,"Headache, Sneezing, Cough",Paracetamol,3546.0,No
+898,18.0,Male,Allergy,"Fever, Sneezing",Metformin,6039.0,Yes
+899,44.0,Male,Allergy,"Sneezing, Fever",Aspirin,5614.0,No
+900,13.0,Male,COVID-19,"Cough, Shortness of breath",Paracetamol,7880.0,No
+901,9.0,Female,COVID-19,"Shortness of breath, Headache",Aspirin,5172.0,No
+902,49.0,Other,Migraine,Headache,Cetirizine,5512.0,Yes
+903,9.0,Male,Hypertension,"Fever, Headache",Ventolin,5743.0,Yes
+904,44.0,Male,Migraine,"Headache, Sneezing, Fever",Ventolin,3190.0,Yes
+905,10.0,Other,Asthma,"Sneezing, Cough, Headache",Metformin,6103.0,No
+906,32.0,Male,Migraine,Shortness of breath,Aspirin,663.0,Yes
+907,20.0,Male,Asthma,"Headache, Cough, Fever",Metformin,5331.0,Yes
+908,99.0,Male,Allergy,"Shortness of breath, Sneezing, Fatigue",Paracetamol,4783.0,Yes
+909,42.0,Other,Hypertension,"Fatigue, Cough, Fever",Insulin,3649.0,No
+910,79.0,Other,Diabetes,"Sneezing, Shortness of breath, Fever",Ventolin,4140.0,Yes
+911,71.0,Male,Migraine,Shortness of breath,Cetirizine,13143.0,Yes
+912,100.0,Female,COVID-19,"Headache, Cough",Aspirin,2040.0,No
+913,78.0,Female,COVID-19,Sneezing,Cetirizine,4699.0,No
+914,77.0,Female,Flu,"Headache, Fever, Sneezing",Insulin,2746.0,Yes
+915,15.0,Other,Flu,"Fever, Headache",Insulin,7884.0,No
+916,60.0,Male,Hypertension,Sneezing,,3051.0,Yes
+917,74.0,Male,Diabetes,"Sneezing, Cough",,7933.0,No
+918,28.0,Female,COVID-19,"Headache, Cough",Ventolin,6929.0,Yes
+919,51.0,Male,Diabetes,Fever,Amoxicillin,4393.0,Yes
+920,14.0,Female,Flu,"Headache, Shortness of breath, Sneezing",Paracetamol,2840.0,No
+921,37.0,Male,Diabetes,Cough,Aspirin,7792.0,No
+922,56.0,Other,Diabetes,"Fatigue, Headache, Fever",Aspirin,4905.0,No
+923,27.0,Other,COVID-19,"Shortness of breath, Sneezing, Cough",Amoxicillin,7454.0,Yes
+924,46.0,Other,Asthma,Headache,Aspirin,2383.0,No
+925,53.0,Male,Allergy,Headache,Metformin,5858.0,No
+926,89.0,Female,Diabetes,"Cough, Shortness of breath",Cetirizine,7267.0,No
+927,77.0,Female,Hypertension,"Shortness of breath, Headache, Cough",Paracetamol,5866.0,No
+928,94.0,Other,Hypertension,"Headache, Cough, Sneezing",Metformin,63.0,Yes
+929,65.0,Other,COVID-19,"Shortness of breath, Fatigue, Cough",Aspirin,6988.0,Yes
+930,56.0,Male,Allergy,Fever,Ventolin,6802.0,No
+931,13.0,Male,Migraine,"Headache, Cough",Aspirin,4231.0,Yes
+932,13.0,Male,Diabetes,Sneezing,Insulin,7753.0,No
+933,52.0,Male,Asthma,Shortness of breath,Cetirizine,2782.0,Yes
+934,89.0,Other,Diabetes,Sneezing,,2486.0,No
+935,15.0,Female,Allergy,Fever,Aspirin,3376.0,Yes
+936,43.0,Other,Allergy,"Fever, Sneezing, Headache",Insulin,6540.0,No
+937,88.0,Other,Allergy,"Fatigue, Shortness of breath, Cough",Metformin,2675.0,
+938,13.0,Female,Hypertension,Headache,Insulin,7418.0,Yes
+939,32.0,Female,Diabetes,Sneezing,Amoxicillin,4984.0,Yes
+940,83.0,Female,Asthma,"Fatigue, Cough, Fever",Cetirizine,6506.0,Yes
+941,66.0,Male,Flu,"Fever, Shortness of breath",Amoxicillin,7209.0,No
+942,78.0,Female,Allergy,"Sneezing, Shortness of breath, Cough",Insulin,7836.0,Yes
+943,29.0,Male,Allergy,Cough,Insulin,2755.0,No
+944,3.0,Male,COVID-19,"Sneezing, Shortness of breath, Fever",Cetirizine,522.0,Yes
+945,81.0,Other,Diabetes,Sneezing,Metformin,2029.0,No
+946,42.0,,Flu,"Headache, Cough",Paracetamol,7147.0,Yes
+947,82.0,Female,Diabetes,Sneezing,Cetirizine,5133.0,No
+948,24.0,Male,Diabetes,"Cough, Shortness of breath",Aspirin,3245.0,Yes
+949,14.0,Other,COVID-19,"Fever, Sneezing, Cough",,5351.0,No
+950,66.0,Other,Diabetes,Sneezing,Insulin,7379.0,
+951,60.0,Male,COVID-19,Shortness of breath,Metformin,4206.0,No
+952,44.0,Other,Allergy,"Headache, Fever, Shortness of breath",Metformin,3395.0,No
+953,78.0,Male,Asthma,Cough,Cetirizine,7930.0,Yes
+954,92.0,Female,Allergy,,Metformin,7454.0,Yes
+955,46.0,Other,Migraine,"Fever, Fatigue, Headache",Insulin,3232.0,Yes
+956,16.0,Male,Migraine,Headache,Aspirin,6548.0,No
+957,61.0,Other,Diabetes,"Headache, Sneezing",Metformin,3565.0,No
+958,42.0,Male,Hypertension,Fever,Cetirizine,3107.0,Yes
+959,29.0,Male,Asthma,"Shortness of breath, Sneezing, Cough",Aspirin,2810.0,No
+960,4.0,Male,Migraine,Fever,Metformin,2238.0,No
+961,31.0,Other,COVID-19,Fever,Aspirin,3093.0,No
+962,29.0,Male,Diabetes,Headache,Insulin,5233.0,Yes
+963,75.0,Other,Hypertension,"Fever, Sneezing",Cetirizine,4113.0,No
+964,23.0,Other,Asthma,"Sneezing, Fatigue",Metformin,7891.0,No
+965,52.0,Male,Migraine,"Cough, Sneezing, Shortness of breath",Aspirin,7772.0,Yes
+966,51.0,,Allergy,"Sneezing, Fatigue, Cough",Ventolin,2108.0,No
+967,45.0,Other,Asthma,"Fatigue, Headache",Aspirin,2775.0,Yes
+968,89.0,Male,COVID-19,"Sneezing, Cough, Fatigue",Paracetamol,7363.0,No
+969,44.0,Female,Asthma,Cough,Insulin,4542.0,Yes
+970,24.0,Female,Diabetes,"Shortness of breath, Headache",Aspirin,5262.0,No
+971,75.0,Other,Asthma,"Cough, Headache, Shortness of breath",Paracetamol,2830.0,Yes
+972,67.0,Male,Flu,"Headache, Sneezing",Paracetamol,5887.0,Yes
+973,58.0,Male,Hypertension,"Fatigue, Cough",Metformin,2997.0,Yes
+974,65.0,Female,Flu,"Fatigue, Cough, Fever",Cetirizine,14014.0,No
+975,72.0,Male,COVID-19,"Sneezing, Headache",Metformin,6747.0,No
+976,60.0,Male,,Headache,Paracetamol,7791.0,Yes
+977,67.0,Male,COVID-19,"Fever, Shortness of breath",Ventolin,2602.0,Yes
+978,,Male,Hypertension,Headache,Amoxicillin,3977.0,Yes
+979,98.0,Female,Flu,Cough,Amoxicillin,5450.0,No
+980,20.0,Male,COVID-19,,Amoxicillin,4733.0,Yes
+981,38.0,Female,COVID-19,"Headache, Shortness of breath, Cough",Paracetamol,5499.0,No
+982,34.0,Female,Hypertension,Fatigue,Amoxicillin,7205.0,Yes
+983,89.0,Other,Asthma,"Shortness of breath, Cough, Headache",Metformin,7248.0,Yes
+984,100.0,Female,Flu,"Shortness of breath, Cough",Amoxicillin,7785.0,Yes
+985,85.0,Female,Hypertension,"Fever, Fatigue",Metformin,6408.0,No
+986,57.0,Other,Asthma,"Cough, Headache",Cetirizine,5235.0,Yes
+987,39.0,Other,COVID-19,"Sneezing, Fever",Amoxicillin,2940.0,Yes
+988,55.0,Other,Migraine,"Fever, Fatigue",Aspirin,4043.0,No
+989,33.0,Male,Diabetes,"Fever, Cough",Insulin,4611.0,No
+990,49.0,Other,Asthma,Shortness of breath,Cetirizine,7024.0,No
+991,93.0,Male,Allergy,"Fatigue, Fever",Amoxicillin,6679.0,No
+992,66.0,Male,Hypertension,"Sneezing, Cough",Ventolin,7502.0,No
+993,16.0,Other,Diabetes,"Fatigue, Sneezing, Headache",Amoxicillin,6576.0,Yes
+994,47.0,,Asthma,"Fever, Fatigue",Insulin,3429.0,Yes
+995,9.0,Other,Asthma,Fatigue,Aspirin,3769.0,No
+996,58.0,Other,Flu,Headache,Ventolin,7456.0,No
+997,70.0,Other,COVID-19,Fatigue,Cetirizine,7804.0,Yes
+998,50.0,Female,Flu,,Ventolin,12625.0,Yes
+999,68.0,Male,Flu,"Shortness of breath, Fatigue, Fever",Metformin,7364.0,No
+1000,15.0,Male,Allergy,"Sneezing, Shortness of breath",Aspirin,3769.0,No
+1001,72.0,Female,Diabetes,"Headache, Sneezing, Cough",Paracetamol,5009.0,Yes
+1002,47.0,Other,Diabetes,"Headache, Fever",Cetirizine,6575.0,Yes
+1003,2.0,Male,Diabetes,"Sneezing, Cough, Shortness of breath",Ventolin,7227.0,Yes
+1004,66.0,Male,Allergy,"Fever, Shortness of breath, Headache",Ventolin,7092.0,No
+1005,11.0,Female,Flu,Sneezing,Amoxicillin,4614.0,No
+1006,24.0,Female,Flu,"Fatigue, Shortness of breath, Fever",Paracetamol,6466.0,No
+1007,7.0,Female,Flu,"Fatigue, Headache",Insulin,6493.0,Yes
+1008,46.0,Male,Flu,"Cough, Fatigue",Ventolin,7839.0,Yes
+1009,18.0,Other,Diabetes,"Sneezing, Headache",Metformin,7795.0,Yes
+1010,67.0,Female,Hypertension,Fatigue,Cetirizine,2025.0,No
+1011,29.0,Female,Hypertension,"Fatigue, Cough, Shortness of breath",Amoxicillin,11856.0,No
+1012,87.0,Male,Hypertension,"Fever, Shortness of breath, Fatigue",Paracetamol,6297.0,Yes
+1013,33.0,Female,Allergy,"Sneezing, Headache, Shortness of breath",Cetirizine,2655.0,No
+1014,72.0,Male,Allergy,Cough,Insulin,7985.0,No
+1015,7.0,Male,Migraine,"Fatigue, Fever, Headache",Amoxicillin,2874.0,No
+1016,41.0,Other,Migraine,"Headache, Fatigue",Amoxicillin,4543.0,Yes
+1017,94.0,Male,Allergy,"Sneezing, Cough",Cetirizine,6909.0,No
+1018,85.0,Male,Hypertension,Sneezing,Amoxicillin,6542.0,Yes
+1019,55.0,Female,Hypertension,"Fever, Fatigue",Amoxicillin,4646.0,No
+1020,14.0,Other,,Cough,Ventolin,2456.0,No
+1021,46.0,Other,COVID-19,"Sneezing, Cough, Headache",Aspirin,7653.0,Yes
+1022,48.0,Female,Migraine,Fever,Aspirin,4814.0,No
+1023,89.0,Other,Allergy,"Cough, Fatigue",Cetirizine,5863.0,No
+1024,11.0,Female,Diabetes,Cough,Cetirizine,7941.0,Yes
+1025,89.0,Female,Asthma,Fever,Cetirizine,5827.0,No
+1026,20.0,Female,Migraine,"Cough, Fever, Fatigue",Amoxicillin,3572.0,No
+1027,106.0,Female,COVID-19,"Headache, Fever, Sneezing",Amoxicillin,5401.0,No
+1028,44.0,Female,Hypertension,Headache,Amoxicillin,2312.0,
+1029,64.0,Female,Diabetes,Shortness of breath,Insulin,4343.0,Yes
+1030,26.0,Female,COVID-19,"Headache, Cough, Fever",Insulin,6557.0,Yes
+1031,58.0,Female,Flu,"Fatigue, Cough, Shortness of breath",Ventolin,5880.0,Yes
+1032,82.0,Other,Migraine,Shortness of breath,Insulin,7147.0,Yes
+1033,12.0,Other,Diabetes,"Sneezing, Fever, Shortness of breath",Amoxicillin,3059.0,No
+1034,2.0,Female,Flu,Sneezing,Metformin,7946.0,No
+1035,71.0,Male,Asthma,"Sneezing, Shortness of breath",Paracetamol,137.0,No
+1036,10.0,Female,Diabetes,Sneezing,Insulin,4978.0,Yes
+1037,80.0,Other,Allergy,"Headache, Shortness of breath",Ventolin,4570.0,Yes
+1038,106.0,Male,Asthma,"Fever, Cough",Insulin,5456.0,Yes
+1039,32.0,Other,COVID-19,"Fever, Cough",Paracetamol,11958.0,Yes
+1040,80.0,Other,Hypertension,Shortness of breath,Ventolin,4283.0,No
+1041,71.0,Other,Hypertension,"Fever, Cough, Shortness of breath",Ventolin,5333.0,No
+1042,70.0,Other,Flu,Shortness of breath,Amoxicillin,6028.0,No
+1043,46.0,Other,Allergy,Sneezing,Amoxicillin,4035.0,No
+1044,63.0,Female,Flu,Sneezing,Cetirizine,2670.0,Yes
+1045,2.0,Male,Hypertension,"Sneezing, Headache, Fever",Insulin,6860.0,No
+1046,41.0,Male,Migraine,Cough,Metformin,3612.0,Yes
+1047,65.0,Male,COVID-19,"Headache, Fever",,7532.0,No
+1048,19.0,Female,Migraine,Sneezing,Metformin,6848.0,Yes
+1049,50.0,Male,Hypertension,"Headache, Sneezing, Fatigue",Insulin,4008.0,Yes
+1050,28.0,Female,Asthma,"Shortness of breath, Fever",Insulin,3194.0,Yes
+1051,96.0,Other,Flu,Cough,Amoxicillin,3104.0,Yes
+1052,26.0,Female,Migraine,"Sneezing, Cough",Insulin,7438.0,Yes
+1053,41.0,Female,Allergy,"Shortness of breath, Cough, Fatigue",Aspirin,7392.0,No
+1054,28.0,Other,Allergy,"Fatigue, Fever, Headache",Ventolin,2803.0,No
+1055,60.0,Male,Diabetes,"Sneezing, Fatigue",Aspirin,6854.0,
+1056,27.0,Male,,"Shortness of breath, Cough",Metformin,3507.0,No
+1057,11.0,Other,Flu,Fever,Paracetamol,714.0,No
+1058,45.0,Female,Asthma,"Shortness of breath, Sneezing, Fever",Aspirin,960.0,Yes
+1059,93.0,Other,Migraine,"Shortness of breath, Fatigue",Aspirin,7258.0,Yes
+1060,14.0,Female,Flu,,Aspirin,6172.0,Yes
+1061,69.0,Other,Migraine,"Sneezing, Fever",Amoxicillin,7853.0,Yes
+1062,64.0,,Flu,"Cough, Fatigue, Shortness of breath",Metformin,2840.0,Yes
+1063,26.0,Other,Hypertension,"Fever, Cough, Headache",Paracetamol,6288.0,Yes
+1064,83.0,Other,Hypertension,Cough,Metformin,4875.0,No
+1065,59.0,Female,Asthma,"Shortness of breath, Fever",Aspirin,2957.0,No
+1066,,Other,Asthma,"Sneezing, Shortness of breath",Paracetamol,3468.0,Yes
+1067,92.0,Other,COVID-19,"Shortness of breath, Fatigue",Cetirizine,5556.0,No
+1068,66.0,Female,Hypertension,Fatigue,Insulin,7598.0,No
+1069,49.0,Male,Diabetes,,Insulin,405.0,Yes
+1070,93.0,Female,COVID-19,"Fever, Fatigue",Insulin,7985.0,Yes
+1071,38.0,Other,Asthma,"Shortness of breath, Headache, Fever",Insulin,2641.0,No
+1072,74.0,Male,Diabetes,Cough,Cetirizine,2758.0,No
+1073,38.0,Male,Diabetes,Fatigue,Amoxicillin,4030.0,Yes
+1074,99.0,Female,Hypertension,Fever,Ventolin,6488.0,No
+1075,35.0,,Flu,"Fever, Fatigue",Cetirizine,3065.0,No
+1076,84.0,Other,Migraine,"Fever, Sneezing",Paracetamol,3892.0,No
+1077,58.0,Male,Hypertension,"Sneezing, Fever, Fatigue",Aspirin,5214.0,Yes
+1078,86.0,Male,Flu,Fatigue,Ventolin,4618.0,No
+1079,21.0,Female,Migraine,"Cough, Fatigue",Ventolin,5317.0,Yes
+1080,75.0,Other,Hypertension,"Fatigue, Fever",Amoxicillin,7882.0,Yes
+1081,1.0,Male,Migraine,"Fever, Headache, Sneezing",Metformin,3659.0,No
+1082,28.0,Male,Migraine,"Sneezing, Fever, Cough",Ventolin,2461.0,Yes
+1083,52.0,Female,Asthma,"Fatigue, Fever",Aspirin,7744.0,Yes
+1084,68.0,Male,COVID-19,Fever,Paracetamol,4582.0,Yes
+1085,64.0,Other,Migraine,"Fever, Headache, Shortness of breath",Cetirizine,3627.0,Yes
+1086,38.0,Female,Diabetes,"Sneezing, Headache, Shortness of breath",Amoxicillin,7060.0,
+1087,14.0,Female,Hypertension,Headache,Paracetamol,6002.0,No
+1088,58.0,Male,Flu,"Shortness of breath, Cough",Cetirizine,3476.0,No
+1089,49.0,Other,Flu,Sneezing,Cetirizine,7980.0,No
+1090,3.0,Male,Asthma,"Cough, Sneezing",Paracetamol,5675.0,No
+1091,20.0,Female,Flu,"Headache, Sneezing, Fever",Ventolin,7616.0,Yes
+1092,36.0,Male,Diabetes,Headache,Paracetamol,4877.0,No
+1093,59.0,Male,Hypertension,Shortness of breath,Cetirizine,5631.0,Yes
+1094,96.0,Other,Asthma,"Fatigue, Fever, Shortness of breath",Ventolin,4331.0,No
+1095,13.0,Female,COVID-19,"Shortness of breath, Cough",Metformin,6404.0,Yes
+1096,13.0,Female,Diabetes,"Fever, Headache, Cough",Insulin,3687.0,Yes
+1097,33.0,Other,Hypertension,"Sneezing, Fatigue, Cough",Metformin,6904.0,Yes
+1098,12.0,Other,Hypertension,"Fatigue, Fever, Sneezing",Metformin,2604.0,Yes
+1099,92.0,Other,Migraine,Sneezing,Aspirin,6347.0,Yes
+1100,59.0,Female,,Fatigue,Amoxicillin,4110.0,No
+1101,16.0,Male,Allergy,Sneezing,Amoxicillin,2657.0,Yes
+1102,48.0,Female,Migraine,"Headache, Sneezing, Shortness of breath",Aspirin,6266.0,No
+1103,35.0,Other,Diabetes,"Fever, Fatigue",Aspirin,6287.0,Yes
+1104,11.0,Female,Migraine,"Cough, Fever, Sneezing",Insulin,4101.0,Yes
+1105,94.0,Other,Migraine,"Headache, Fever",Cetirizine,6771.0,Yes
+1106,56.0,Female,Migraine,"Fatigue, Cough",Cetirizine,5125.0,
+1107,64.0,Female,Allergy,"Shortness of breath, Cough",Amoxicillin,6417.0,Yes
+1108,2.0,Other,Asthma,Cough,Ventolin,3809.0,Yes
+1109,47.0,Male,COVID-19,"Fatigue, Cough, Shortness of breath",Cetirizine,2894.0,No
+1110,83.0,Male,Asthma,"Cough, Fatigue, Sneezing",Amoxicillin,3485.0,No
+1111,98.0,Male,Diabetes,"Headache, Sneezing, Fever",Amoxicillin,3776.0,Yes
+1112,52.0,Female,COVID-19,"Fever, Sneezing",Amoxicillin,5810.0,No
+1113,28.0,Other,Hypertension,"Shortness of breath, Fatigue, Cough",Aspirin,3953.0,No
+1114,18.0,Female,Flu,"Fatigue, Fever, Sneezing",Paracetamol,7460.0,No
+1115,77.0,Other,Allergy,Shortness of breath,Ventolin,7938.0,Yes
+1116,15.0,Other,COVID-19,Headache,Amoxicillin,2796.0,Yes
+1117,,Female,Diabetes,"Fever, Sneezing, Cough",Cetirizine,2939.0,No
+1118,70.0,Female,Diabetes,"Cough, Headache",Cetirizine,2246.0,Yes
+1119,4.0,Other,Asthma,"Cough, Sneezing, Shortness of breath",Paracetamol,4578.0,No
+1120,37.0,Female,,Fatigue,Cetirizine,3029.0,Yes
+1121,59.0,Male,COVID-19,"Fever, Cough, Shortness of breath",Cetirizine,4253.0,Yes
+1122,64.0,Male,Hypertension,"Sneezing, Fever, Cough",Amoxicillin,,No
+1123,91.0,Female,Diabetes,"Headache, Sneezing",Aspirin,5964.0,No
+1124,39.0,Female,Hypertension,"Shortness of breath, Sneezing",Aspirin,,Yes
+1125,39.0,Other,Flu,Fatigue,Cetirizine,7480.0,Yes
+1126,11.0,Other,COVID-19,"Fever, Cough",Paracetamol,3175.0,Yes
+1127,72.0,Other,COVID-19,"Fatigue, Shortness of breath",Insulin,7277.0,Yes
+1128,78.0,Male,Asthma,"Fever, Headache",Aspirin,6439.0,
+1129,59.0,Other,Flu,Fatigue,Aspirin,4953.0,No
+1130,15.0,Other,Hypertension,Headache,Cetirizine,5377.0,No
+1131,6.0,Other,Flu,"Shortness of breath, Sneezing, Cough",Paracetamol,5073.0,Yes
+1132,4.0,Male,COVID-19,Shortness of breath,Cetirizine,7909.0,No
+1133,39.0,Male,COVID-19,Sneezing,Paracetamol,3233.0,No
+1134,79.0,Male,Hypertension,"Sneezing, Headache",Amoxicillin,5445.0,Yes
+1135,75.0,Female,Diabetes,"Cough, Fatigue, Shortness of breath",Insulin,7280.0,No
+1136,52.0,Female,Allergy,"Fatigue, Sneezing",Cetirizine,6443.0,No
+1137,37.0,Female,Asthma,"Headache, Cough, Shortness of breath",Paracetamol,4902.0,No
+1138,43.0,Other,Flu,Sneezing,Amoxicillin,6452.0,No
+1139,19.0,Male,Diabetes,"Fever, Headache, Cough",Aspirin,3867.0,No
+1140,79.0,Male,COVID-19,Sneezing,Metformin,6391.0,No
+1141,22.0,Female,Flu,"Fever, Shortness of breath, Headache",Aspirin,7860.0,No
+1142,93.0,Other,COVID-19,Fever,Ventolin,7634.0,No
+1143,1.0,Female,Hypertension,"Shortness of breath, Fatigue",Metformin,4507.0,No
+1144,2.0,Other,Allergy,"Fatigue, Fever",Cetirizine,3939.0,No
+1145,13.0,Male,Migraine,"Shortness of breath, Cough, Fever",Amoxicillin,3883.0,Yes
+1146,25.0,Female,Flu,"Fatigue, Shortness of breath",Cetirizine,4988.0,Yes
+1147,90.0,Female,Allergy,"Fever, Fatigue",Ventolin,5879.0,No
+1148,71.0,Male,COVID-19,"Headache, Shortness of breath",Cetirizine,7817.0,Yes
+1149,77.0,Male,Flu,"Fatigue, Shortness of breath, Headache",Paracetamol,3182.0,No
+1150,82.0,Other,Asthma,"Sneezing, Cough",Amoxicillin,3786.0,No
+1151,1.0,Other,Diabetes,"Fever, Headache",Aspirin,5612.0,No
+1152,22.0,Female,Migraine,"Fatigue, Cough",Aspirin,4336.0,No
+1153,9.0,Other,Hypertension,"Headache, Shortness of breath, Fatigue",Aspirin,6326.0,Yes
+1154,97.0,Male,Migraine,"Sneezing, Fatigue",Aspirin,6353.0,Yes
+1155,44.0,Male,Flu,Cough,Amoxicillin,3801.0,Yes
+1156,37.0,Female,Diabetes,"Shortness of breath, Fever, Headache",Amoxicillin,3943.0,Yes
+1157,8.0,,Allergy,Cough,Cetirizine,2616.0,Yes
+1158,47.0,Other,Migraine,"Fatigue, Headache",Ventolin,6706.0,No
+1159,99.0,Female,Allergy,"Cough, Headache, Fever",Metformin,5841.0,No
+1160,96.0,Male,Diabetes,"Cough, Fatigue",Cetirizine,14575.0,No
+1161,86.0,Other,COVID-19,Cough,,4059.0,Yes
+1162,17.0,Female,Migraine,"Cough, Headache",Paracetamol,5964.0,Yes
+1163,86.0,Other,Flu,Shortness of breath,Aspirin,7211.0,Yes
+1164,33.0,Male,Migraine,"Sneezing, Fever",Ventolin,10809.0,No
+1165,63.0,Female,Flu,"Headache, Shortness of breath, Cough",Metformin,3990.0,No
+1166,94.0,Other,Asthma,"Cough, Fatigue, Shortness of breath",Cetirizine,2130.0,Yes
+1167,98.0,Female,COVID-19,"Shortness of breath, Fatigue",Insulin,887.0,No
+1168,12.0,Male,Allergy,"Sneezing, Cough",Amoxicillin,4905.0,
+1169,8.0,Other,Allergy,Shortness of breath,Paracetamol,7401.0,Yes
+1170,80.0,Female,COVID-19,"Sneezing, Fever",Metformin,7523.0,Yes
+1171,40.0,Male,Migraine,"Sneezing, Headache, Cough",Metformin,4568.0,No
+1172,8.0,Male,Hypertension,"Headache, Sneezing, Cough",Cetirizine,3850.0,No
+1173,82.0,Female,Hypertension,"Headache, Fatigue, Cough",Paracetamol,2275.0,Yes
+1174,27.0,Other,Migraine,Headache,Ventolin,2691.0,No
+1175,85.0,Female,Allergy,"Fatigue, Shortness of breath",Ventolin,2343.0,Yes
+1176,91.0,Male,Allergy,Headache,Paracetamol,4692.0,No
+1177,95.0,Other,Asthma,Sneezing,Metformin,6125.0,No
+1178,23.0,Female,,Fever,Amoxicillin,6549.0,No
+1179,26.0,Other,Allergy,,Aspirin,5785.0,No
+1180,71.0,Other,Asthma,"Fever, Shortness of breath, Cough",Cetirizine,5323.0,No
+1181,71.0,Other,Hypertension,Sneezing,Paracetamol,2806.0,No
+1182,24.0,Male,Allergy,Fever,Paracetamol,5199.0,Yes
+1183,64.0,Other,Diabetes,"Cough, Shortness of breath, Headache",Aspirin,3031.0,Yes
+1184,70.0,Other,Migraine,"Shortness of breath, Headache, Sneezing",Cetirizine,3814.0,No
+1185,14.0,Male,Diabetes,Headache,Metformin,2835.0,No
+1186,24.0,Other,Diabetes,"Fever, Shortness of breath, Fatigue",Amoxicillin,6430.0,No
+1187,89.0,Male,Allergy,Fever,Cetirizine,7121.0,Yes
+1188,50.0,Male,Flu,Fever,Ventolin,2468.0,No
+1189,90.0,Female,Diabetes,Shortness of breath,Aspirin,4644.0,Yes
+1190,24.0,Female,Hypertension,Shortness of breath,Paracetamol,376.0,No
+1191,60.0,Male,Flu,"Sneezing, Fatigue, Shortness of breath",Metformin,6433.0,No
+1192,72.0,Male,Asthma,Shortness of breath,Metformin,6489.0,Yes
+1193,13.0,Female,Allergy,Cough,Aspirin,3196.0,No
+1194,65.0,Other,Asthma,Fever,Amoxicillin,12321.0,Yes
+1195,44.0,Male,Flu,Headache,Ventolin,7290.0,Yes
+1196,12.0,Male,,"Sneezing, Headache, Cough",Metformin,4474.0,Yes
+1197,21.0,Female,COVID-19,"Cough, Sneezing",Paracetamol,4471.0,Yes
+1198,19.0,Male,Diabetes,"Headache, Cough",Cetirizine,3313.0,No
+1199,69.0,Other,COVID-19,Fatigue,Paracetamol,2693.0,Yes
+1200,93.0,Male,COVID-19,"Fatigue, Headache, Shortness of breath",Cetirizine,4765.0,Yes
+1201,33.0,Male,COVID-19,"Shortness of breath, Fatigue",Aspirin,6192.0,Yes
+1202,7.0,Other,Asthma,"Fatigue, Shortness of breath, Headache",Paracetamol,4783.0,Yes
+1203,2.0,Male,Asthma,Headache,Paracetamol,5233.0,No
+1204,93.0,Other,COVID-19,"Fever, Sneezing, Shortness of breath",Amoxicillin,7598.0,Yes
+1205,35.0,Female,COVID-19,"Headache, Cough, Fever",Ventolin,4966.0,Yes
+1206,61.0,Female,Migraine,"Cough, Shortness of breath, Sneezing",Cetirizine,6906.0,
+1207,86.0,Male,Allergy,"Fever, Shortness of breath",Cetirizine,4178.0,No
+1208,75.0,Other,Diabetes,Shortness of breath,Amoxicillin,3832.0,No
+1209,41.0,Other,Migraine,Shortness of breath,,3886.0,No
+1210,11.0,Male,Allergy,"Shortness of breath, Fever",Amoxicillin,7723.0,No
+1211,9.0,Female,Diabetes,"Fatigue, Sneezing",Aspirin,3025.0,No
+1212,19.0,Male,Hypertension,"Headache, Sneezing, Shortness of breath",Metformin,3045.0,No
+1213,7.0,Other,COVID-19,"Headache, Fatigue",Metformin,7030.0,Yes
+1214,3.0,Male,Asthma,"Headache, Fever, Cough",Aspirin,6738.0,No
+1215,36.0,Female,Diabetes,Fever,Amoxicillin,,Yes
+1216,47.0,Male,Asthma,Headache,Insulin,5281.0,No
+1217,59.0,Male,Asthma,"Headache, Sneezing, Fever",Ventolin,5941.0,No
+1218,12.0,Female,Asthma,"Fever, Sneezing, Headache",Insulin,6718.0,No
+1219,,Male,COVID-19,Fatigue,Insulin,7655.0,No
+1220,83.0,Male,Hypertension,Sneezing,Metformin,4928.0,No
+1221,9.0,Other,COVID-19,Fatigue,Cetirizine,4037.0,Yes
+1222,22.0,Other,COVID-19,Cough,Cetirizine,737.0,No
+1223,37.0,Other,Hypertension,"Headache, Sneezing, Cough",Amoxicillin,5982.0,Yes
+1224,32.0,,Hypertension,Shortness of breath,Cetirizine,5411.0,No
+1225,55.0,Female,COVID-19,"Sneezing, Shortness of breath, Headache",Aspirin,7789.0,Yes
+1226,91.0,Female,Migraine,"Fever, Fatigue",Paracetamol,3064.0,No
+1227,22.0,Male,Flu,Fever,Aspirin,6044.0,No
+1228,11.0,Male,Asthma,Fatigue,Cetirizine,2309.0,No
+1229,41.0,Male,Flu,"Shortness of breath, Headache, Fever",Ventolin,2429.0,Yes
+1230,45.0,Male,Allergy,Sneezing,Paracetamol,6116.0,No
+1231,70.0,Male,Diabetes,"Shortness of breath, Headache",Cetirizine,6653.0,No
+1232,106.0,Female,Hypertension,"Shortness of breath, Headache, Fever",Aspirin,3690.0,No
+1233,14.0,Male,Migraine,Fatigue,Aspirin,7103.0,No
+1234,35.0,Other,Hypertension,Cough,Ventolin,10813.0,No
+1235,15.0,Other,Allergy,Cough,Amoxicillin,493.0,Yes
+1236,80.0,Male,COVID-19,"Shortness of breath, Sneezing",Paracetamol,3552.0,No
+1237,91.0,Male,Migraine,Headache,Amoxicillin,2885.0,No
+1238,100.0,Female,Migraine,"Shortness of breath, Headache, Fatigue",Insulin,6122.0,Yes
+1239,83.0,Female,Flu,Shortness of breath,Insulin,6086.0,No
+1240,42.0,Female,Asthma,"Fever, Shortness of breath, Fatigue",Paracetamol,3340.0,No
+1241,74.0,Female,COVID-19,"Cough, Headache",Aspirin,4375.0,No
+1242,51.0,Female,Migraine,Headache,Paracetamol,6053.0,No
+1243,9.0,Other,COVID-19,Sneezing,Insulin,14036.0,Yes
+1244,77.0,Female,Hypertension,"Fatigue, Shortness of breath",Paracetamol,7154.0,No
+1245,92.0,Male,Hypertension,"Sneezing, Headache",Ventolin,13786.0,Yes
+1246,16.0,Other,Migraine,"Headache, Sneezing",Paracetamol,10881.0,No
+1247,41.0,Female,Migraine,"Sneezing, Fatigue, Fever",Cetirizine,2007.0,No
+1248,64.0,Female,Hypertension,"Shortness of breath, Cough, Sneezing",Insulin,6187.0,No
+1249,34.0,Male,Allergy,"Fever, Shortness of breath",Insulin,5333.0,No
+1250,60.0,Female,Migraine,Headache,Amoxicillin,7879.0,No
+1251,80.0,Female,Hypertension,"Fatigue, Cough",Amoxicillin,6409.0,No
+1252,55.0,Other,Hypertension,"Sneezing, Fever, Cough",Aspirin,4645.0,Yes
+1253,78.0,Male,Migraine,Shortness of breath,Aspirin,4846.0,Yes
+1254,92.0,Male,Asthma,"Fever, Fatigue",Ventolin,5498.0,Yes
+1255,11.0,Other,COVID-19,Fever,Cetirizine,2865.0,No
+1256,55.0,Other,Flu,"Fever, Cough, Fatigue",Metformin,12253.0,Yes
+1257,97.0,Other,Migraine,Fatigue,Amoxicillin,,Yes
+1258,27.0,Male,Migraine,"Fatigue, Cough",Amoxicillin,2933.0,Yes
+1259,3.0,Male,Allergy,"Sneezing, Fever",Metformin,7996.0,No
+1260,58.0,Other,Diabetes,Fatigue,Ventolin,5676.0,No
+1261,60.0,Male,Flu,"Fever, Fatigue",Aspirin,3606.0,No
+1262,77.0,Female,Asthma,"Headache, Cough",Paracetamol,7454.0,No
+1263,40.0,Other,Diabetes,Fever,Cetirizine,4199.0,No
+1264,27.0,Other,COVID-19,Fever,Cetirizine,5108.0,No
+1265,50.0,Male,Allergy,"Fatigue, Cough",Insulin,7952.0,No
+1266,12.0,Other,Asthma,"Sneezing, Headache, Shortness of breath",Ventolin,5509.0,Yes
+1267,29.0,Male,COVID-19,"Cough, Fever",Cetirizine,3681.0,No
+1268,8.0,Other,COVID-19,"Headache, Sneezing, Cough",Amoxicillin,2152.0,No
+1269,24.0,Other,Migraine,"Fever, Fatigue",Insulin,5762.0,Yes
+1270,19.0,Male,Hypertension,"Shortness of breath, Sneezing, Fever",Cetirizine,4516.0,Yes
+1271,64.0,Other,Allergy,Cough,Ventolin,6149.0,Yes
+1272,,Other,Diabetes,"Fever, Headache",Paracetamol,2906.0,No
+1273,9.0,Male,COVID-19,"Fatigue, Fever",Ventolin,6782.0,No
+1274,45.0,Male,Allergy,"Cough, Shortness of breath, Sneezing",Insulin,3722.0,Yes
+1275,44.0,Male,Flu,"Fever, Fatigue",,6802.0,Yes
+1276,79.0,Other,Asthma,Cough,Amoxicillin,4560.0,Yes
+1277,49.0,Other,Diabetes,"Cough, Shortness of breath",Insulin,4608.0,Yes
+1278,21.0,Other,Flu,Cough,Cetirizine,2926.0,Yes
+1279,51.0,Female,Migraine,"Cough, Fatigue, Shortness of breath",Paracetamol,7999.0,Yes
+1280,64.0,Male,Diabetes,"Sneezing, Fever, Headache",Paracetamol,4616.0,No
+1281,14.0,Other,Migraine,"Headache, Cough",Paracetamol,4122.0,Yes
+1282,69.0,Female,Hypertension,Cough,Insulin,6201.0,No
+1283,100.0,Male,COVID-19,"Shortness of breath, Headache",Amoxicillin,4485.0,No
+1284,11.0,Female,Diabetes,Fever,Cetirizine,2240.0,Yes
+1285,55.0,Male,Migraine,"Cough, Headache",Paracetamol,7272.0,No
+1286,55.0,Male,Hypertension,"Cough, Sneezing, Headache",Aspirin,2061.0,No
+1287,76.0,Male,Flu,Sneezing,Metformin,3412.0,No
+1288,5.0,Other,Migraine,"Fatigue, Cough, Headache",Insulin,5109.0,Yes
+1289,16.0,Male,Flu,"Fever, Cough, Headache",Insulin,6423.0,No
+1290,75.0,Female,Hypertension,"Cough, Headache",Insulin,6471.0,
+1291,36.0,Male,Hypertension,Shortness of breath,Aspirin,4828.0,Yes
+1292,49.0,Female,Diabetes,,Ventolin,3169.0,No
+1293,23.0,Other,Hypertension,"Headache, Fatigue",Amoxicillin,5080.0,Yes
+1294,29.0,Other,Flu,"Fever, Headache",Aspirin,3786.0,No
+1295,26.0,,Asthma,"Sneezing, Fatigue",Metformin,10066.0,Yes
+1296,2.0,Other,Hypertension,Cough,Cetirizine,3888.0,No
+1297,25.0,Male,Asthma,Fatigue,Aspirin,2175.0,Yes
+1298,88.0,Other,Hypertension,Fatigue,Ventolin,3901.0,No
+1299,46.0,,Diabetes,"Headache, Fever",Aspirin,5639.0,Yes
+1300,27.0,Female,Migraine,"Sneezing, Headache",Cetirizine,7162.0,No
+1301,26.0,Other,Hypertension,,Insulin,2930.0,No
+1302,6.0,Male,Flu,"Fatigue, Cough",Paracetamol,3514.0,Yes
+1303,7.0,Male,COVID-19,"Fever, Headache, Cough",Amoxicillin,3254.0,No
+1304,38.0,Female,Diabetes,"Headache, Sneezing, Fatigue",Paracetamol,4823.0,Yes
+1305,65.0,Male,Diabetes,Sneezing,Ventolin,7562.0,Yes
+1306,56.0,Female,Diabetes,"Shortness of breath, Sneezing, Headache",Aspirin,3795.0,Yes
+1307,54.0,Female,Hypertension,"Fever, Cough",Amoxicillin,3503.0,No
+1308,81.0,Other,Flu,"Fever, Sneezing, Shortness of breath",Amoxicillin,3325.0,No
+1309,47.0,Male,Diabetes,"Fatigue, Shortness of breath, Fever",Insulin,6213.0,No
+1310,41.0,Female,COVID-19,Cough,Aspirin,7424.0,No
+1311,99.0,Female,Asthma,"Shortness of breath, Fatigue",Aspirin,3278.0,No
+1312,63.0,Male,Flu,"Headache, Fever",Metformin,4577.0,No
+1313,10.0,Female,Hypertension,"Cough, Fever, Headache",Cetirizine,3261.0,Yes
+1314,40.0,Other,Asthma,"Fatigue, Headache, Fever",Insulin,3495.0,No
+1315,45.0,Female,Asthma,Cough,Metformin,6339.0,No
+1316,100.0,Other,Asthma,"Shortness of breath, Sneezing, Headache",Aspirin,6908.0,No
+1317,11.0,Other,Hypertension,"Sneezing, Shortness of breath",Insulin,4674.0,Yes
+1318,99.0,Other,Hypertension,Sneezing,Metformin,4313.0,No
+1319,51.0,Other,Flu,"Fatigue, Cough, Shortness of breath",Cetirizine,4900.0,Yes
+1320,6.0,Other,COVID-19,"Fatigue, Cough",Amoxicillin,2031.0,Yes
+1321,13.0,Male,Flu,"Fever, Shortness of breath, Headache",Cetirizine,5766.0,No
+1322,57.0,Female,Diabetes,"Cough, Fever",Metformin,4539.0,Yes
+1323,30.0,Male,Diabetes,"Sneezing, Shortness of breath",Paracetamol,5494.0,Yes
+1324,56.0,Other,COVID-19,"Fever, Cough, Sneezing",Cetirizine,5662.0,No
+1325,65.0,Other,Hypertension,"Headache, Cough, Fever",Paracetamol,2338.0,No
+1326,18.0,Male,Migraine,"Sneezing, Cough",Aspirin,7331.0,No
+1327,97.0,Other,Flu,"Headache, Cough, Fever",Paracetamol,6035.0,No
+1328,69.0,Other,Allergy,Fatigue,Paracetamol,5644.0,Yes
+1329,40.0,Other,Asthma,"Sneezing, Fatigue, Headache",Aspirin,4322.0,No
+1330,12.0,Male,COVID-19,Shortness of breath,Metformin,6963.0,Yes
+1331,1.0,Male,Diabetes,Cough,Aspirin,2290.0,Yes
+1332,31.0,Male,Allergy,"Headache, Fatigue",Insulin,6537.0,Yes
+1333,76.0,Other,Migraine,"Shortness of breath, Headache",Insulin,2157.0,No
+1334,99.0,Male,COVID-19,"Cough, Fever",Amoxicillin,3167.0,Yes
+1335,81.0,Other,COVID-19,Shortness of breath,Paracetamol,3107.0,No
+1336,80.0,Other,Hypertension,"Fatigue, Fever, Cough",Aspirin,7145.0,Yes
+1337,50.0,Male,Asthma,"Fever, Sneezing",Paracetamol,6664.0,No
+1338,73.0,Female,Migraine,Shortness of breath,Aspirin,2977.0,No
+1339,15.0,Other,Allergy,Headache,Aspirin,6785.0,Yes
+1340,43.0,Other,Migraine,"Fatigue, Headache, Sneezing",Paracetamol,2913.0,Yes
+1341,8.0,Female,Diabetes,Fever,Metformin,7622.0,Yes
+1342,83.0,Female,Flu,"Cough, Headache, Shortness of breath",Aspirin,4836.0,No
+1343,88.0,Female,Diabetes,"Cough, Fever, Headache",Ventolin,3005.0,No
+1344,19.0,Other,Migraine,"Cough, Sneezing",Paracetamol,5514.0,No
+1345,87.0,Other,Allergy,"Shortness of breath, Sneezing",Ventolin,5942.0,No
+1346,43.0,Male,Diabetes,Fatigue,Paracetamol,5619.0,No
+1347,65.0,Other,Migraine,"Headache, Sneezing",Paracetamol,4027.0,Yes
+1348,81.0,Other,Hypertension,"Fatigue, Sneezing",Cetirizine,2596.0,Yes
+1349,68.0,Male,Migraine,Sneezing,Cetirizine,5927.0,
+1350,56.0,Male,Flu,"Fatigue, Headache, Shortness of breath",Paracetamol,5683.0,Yes
+1351,25.0,Male,Hypertension,Fatigue,Amoxicillin,7034.0,No
+1352,,Male,Migraine,"Headache, Fever, Shortness of breath",Amoxicillin,2284.0,Yes
+1353,18.0,Female,Flu,Headache,Insulin,7631.0,Yes
+1354,,Other,Diabetes,Fatigue,Paracetamol,7770.0,Yes
+1355,76.0,Female,Asthma,Shortness of breath,Paracetamol,5410.0,Yes
+1356,90.0,Other,Allergy,"Fatigue, Headache, Sneezing",Aspirin,4593.0,Yes
+1357,74.0,Other,COVID-19,"Headache, Fever",Amoxicillin,6081.0,Yes
+1358,4.0,Female,Hypertension,"Headache, Fatigue",Aspirin,5678.0,No
+1359,82.0,Female,COVID-19,"Fatigue, Shortness of breath",Aspirin,3949.0,Yes
+1360,86.0,Female,,"Sneezing, Headache",Cetirizine,4533.0,Yes
+1361,35.0,Female,Allergy,"Sneezing, Fever, Cough",Amoxicillin,600.0,Yes
+1362,21.0,Female,Diabetes,"Headache, Fever",Insulin,7339.0,Yes
+1363,23.0,Other,Flu,"Sneezing, Fever",Paracetamol,4728.0,No
+1364,47.0,Male,COVID-19,"Cough, Fever",Insulin,3790.0,Yes
+1365,73.0,Female,COVID-19,Shortness of breath,Amoxicillin,2945.0,Yes
+1366,1.0,Female,Hypertension,"Shortness of breath, Sneezing",Paracetamol,6819.0,No
+1367,64.0,Other,COVID-19,"Headache, Sneezing",Insulin,6963.0,Yes
+1368,77.0,Male,Asthma,Fever,Insulin,5510.0,No
+1369,44.0,Female,Migraine,"Sneezing, Shortness of breath, Cough",Insulin,6308.0,Yes
+1370,71.0,Female,,"Cough, Fatigue",Cetirizine,6508.0,No
+1371,31.0,Female,COVID-19,"Headache, Cough, Fever",Insulin,6185.0,No
+1372,66.0,Other,Hypertension,"Fatigue, Cough, Headache",Paracetamol,4696.0,Yes
+1373,46.0,Male,Hypertension,"Sneezing, Headache, Shortness of breath",Paracetamol,5963.0,Yes
+1374,79.0,Female,Diabetes,"Fever, Fatigue, Sneezing",Metformin,4325.0,Yes
+1375,69.0,Other,Hypertension,"Sneezing, Shortness of breath, Fatigue",Aspirin,3167.0,No
+1376,96.0,Male,Hypertension,Headache,Ventolin,3272.0,Yes
+1377,2.0,Other,Allergy,Cough,Insulin,2056.0,No
+1378,23.0,Female,Migraine,"Cough, Fever, Sneezing",Aspirin,3675.0,No
+1379,,Other,Allergy,Shortness of breath,Metformin,5196.0,No
+1380,9.0,Other,Migraine,"Shortness of breath, Fever",Aspirin,4399.0,Yes
+1381,100.0,Female,Hypertension,Headache,Aspirin,5259.0,No
+1382,87.0,Male,COVID-19,"Fatigue, Sneezing",Amoxicillin,3521.0,No
+1383,51.0,Other,Hypertension,Fever,Insulin,3683.0,No
+1384,39.0,Male,Flu,Cough,Insulin,7961.0,Yes
+1385,46.0,Other,Diabetes,"Shortness of breath, Fever",Paracetamol,7403.0,No
+1386,85.0,Other,Migraine,"Fever, Fatigue, Cough",Aspirin,2683.0,No
+1387,91.0,Male,Diabetes,"Fatigue, Shortness of breath, Sneezing",Insulin,7266.0,No
+1388,65.0,Male,Diabetes,"Cough, Sneezing, Headache",Insulin,2045.0,Yes
+1389,56.0,Female,Asthma,"Sneezing, Fatigue",Aspirin,5723.0,Yes
+1390,34.0,Female,Asthma,"Sneezing, Cough, Fever",Metformin,870.0,No
+1391,5.0,Female,Diabetes,Fever,Paracetamol,5593.0,Yes
+1392,74.0,Female,Asthma,"Sneezing, Shortness of breath",Paracetamol,5730.0,No
+1393,55.0,Other,Allergy,Headache,Insulin,3711.0,No
+1394,9.0,Male,Asthma,Fever,Cetirizine,5752.0,Yes
+1395,72.0,Female,COVID-19,"Shortness of breath, Cough, Sneezing",Insulin,7925.0,No
+1396,82.0,Other,Migraine,Sneezing,Ventolin,4756.0,No
+1397,96.0,Other,Diabetes,"Fatigue, Sneezing",Ventolin,358.0,No
+1398,92.0,Female,Hypertension,"Fatigue, Cough, Fever",Cetirizine,3842.0,Yes
+1399,19.0,Male,COVID-19,"Shortness of breath, Fever, Fatigue",Insulin,2536.0,Yes
+1400,68.0,Female,Migraine,"Cough, Sneezing, Fatigue",Insulin,14336.0,Yes
+1401,13.0,Male,COVID-19,"Shortness of breath, Fever, Headache",Aspirin,3116.0,Yes
+1402,13.0,Female,Diabetes,Fatigue,Amoxicillin,6136.0,No
+1403,14.0,Female,Flu,"Cough, Sneezing",Insulin,5171.0,No
+1404,93.0,Other,Asthma,"Shortness of breath, Headache, Sneezing",Cetirizine,4769.0,Yes
+1405,92.0,Male,Diabetes,"Shortness of breath, Fatigue",Insulin,3621.0,No
+1406,22.0,Female,Diabetes,"Fever, Sneezing, Cough",Ventolin,5693.0,No
+1407,57.0,Female,Migraine,Cough,Ventolin,6740.0,Yes
+1408,36.0,Other,Flu,"Fatigue, Shortness of breath",Metformin,4251.0,Yes
+1409,30.0,Female,Allergy,"Fever, Shortness of breath",Amoxicillin,7476.0,Yes
+1410,59.0,Female,Asthma,"Sneezing, Shortness of breath, Cough",Cetirizine,3175.0,No
+1411,5.0,Other,COVID-19,"Shortness of breath, Fatigue, Headache",Aspirin,4953.0,No
+1412,85.0,Female,COVID-19,"Shortness of breath, Headache, Fever",Metformin,7207.0,No
+1413,11.0,Male,COVID-19,Shortness of breath,Aspirin,3430.0,No
+1414,71.0,Female,Diabetes,Fatigue,Aspirin,7603.0,No
+1415,22.0,Male,Migraine,"Fatigue, Cough",Insulin,2993.0,Yes
+1416,26.0,Other,COVID-19,"Fatigue, Shortness of breath",Paracetamol,3197.0,Yes
+1417,91.0,Female,Hypertension,"Cough, Sneezing",Aspirin,5794.0,No
+1418,83.0,Male,COVID-19,"Shortness of breath, Fever, Headache",Paracetamol,2773.0,Yes
+1419,81.0,Other,Asthma,"Shortness of breath, Sneezing",Amoxicillin,7950.0,No
+1420,25.0,Male,Asthma,"Shortness of breath, Fatigue, Fever",Amoxicillin,7172.0,No
+1421,72.0,Other,Allergy,"Fever, Fatigue, Headache",Cetirizine,3648.0,No
+1422,77.0,Male,Asthma,Shortness of breath,Aspirin,757.0,No
+1423,56.0,Female,Flu,"Fever, Sneezing, Cough",Aspirin,7647.0,Yes
+1424,55.0,Other,Migraine,"Shortness of breath, Sneezing, Cough",Metformin,3400.0,Yes
+1425,99.0,Other,Asthma,Sneezing,Paracetamol,3061.0,Yes
+1426,21.0,Female,Asthma,Fatigue,Amoxicillin,6545.0,No
+1427,93.0,Male,Allergy,Sneezing,Cetirizine,7189.0,No
+1428,57.0,Female,Hypertension,Headache,Insulin,4733.0,No
+1429,19.0,Male,Flu,Headache,Cetirizine,7525.0,Yes
+1430,83.0,Male,Migraine,Cough,Insulin,7594.0,Yes
+1431,26.0,Female,Hypertension,"Fever, Cough, Fatigue",Aspirin,7138.0,Yes
+1432,91.0,Female,COVID-19,"Shortness of breath, Fatigue",Metformin,5857.0,No
+1433,97.0,Male,Diabetes,"Headache, Cough, Fever",Cetirizine,6625.0,No
+1434,16.0,Male,Hypertension,"Sneezing, Cough, Fever",Metformin,7855.0,No
+1435,85.0,Other,Flu,"Sneezing, Fever, Cough",Amoxicillin,2999.0,Yes
+1436,26.0,,Migraine,"Headache, Shortness of breath, Fatigue",Insulin,3119.0,Yes
+1437,45.0,Female,Allergy,"Headache, Fever",Ventolin,2807.0,No
+1438,11.0,Other,COVID-19,Shortness of breath,Insulin,3986.0,No
+1439,52.0,Other,Flu,"Headache, Sneezing, Shortness of breath",Cetirizine,2536.0,No
+1440,5.0,Other,Diabetes,Fatigue,Amoxicillin,,No
+1441,3.0,Other,Diabetes,"Shortness of breath, Fatigue",Amoxicillin,2173.0,Yes
+1442,3.0,Other,Allergy,"Fatigue, Cough, Headache",Aspirin,6998.0,No
+1443,1.0,Male,Hypertension,"Shortness of breath, Cough",Cetirizine,7172.0,Yes
+1444,91.0,Female,Diabetes,Fatigue,Aspirin,7726.0,No
+1445,53.0,Female,Hypertension,"Fatigue, Sneezing",Paracetamol,11018.0,Yes
+1446,75.0,Other,Flu,"Fatigue, Cough",Ventolin,161.0,Yes
+1447,27.0,Female,Diabetes,Shortness of breath,Insulin,5503.0,No
+1448,15.0,Other,Asthma,"Fever, Shortness of breath",Insulin,2885.0,Yes
+1449,86.0,Other,Allergy,"Fatigue, Headache",Insulin,2145.0,Yes
+1450,55.0,Male,Hypertension,Sneezing,Ventolin,3338.0,Yes
+1451,60.0,Other,Hypertension,"Cough, Sneezing",Insulin,6592.0,No
+1452,46.0,Female,Allergy,"Cough, Fatigue, Sneezing",Aspirin,4669.0,Yes
+1453,71.0,Female,Flu,"Headache, Cough, Shortness of breath",Insulin,4328.0,No
+1454,108.0,Other,Allergy,"Sneezing, Headache, Cough",Amoxicillin,6248.0,No
+1455,11.0,Other,Flu,Fever,Metformin,3496.0,No
+1456,45.0,Female,,"Headache, Shortness of breath",Amoxicillin,4332.0,Yes
+1457,22.0,Female,Flu,Sneezing,Aspirin,2821.0,No
+1458,48.0,Male,Hypertension,Headache,Ventolin,5816.0,No
+1459,64.0,Other,Diabetes,"Sneezing, Fever, Cough",Amoxicillin,6440.0,Yes
+1460,76.0,Other,Migraine,"Fatigue, Fever",Amoxicillin,2007.0,No
+1461,20.0,Other,COVID-19,"Fever, Cough",Paracetamol,6494.0,No
+1462,63.0,Male,Migraine,"Fever, Sneezing, Headache",Paracetamol,7896.0,Yes
+1463,39.0,Female,COVID-19,"Fatigue, Cough",Ventolin,4531.0,Yes
+1464,79.0,Male,Migraine,Sneezing,Paracetamol,3866.0,No
+1465,45.0,Other,Flu,"Cough, Fatigue",Aspirin,943.0,No
+1466,41.0,Other,Asthma,Headache,Metformin,3893.0,Yes
+1467,26.0,Female,Diabetes,"Shortness of breath, Headache",Ventolin,3665.0,Yes
+1468,37.0,Male,Flu,"Fatigue, Shortness of breath",Aspirin,6434.0,No
+1469,65.0,Other,COVID-19,"Sneezing, Shortness of breath, Fever",Amoxicillin,3755.0,Yes
+1470,49.0,Other,Flu,"Fever, Sneezing, Headache",Paracetamol,4877.0,No
+1471,6.0,Female,COVID-19,"Fatigue, Fever",Aspirin,4586.0,No
+1472,105.0,Other,Diabetes,"Fever, Fatigue",Metformin,6859.0,No
+1473,38.0,Other,Diabetes,"Cough, Fever, Headache",Aspirin,2545.0,Yes
+1474,87.0,Female,Migraine,"Cough, Sneezing, Headache",Metformin,3092.0,No
+1475,17.0,Male,Allergy,"Cough, Headache",Cetirizine,3384.0,Yes
+1476,26.0,Male,Hypertension,"Sneezing, Fever, Shortness of breath",Cetirizine,6473.0,
+1477,30.0,Male,COVID-19,"Headache, Cough, Shortness of breath",Paracetamol,7258.0,No
+1478,,Female,Asthma,"Headache, Fatigue",Aspirin,5368.0,No
+1479,10.0,Other,Allergy,"Shortness of breath, Fever",Paracetamol,2204.0,No
+1480,13.0,Female,Hypertension,"Fever, Headache",Amoxicillin,6444.0,No
+1481,47.0,Other,Migraine,"Fever, Sneezing",Amoxicillin,3259.0,Yes
+1482,9.0,Male,Allergy,"Cough, Shortness of breath, Sneezing",Amoxicillin,4717.0,Yes
+1483,46.0,Other,Allergy,"Fever, Sneezing, Cough",Amoxicillin,7734.0,No
+1484,,Male,Diabetes,Cough,Amoxicillin,2380.0,No
+1485,72.0,Male,COVID-19,Sneezing,Ventolin,2101.0,No
+1486,39.0,Female,Allergy,"Shortness of breath, Headache",Ventolin,3981.0,Yes
+1487,38.0,Male,Diabetes,Shortness of breath,Ventolin,5775.0,No
+1488,70.0,Other,Asthma,"Fever, Cough, Headache",Cetirizine,5450.0,Yes
+1489,52.0,Female,Hypertension,Cough,Aspirin,6736.0,No
+1490,91.0,Other,Diabetes,"Shortness of breath, Sneezing, Fever",Aspirin,5651.0,Yes
+1491,2.0,Female,Flu,"Shortness of breath, Cough, Fatigue",Metformin,5753.0,Yes
+1492,22.0,Male,Asthma,"Shortness of breath, Sneezing",Cetirizine,3211.0,No
+1493,59.0,Male,Flu,"Fever, Headache",Cetirizine,3874.0,No
+1494,46.0,Other,Allergy,"Sneezing, Fever",Cetirizine,7113.0,No
+1495,100.0,Other,Hypertension,"Shortness of breath, Fever",Amoxicillin,5458.0,No
+1496,38.0,Male,Diabetes,"Headache, Fatigue, Fever",Paracetamol,6061.0,Yes
+1497,81.0,Female,Flu,"Shortness of breath, Fatigue, Sneezing",Insulin,5341.0,No
+1498,56.0,Male,Diabetes,Fatigue,Amoxicillin,6656.0,No
+1499,2.0,Male,Diabetes,"Headache, Shortness of breath, Cough",Ventolin,3093.0,
+1500,33.0,Other,Hypertension,Headache,Paracetamol,6621.0,Yes
+1501,85.0,Male,Asthma,"Sneezing, Cough",Insulin,7522.0,Yes
+1502,27.0,Female,Diabetes,"Cough, Sneezing",Amoxicillin,4499.0,No
+1503,52.0,Female,COVID-19,,Paracetamol,5898.0,Yes
+1504,94.0,Male,Migraine,"Fatigue, Headache",Metformin,5757.0,Yes
+1505,76.0,Female,Hypertension,"Fatigue, Fever",Ventolin,4131.0,Yes
+1506,53.0,Female,Asthma,"Fatigue, Headache, Fever",Insulin,4436.0,Yes
+1507,3.0,Other,Migraine,Sneezing,Metformin,4737.0,Yes
+1508,92.0,Other,Allergy,"Shortness of breath, Headache",Paracetamol,6714.0,No
+1509,31.0,Female,COVID-19,"Fatigue, Headache, Shortness of breath",Metformin,3903.0,No
+1510,77.0,Male,Hypertension,"Headache, Sneezing, Shortness of breath",Ventolin,7684.0,Yes
+1511,89.0,Female,COVID-19,Shortness of breath,Metformin,2283.0,Yes
+1512,68.0,Other,COVID-19,Fatigue,Paracetamol,3957.0,No
+1513,4.0,Other,COVID-19,"Headache, Fatigue, Shortness of breath",Aspirin,2175.0,Yes
+1514,13.0,Other,Migraine,"Cough, Fatigue",Metformin,4520.0,No
+1515,14.0,Female,Asthma,"Shortness of breath, Cough, Sneezing",Ventolin,5192.0,No
+1516,37.0,Male,Migraine,"Fatigue, Cough, Sneezing",Metformin,4201.0,Yes
+1517,44.0,Male,Hypertension,"Fever, Fatigue, Cough",Insulin,2577.0,No
+1518,88.0,Female,Asthma,"Shortness of breath, Fatigue, Sneezing",Paracetamol,3670.0,No
+1519,52.0,Other,Migraine,"Shortness of breath, Fever",Metformin,6935.0,No
+1520,54.0,Other,COVID-19,Fatigue,Amoxicillin,7809.0,Yes
+1521,30.0,Other,Hypertension,Fatigue,Amoxicillin,6827.0,No
+1522,63.0,Female,Migraine,Headache,Metformin,4727.0,No
+1523,83.0,Male,COVID-19,"Headache, Cough",Aspirin,3065.0,No
+1524,69.0,Female,Diabetes,"Headache, Cough",Insulin,2056.0,No
+1525,20.0,Other,COVID-19,"Shortness of breath, Cough",Metformin,6323.0,No
+1526,68.0,Male,COVID-19,"Fever, Fatigue, Sneezing",Paracetamol,6684.0,No
+1527,,Other,Flu,Fatigue,Aspirin,6615.0,Yes
+1528,3.0,Other,Hypertension,"Shortness of breath, Headache",Metformin,6224.0,Yes
+1529,90.0,Male,COVID-19,Sneezing,Insulin,7135.0,No
+1530,32.0,Other,Allergy,"Fatigue, Headache, Cough",Insulin,12055.0,No
+1531,55.0,Female,COVID-19,"Cough, Fever, Fatigue",Paracetamol,7649.0,No
+1532,33.0,Female,Asthma,"Cough, Fatigue, Sneezing",Ventolin,3101.0,No
+1533,74.0,Other,Allergy,"Shortness of breath, Headache",Amoxicillin,5966.0,No
+1534,58.0,Other,Migraine,Headache,Aspirin,2184.0,Yes
+1535,41.0,Other,Asthma,"Headache, Fatigue, Cough",Metformin,14623.0,Yes
+1536,69.0,Male,Migraine,"Headache, Fever, Shortness of breath",Metformin,7812.0,No
+1537,83.0,Female,Asthma,"Cough, Sneezing, Fever",Metformin,5718.0,No
+1538,109.0,Female,Flu,"Shortness of breath, Fatigue",Metformin,7142.0,Yes
+1539,89.0,Other,,"Fatigue, Shortness of breath",Metformin,4108.0,Yes
+1540,73.0,Female,,"Fever, Fatigue, Shortness of breath",Paracetamol,2582.0,No
+1541,40.0,Male,Allergy,"Cough, Shortness of breath",Ventolin,4634.0,No
+1542,18.0,Female,Migraine,"Headache, Fever",Amoxicillin,5406.0,No
+1543,101.0,Male,Flu,"Shortness of breath, Cough, Sneezing",Aspirin,4613.0,Yes
+1544,8.0,Female,Diabetes,"Cough, Headache",Paracetamol,5103.0,Yes
+1545,43.0,Other,Diabetes,Shortness of breath,Insulin,3865.0,No
+1546,32.0,Other,Hypertension,Cough,Cetirizine,5713.0,Yes
+1547,47.0,Male,Hypertension,"Headache, Fatigue",Ventolin,6318.0,Yes
+1548,31.0,Male,Flu,"Sneezing, Headache, Cough",Metformin,2341.0,Yes
+1549,36.0,Other,Flu,"Sneezing, Fever, Headache",Aspirin,6288.0,Yes
+1550,94.0,Other,Allergy,Cough,Metformin,5334.0,No
+1551,60.0,Other,Migraine,Cough,Ventolin,7655.0,No
+1552,20.0,Female,Diabetes,Cough,Ventolin,5660.0,No
+1553,3.0,Female,COVID-19,Fatigue,Insulin,3355.0,Yes
+1554,74.0,Female,Asthma,"Cough, Sneezing, Shortness of breath",Metformin,5407.0,No
+1555,4.0,Female,COVID-19,"Shortness of breath, Sneezing, Cough",Insulin,6929.0,Yes
+1556,70.0,Other,Diabetes,"Fever, Cough, Shortness of breath",Cetirizine,7114.0,Yes
+1557,46.0,Female,Migraine,"Shortness of breath, Cough, Fatigue",Paracetamol,6902.0,No
+1558,44.0,Male,Hypertension,"Cough, Shortness of breath, Fatigue",Amoxicillin,7798.0,Yes
+1559,11.0,Male,Hypertension,Headache,Cetirizine,2265.0,No
+1560,88.0,Female,Allergy,"Shortness of breath, Fever, Fatigue",Amoxicillin,5787.0,No
+1561,84.0,Female,Hypertension,"Headache, Fatigue",Amoxicillin,7550.0,No
+1562,47.0,,Asthma,"Headache, Fatigue",Cetirizine,4131.0,No
+1563,42.0,Other,Migraine,Headache,Ventolin,3864.0,Yes
+1564,5.0,Male,Migraine,Shortness of breath,Insulin,5552.0,No
+1565,9.0,Male,Hypertension,Shortness of breath,Aspirin,2659.0,Yes
+1566,34.0,Male,Migraine,Fever,Cetirizine,2817.0,Yes
+1567,92.0,Male,Migraine,Fever,Metformin,3636.0,No
+1568,17.0,Female,Asthma,"Fatigue, Headache",Aspirin,6061.0,No
+1569,31.0,Other,COVID-19,"Cough, Headache",Cetirizine,2864.0,No
+1570,18.0,Other,Diabetes,"Shortness of breath, Fever, Sneezing",Insulin,4402.0,No
+1571,19.0,Female,COVID-19,"Cough, Fatigue, Fever",Ventolin,4361.0,Yes
+1572,17.0,Other,Allergy,"Headache, Shortness of breath",Cetirizine,2800.0,No
+1573,19.0,Male,Asthma,"Fever, Sneezing",Metformin,2086.0,Yes
+1574,36.0,Female,COVID-19,Fever,Cetirizine,2865.0,No
+1575,85.0,Other,Hypertension,"Headache, Fatigue, Cough",Amoxicillin,4265.0,No
+1576,71.0,Female,Allergy,"Fatigue, Headache, Fever",Paracetamol,6608.0,Yes
+1577,43.0,Other,COVID-19,"Shortness of breath, Cough",Metformin,3183.0,Yes
+1578,97.0,Female,Diabetes,Headache,Insulin,3703.0,No
+1579,23.0,Male,COVID-19,Fever,Paracetamol,3460.0,Yes
+1580,20.0,Female,Hypertension,Fever,Cetirizine,6703.0,No
+1581,58.0,Other,Migraine,"Fatigue, Shortness of breath, Fever",Paracetamol,3422.0,Yes
+1582,89.0,Female,Allergy,"Fatigue, Fever",Ventolin,3815.0,No
+1583,90.0,Male,COVID-19,"Fever, Headache, Sneezing",Ventolin,49.0,No
+1584,56.0,Other,Asthma,Headache,Insulin,5170.0,No
+1585,25.0,Female,Migraine,"Cough, Fever, Shortness of breath",Metformin,7762.0,No
+1586,45.0,Other,Diabetes,"Headache, Fever",Insulin,4251.0,No
+1587,95.0,Female,Migraine,Fatigue,Cetirizine,4216.0,Yes
+1588,21.0,Male,Flu,"Cough, Sneezing",Amoxicillin,5997.0,No
+1589,58.0,Other,Hypertension,"Fatigue, Headache",Cetirizine,5564.0,Yes
+1590,27.0,Female,COVID-19,Fever,,4388.0,No
+1591,61.0,Male,Hypertension,,Amoxicillin,7284.0,No
+1592,72.0,Female,Flu,"Fatigue, Headache, Cough",Metformin,5527.0,No
+1593,98.0,Female,Migraine,Fatigue,Insulin,7249.0,No
+1594,100.0,Female,,"Fever, Sneezing",Ventolin,3790.0,No
+1595,25.0,Male,Hypertension,"Cough, Fever, Sneezing",Amoxicillin,2500.0,No
+1596,19.0,Female,Diabetes,Sneezing,Metformin,4335.0,Yes
+1597,67.0,Female,Flu,Headache,Cetirizine,7896.0,No
+1598,39.0,Male,Asthma,"Sneezing, Cough",Metformin,5814.0,No
+1599,85.0,Female,COVID-19,"Fever, Fatigue",Amoxicillin,5035.0,No
+1600,47.0,Other,Flu,"Headache, Cough, Fever",Amoxicillin,2489.0,Yes
+1601,7.0,Male,Flu,Headache,Insulin,7108.0,Yes
+1602,71.0,Female,Migraine,"Cough, Shortness of breath, Sneezing",Paracetamol,4783.0,No
+1603,,Female,Migraine,Fever,Aspirin,6098.0,Yes
+1604,90.0,Other,Flu,"Cough, Fever, Headache",Paracetamol,7635.0,Yes
+1605,14.0,Other,Hypertension,"Headache, Sneezing",Insulin,7748.0,No
+1606,26.0,Other,Migraine,"Cough, Fatigue, Sneezing",Ventolin,4665.0,No
+1607,12.0,Male,COVID-19,"Cough, Sneezing",Cetirizine,2046.0,No
+1608,93.0,Other,Migraine,"Shortness of breath, Cough",Cetirizine,5333.0,No
+1609,7.0,Female,Migraine,Fever,Insulin,5101.0,No
+1610,65.0,Male,Hypertension,Fatigue,Metformin,5500.0,Yes
+1611,89.0,Male,Allergy,"Sneezing, Fatigue, Fever",Insulin,5300.0,Yes
+1612,21.0,Male,Hypertension,Sneezing,Aspirin,4121.0,No
+1613,52.0,Male,COVID-19,"Cough, Headache",Metformin,5715.0,Yes
+1614,11.0,Male,Hypertension,"Sneezing, Fatigue, Shortness of breath",Insulin,4870.0,Yes
+1615,82.0,Male,Hypertension,"Cough, Fever, Shortness of breath",Insulin,3031.0,Yes
+1616,80.0,Male,Diabetes,Headache,Aspirin,2799.0,No
+1617,4.0,Male,Flu,"Fever, Sneezing",Cetirizine,3475.0,No
+1618,24.0,Female,Diabetes,Shortness of breath,Aspirin,4013.0,No
+1619,56.0,Male,Hypertension,"Fatigue, Headache",Paracetamol,6646.0,No
+1620,51.0,Male,Migraine,"Fatigue, Cough, Headache",Cetirizine,7576.0,Yes
+1621,34.0,Female,Allergy,"Shortness of breath, Cough",Metformin,3388.0,Yes
+1622,32.0,Male,,"Shortness of breath, Fever, Fatigue",Paracetamol,6211.0,Yes
+1623,67.0,Male,Asthma,"Shortness of breath, Headache, Sneezing",Aspirin,6508.0,No
+1624,,Female,Hypertension,"Fever, Sneezing",Amoxicillin,2894.0,Yes
+1625,85.0,Other,Hypertension,"Fever, Fatigue",Cetirizine,223.0,Yes
+1626,20.0,Female,Migraine,Cough,Metformin,4663.0,Yes
+1627,97.0,Male,Allergy,"Cough, Fatigue",Cetirizine,4946.0,No
+1628,36.0,Other,Hypertension,Fatigue,Metformin,3387.0,Yes
+1629,9.0,Female,Allergy,"Headache, Fever, Sneezing",Cetirizine,6471.0,
+1630,2.0,Other,Flu,"Shortness of breath, Fatigue, Headache",Insulin,3401.0,Yes
+1631,39.0,Male,Hypertension,Fatigue,Cetirizine,4602.0,Yes
+1632,67.0,Other,Asthma,"Cough, Fever, Fatigue",Metformin,7808.0,No
+1633,87.0,Male,Migraine,"Shortness of breath, Sneezing",Paracetamol,7701.0,Yes
+1634,99.0,Female,Flu,Sneezing,Ventolin,2567.0,No
+1635,97.0,Female,Migraine,"Fatigue, Sneezing",Metformin,3896.0,No
+1636,93.0,Male,Diabetes,Shortness of breath,Amoxicillin,6977.0,No
+1637,,Male,Asthma,Cough,Amoxicillin,7676.0,Yes
+1638,42.0,Female,COVID-19,"Headache, Sneezing, Fatigue",Amoxicillin,2985.0,No
+1639,74.0,Female,Asthma,"Headache, Shortness of breath",Aspirin,5538.0,Yes
+1640,70.0,Male,Hypertension,"Fever, Cough, Headache",Metformin,5930.0,Yes
+1641,68.0,Other,Diabetes,"Fever, Sneezing",Metformin,2511.0,No
+1642,65.0,Male,Migraine,"Fatigue, Sneezing, Fever",Paracetamol,4578.0,No
+1643,66.0,Other,Asthma,"Sneezing, Headache, Shortness of breath",Ventolin,6630.0,Yes
+1644,54.0,Female,Asthma,"Fever, Cough",Insulin,4291.0,Yes
+1645,62.0,Other,Hypertension,"Shortness of breath, Cough, Sneezing",Ventolin,,Yes
+1646,4.0,Female,Asthma,"Cough, Fatigue, Headache",Paracetamol,2282.0,No
+1647,48.0,Female,Allergy,Cough,Amoxicillin,2727.0,Yes
+1648,43.0,Female,Migraine,"Fatigue, Fever, Shortness of breath",Aspirin,6705.0,No
+1649,2.0,Male,COVID-19,"Shortness of breath, Fatigue, Cough",Insulin,7339.0,No
+1650,78.0,Male,Asthma,"Headache, Cough",Aspirin,6402.0,No
+1651,54.0,Male,Flu,,Metformin,4701.0,Yes
+1652,37.0,Other,Hypertension,Headache,Aspirin,4695.0,Yes
+1653,65.0,Other,Migraine,"Cough, Fever",Amoxicillin,2772.0,No
+1654,51.0,Other,Migraine,"Cough, Fatigue",Cetirizine,7511.0,Yes
+1655,19.0,Male,COVID-19,"Shortness of breath, Fatigue",Paracetamol,3312.0,No
+1656,53.0,Female,Migraine,"Fatigue, Cough",Metformin,4422.0,No
+1657,89.0,Other,,"Fatigue, Sneezing, Cough",Ventolin,2467.0,No
+1658,63.0,Other,Diabetes,Shortness of breath,,2473.0,No
+1659,34.0,Male,Migraine,"Fatigue, Fever, Cough",Cetirizine,3027.0,No
+1660,54.0,Female,Allergy,"Fever, Headache, Cough",Cetirizine,3269.0,No
+1661,12.0,Other,Asthma,"Cough, Fever",Insulin,3194.0,Yes
+1662,4.0,Other,Diabetes,Sneezing,Aspirin,7824.0,Yes
+1663,47.0,Other,Allergy,"Fever, Cough, Fatigue",Paracetamol,4182.0,Yes
+1664,19.0,Male,Asthma,Sneezing,Paracetamol,6328.0,No
+1665,,Female,Flu,"Headache, Shortness of breath",Cetirizine,7432.0,No
+1666,9.0,Female,Allergy,"Sneezing, Cough",Amoxicillin,6845.0,No
+1667,52.0,Other,Allergy,"Headache, Shortness of breath",Aspirin,13707.0,Yes
+1668,71.0,Other,Diabetes,"Shortness of breath, Headache, Fatigue",Metformin,5371.0,Yes
+1669,85.0,,Flu,"Fever, Shortness of breath",Cetirizine,5401.0,Yes
+1670,75.0,Female,Asthma,"Headache, Sneezing",Metformin,3489.0,No
+1671,48.0,Female,Migraine,Sneezing,Aspirin,4651.0,Yes
+1672,52.0,Female,Allergy,"Fatigue, Headache, Cough",Aspirin,6155.0,No
+1673,57.0,Female,Allergy,Sneezing,Insulin,3763.0,Yes
+1674,66.0,Other,Allergy,"Fatigue, Fever",Paracetamol,4341.0,Yes
+1675,72.0,Female,Asthma,"Shortness of breath, Fever",Ventolin,4697.0,No
+1676,66.0,Female,COVID-19,"Shortness of breath, Sneezing",Ventolin,5375.0,Yes
+1677,72.0,Other,Flu,"Cough, Shortness of breath",Cetirizine,2272.0,No
+1678,59.0,Female,Migraine,,Paracetamol,3619.0,Yes
+1679,97.0,Female,Migraine,Fatigue,Aspirin,7934.0,Yes
+1680,70.0,Female,Hypertension,"Cough, Shortness of breath, Headache",Ventolin,6263.0,Yes
+1681,56.0,Female,Diabetes,"Sneezing, Headache",Insulin,3708.0,No
+1682,53.0,Male,Hypertension,"Cough, Fatigue, Shortness of breath",Insulin,11774.0,Yes
+1683,35.0,Other,COVID-19,"Fever, Shortness of breath, Fatigue",Ventolin,4063.0,Yes
+1684,83.0,Male,Asthma,Fever,Amoxicillin,2543.0,Yes
+1685,74.0,Other,Asthma,Cough,Metformin,6963.0,Yes
+1686,33.0,Female,Diabetes,"Sneezing, Shortness of breath",Paracetamol,365.0,No
+1687,3.0,Female,Flu,Sneezing,Aspirin,2336.0,Yes
+1688,26.0,Other,Flu,"Cough, Sneezing, Headache",Cetirizine,2332.0,Yes
+1689,49.0,Male,Asthma,Fever,Insulin,6034.0,Yes
+1690,43.0,Male,Allergy,"Sneezing, Cough, Fever",Metformin,7693.0,Yes
+1691,98.0,Other,Flu,Fever,Aspirin,4375.0,No
+1692,33.0,Male,Hypertension,"Shortness of breath, Cough, Fever",Insulin,2997.0,No
+1693,53.0,Male,Diabetes,"Sneezing, Cough, Headache",Aspirin,3746.0,Yes
+1694,103.0,Other,Diabetes,"Cough, Fatigue, Shortness of breath",Ventolin,3472.0,Yes
+1695,82.0,Male,Hypertension,"Cough, Shortness of breath, Headache",Ventolin,3091.0,No
+1696,64.0,Female,Flu,"Shortness of breath, Fever",Amoxicillin,2156.0,No
+1697,67.0,Other,Diabetes,Fever,Cetirizine,7686.0,Yes
+1698,5.0,Other,Diabetes,Sneezing,Paracetamol,5632.0,No
+1699,38.0,Female,Diabetes,"Fatigue, Headache, Sneezing",Aspirin,5471.0,No
+1700,41.0,Other,COVID-19,Headache,Ventolin,3921.0,Yes
+1701,60.0,Male,Hypertension,Fever,Metformin,4124.0,Yes
+1702,63.0,Female,COVID-19,Shortness of breath,Metformin,527.0,No
+1703,4.0,Other,Diabetes,"Fatigue, Cough",Aspirin,2353.0,No
+1704,94.0,Male,Asthma,"Sneezing, Cough",Cetirizine,3632.0,Yes
+1705,69.0,Male,Flu,"Headache, Fever, Sneezing",Metformin,2769.0,Yes
+1706,87.0,Male,Hypertension,Sneezing,Cetirizine,7378.0,No
+1707,64.0,Male,COVID-19,"Cough, Shortness of breath, Fever",Amoxicillin,5865.0,Yes
+1708,65.0,Other,Flu,Headache,Insulin,7757.0,No
+1709,39.0,Male,Allergy,"Headache, Fatigue",Amoxicillin,3454.0,Yes
+1710,71.0,Other,Asthma,"Fatigue, Shortness of breath, Sneezing",Amoxicillin,6191.0,No
+1711,7.0,Other,COVID-19,"Shortness of breath, Cough",Aspirin,,Yes
+1712,73.0,Male,Hypertension,"Fever, Shortness of breath, Cough",Metformin,3947.0,Yes
+1713,46.0,Other,Migraine,"Fever, Fatigue, Shortness of breath",Ventolin,5323.0,No
+1714,17.0,Male,Diabetes,Headache,Ventolin,3709.0,No
+1715,47.0,Female,Migraine,"Fatigue, Cough",Insulin,7322.0,Yes
+1716,18.0,Male,Allergy,Headache,Ventolin,3976.0,Yes
+1717,86.0,Other,Asthma,"Sneezing, Headache",Ventolin,6748.0,No
+1718,83.0,Male,Diabetes,"Sneezing, Headache, Shortness of breath",Aspirin,10471.0,No
+1719,62.0,Other,Allergy,"Headache, Fatigue",Ventolin,3904.0,No
+1720,57.0,Other,Hypertension,"Shortness of breath, Fever, Headache",Paracetamol,6646.0,No
+1721,81.0,Other,Asthma,Shortness of breath,Ventolin,2819.0,No
+1722,60.0,Female,Flu,"Shortness of breath, Sneezing, Cough",Ventolin,,Yes
+1723,22.0,Female,Hypertension,"Headache, Cough",Aspirin,394.0,No
+1724,32.0,Male,Asthma,"Sneezing, Fatigue",Insulin,2822.0,No
+1725,36.0,Other,Flu,"Sneezing, Shortness of breath, Fever",Cetirizine,2220.0,No
+1726,65.0,Other,Diabetes,"Shortness of breath, Sneezing, Fatigue",Amoxicillin,2823.0,No
+1727,67.0,Other,Migraine,"Headache, Fatigue, Fever",Aspirin,6844.0,No
+1728,95.0,Male,Hypertension,"Sneezing, Fever, Cough",Aspirin,5115.0,No
+1729,34.0,Female,Flu,"Sneezing, Shortness of breath",Metformin,107.0,No
+1730,33.0,Female,COVID-19,Fever,Ventolin,7022.0,No
+1731,98.0,Other,Diabetes,"Fever, Cough",Metformin,2138.0,Yes
+1732,23.0,Male,Hypertension,"Fatigue, Sneezing",Metformin,5473.0,Yes
+1733,60.0,Female,Hypertension,"Fever, Shortness of breath, Sneezing",Paracetamol,3426.0,Yes
+1734,53.0,Male,Migraine,"Shortness of breath, Sneezing",Ventolin,3493.0,No
+1735,88.0,Female,Diabetes,"Fever, Sneezing",Insulin,5058.0,No
+1736,95.0,Female,Asthma,Fever,Paracetamol,2293.0,Yes
+1737,105.0,Male,Asthma,"Sneezing, Fatigue, Shortness of breath",Cetirizine,4377.0,Yes
+1738,12.0,Male,COVID-19,"Sneezing, Cough, Headache",Ventolin,5089.0,Yes
+1739,24.0,Female,Allergy,"Fatigue, Cough",Cetirizine,4954.0,No
+1740,64.0,Female,COVID-19,"Cough, Fatigue, Sneezing",Amoxicillin,7725.0,No
+1741,54.0,Other,Asthma,"Fever, Shortness of breath",,2022.0,Yes
+1742,1.0,Female,Asthma,"Headache, Shortness of breath, Fatigue",Cetirizine,7423.0,Yes
+1743,5.0,Other,Allergy,"Headache, Fatigue",Aspirin,6641.0,No
+1744,27.0,Female,Flu,Headache,Amoxicillin,2931.0,Yes
+1745,59.0,Male,Allergy,"Sneezing, Shortness of breath",Paracetamol,2891.0,Yes
+1746,82.0,Other,Flu,Cough,Ventolin,3799.0,No
+1747,40.0,Male,Migraine,"Headache, Shortness of breath",Metformin,7014.0,No
+1748,16.0,Other,Asthma,"Cough, Shortness of breath, Fatigue",Metformin,6661.0,No
+1749,100.0,Other,Allergy,"Headache, Fever",Amoxicillin,5867.0,Yes
+1750,46.0,Female,Flu,"Fever, Headache",Metformin,3818.0,No
+1751,64.0,Other,COVID-19,"Cough, Sneezing",Amoxicillin,3425.0,No
+1752,57.0,Other,Allergy,"Sneezing, Cough",Paracetamol,2037.0,Yes
+1753,53.0,Other,Migraine,"Fever, Fatigue, Cough",Ventolin,3639.0,
+1754,76.0,Female,Diabetes,"Shortness of breath, Headache, Cough",Amoxicillin,5393.0,Yes
+1755,65.0,Other,Asthma,Shortness of breath,Metformin,4502.0,No
+1756,58.0,Male,COVID-19,"Cough, Shortness of breath, Fatigue",Metformin,5747.0,
+1757,81.0,Female,COVID-19,Fatigue,Aspirin,2791.0,Yes
+1758,69.0,Female,Asthma,"Headache, Cough, Fever",Metformin,5699.0,No
+1759,100.0,Male,Diabetes,Cough,Insulin,6479.0,No
+1760,16.0,Male,Hypertension,"Shortness of breath, Cough, Headache",Paracetamol,5033.0,Yes
+1761,54.0,Male,Hypertension,Sneezing,Cetirizine,,No
+1762,87.0,Female,Hypertension,"Headache, Fever",Aspirin,6611.0,Yes
+1763,94.0,Male,Asthma,Sneezing,Aspirin,4384.0,Yes
+1764,8.0,Female,Allergy,"Shortness of breath, Cough, Headache",Ventolin,5048.0,Yes
+1765,13.0,Male,Migraine,"Fatigue, Cough",Amoxicillin,5516.0,No
+1766,100.0,Male,Allergy,"Sneezing, Shortness of breath",Paracetamol,,No
+1767,41.0,Male,COVID-19,Fatigue,Amoxicillin,6339.0,No
+1768,13.0,Other,Asthma,Sneezing,Amoxicillin,5754.0,Yes
+1769,39.0,Female,Hypertension,Shortness of breath,Metformin,2754.0,No
+1770,83.0,Male,Allergy,Shortness of breath,Metformin,2918.0,No
+1771,19.0,Female,Hypertension,"Fever, Headache",Metformin,3599.0,No
+1772,66.0,Male,COVID-19,"Sneezing, Fatigue, Headache",Aspirin,7443.0,No
+1773,20.0,Female,COVID-19,"Headache, Cough, Shortness of breath",Metformin,7584.0,No
+1774,58.0,Other,Migraine,"Cough, Sneezing",Amoxicillin,3217.0,No
+1775,26.0,Male,Allergy,"Sneezing, Shortness of breath, Fever",Insulin,3918.0,No
+1776,91.0,Female,Allergy,Headache,Ventolin,2420.0,No
+1777,13.0,Other,COVID-19,"Cough, Fever",Paracetamol,3452.0,No
+1778,85.0,Other,Diabetes,"Cough, Headache",Aspirin,6130.0,Yes
+1779,10.0,Female,COVID-19,"Cough, Shortness of breath",Cetirizine,5548.0,No
+1780,15.0,Other,Flu,Sneezing,Cetirizine,4747.0,No
+1781,84.0,Male,Migraine,Fever,Aspirin,2056.0,Yes
+1782,74.0,Male,Flu,Sneezing,Metformin,6398.0,Yes
+1783,22.0,Female,Hypertension,"Cough, Shortness of breath",Amoxicillin,2436.0,Yes
+1784,51.0,Other,Asthma,"Cough, Headache, Sneezing",Cetirizine,5379.0,Yes
+1785,76.0,Male,Allergy,"Sneezing, Fever",Aspirin,4949.0,Yes
+1786,26.0,Female,Asthma,"Shortness of breath, Fatigue, Headache",Aspirin,5762.0,
+1787,48.0,Female,COVID-19,"Fatigue, Fever, Shortness of breath",Cetirizine,7125.0,No
+1788,77.0,Female,Flu,Fever,Insulin,3733.0,No
+1789,19.0,Male,Diabetes,"Headache, Fever",Insulin,7716.0,No
+1790,38.0,Male,Diabetes,"Fever, Sneezing, Fatigue",Metformin,4649.0,No
+1791,51.0,Male,Asthma,Fatigue,Amoxicillin,5205.0,Yes
+1792,73.0,,Allergy,"Cough, Fatigue",Ventolin,6063.0,Yes
+1793,109.0,Female,,"Fatigue, Sneezing",Aspirin,4723.0,No
+1794,47.0,Other,Diabetes,"Shortness of breath, Headache",Cetirizine,2296.0,No
+1795,94.0,Other,Flu,"Fatigue, Cough",Ventolin,13865.0,Yes
+1796,43.0,Female,Asthma,"Headache, Cough, Fever",Aspirin,4772.0,No
+1797,12.0,Female,Flu,"Cough, Headache, Fatigue",Insulin,3941.0,No
+1798,6.0,Male,Asthma,Sneezing,Amoxicillin,4395.0,Yes
+1799,35.0,Other,Allergy,"Headache, Fatigue, Shortness of breath",Aspirin,3440.0,No
+1800,23.0,Male,Hypertension,Shortness of breath,Aspirin,12411.0,Yes
+1801,70.0,Female,Migraine,"Shortness of breath, Headache",Aspirin,14628.0,Yes
+1802,82.0,Female,COVID-19,"Cough, Shortness of breath",Ventolin,4952.0,Yes
+1803,57.0,Male,Asthma,Headache,Amoxicillin,4610.0,No
+1804,96.0,Male,Flu,"Fever, Cough",Paracetamol,5854.0,No
+1805,87.0,Other,Flu,"Shortness of breath, Headache",Insulin,7701.0,Yes
+1806,45.0,Male,Flu,Fever,Metformin,5508.0,No
+1807,41.0,Female,Diabetes,"Shortness of breath, Cough",Cetirizine,5874.0,Yes
+1808,94.0,Other,Hypertension,Shortness of breath,Insulin,5437.0,No
+1809,38.0,Male,Hypertension,"Headache, Cough, Sneezing",Aspirin,2110.0,No
+1810,95.0,Other,COVID-19,"Sneezing, Fatigue, Shortness of breath",Amoxicillin,3921.0,No
+1811,5.0,Other,COVID-19,"Headache, Fever, Shortness of breath",Insulin,7481.0,Yes
+1812,2.0,Male,Flu,"Fatigue, Headache",Paracetamol,3622.0,No
+1813,29.0,Male,COVID-19,"Fever, Sneezing, Headache",Ventolin,5353.0,No
+1814,49.0,Female,Allergy,Fatigue,Amoxicillin,4673.0,Yes
+1815,39.0,Female,COVID-19,Cough,Aspirin,571.0,No
+1816,87.0,Male,Allergy,,Metformin,867.0,No
+1817,87.0,Other,Diabetes,Fever,Amoxicillin,5937.0,No
+1818,69.0,Female,Hypertension,"Shortness of breath, Fever, Headache",Aspirin,6652.0,Yes
+1819,46.0,,Hypertension,"Sneezing, Cough",Metformin,2035.0,Yes
+1820,100.0,Female,,"Shortness of breath, Headache",Insulin,6910.0,Yes
+1821,85.0,Other,Flu,Cough,Insulin,3871.0,Yes
+1822,96.0,Female,Asthma,Headache,Aspirin,3708.0,Yes
+1823,67.0,Male,Migraine,"Fatigue, Sneezing, Headache",Aspirin,6220.0,Yes
+1824,48.0,Male,COVID-19,Fatigue,Cetirizine,4887.0,No
+1825,88.0,Female,Asthma,Headache,Metformin,5233.0,No
+1826,46.0,Other,Migraine,"Sneezing, Headache, Shortness of breath",Insulin,7137.0,Yes
+1827,72.0,Other,COVID-19,Cough,Cetirizine,7358.0,No
+1828,55.0,Female,Asthma,"Shortness of breath, Fatigue",Cetirizine,4336.0,No
+1829,96.0,Female,Asthma,"Headache, Sneezing, Fatigue",Insulin,5986.0,Yes
+1830,95.0,Female,Asthma,"Cough, Shortness of breath, Fatigue",Paracetamol,3241.0,No
+1831,44.0,Female,COVID-19,Shortness of breath,Aspirin,2451.0,
+1832,88.0,Male,Asthma,"Sneezing, Fatigue",Amoxicillin,3397.0,Yes
+1833,11.0,Female,Hypertension,Sneezing,Amoxicillin,5435.0,Yes
+1834,63.0,Other,COVID-19,Headache,Paracetamol,6614.0,Yes
+1835,91.0,Female,Allergy,Sneezing,Paracetamol,13496.0,Yes
+1836,83.0,Male,Flu,"Shortness of breath, Fever, Cough",Ventolin,2601.0,No
+1837,83.0,Male,Diabetes,Shortness of breath,Insulin,3223.0,No
+1838,72.0,Other,COVID-19,"Headache, Sneezing, Fatigue",Amoxicillin,6540.0,No
+1839,4.0,Female,Flu,"Headache, Cough, Fever",Insulin,4312.0,No
+1840,17.0,Female,Diabetes,"Headache, Sneezing",Insulin,7593.0,Yes
+1841,62.0,Other,COVID-19,Fatigue,Aspirin,135.0,No
+1842,24.0,Male,COVID-19,Shortness of breath,Aspirin,6532.0,Yes
+1843,90.0,Male,Hypertension,"Headache, Fatigue",Cetirizine,4067.0,No
+1844,35.0,Other,Diabetes,"Shortness of breath, Sneezing, Headache",Amoxicillin,13216.0,No
+1845,38.0,Other,Allergy,"Fever, Shortness of breath",Insulin,5610.0,Yes
+1846,91.0,Female,Asthma,Shortness of breath,Amoxicillin,4551.0,No
+1847,73.0,Male,COVID-19,"Fever, Cough",Ventolin,2846.0,Yes
+1848,68.0,Female,Asthma,Headache,Amoxicillin,3103.0,Yes
+1849,78.0,Female,Allergy,"Cough, Fever, Fatigue",Metformin,6262.0,No
+1850,37.0,Other,COVID-19,"Fatigue, Fever",Cetirizine,6672.0,No
+1851,20.0,Female,Asthma,"Sneezing, Headache",Paracetamol,2940.0,No
+1852,45.0,Other,COVID-19,"Sneezing, Fever",Cetirizine,3818.0,No
+1853,73.0,Female,Asthma,Cough,Ventolin,2500.0,No
+1854,42.0,Other,Asthma,Headache,Paracetamol,4039.0,Yes
+1855,2.0,Male,Migraine,"Headache, Fatigue",Insulin,2811.0,Yes
+1856,36.0,Female,Allergy,"Cough, Sneezing",Insulin,7660.0,No
+1857,70.0,Male,Diabetes,"Fatigue, Sneezing, Shortness of breath",Insulin,7285.0,Yes
+1858,50.0,Female,Allergy,"Cough, Fatigue",Insulin,7689.0,No
+1859,96.0,Female,Diabetes,"Fatigue, Sneezing, Fever",Insulin,7665.0,Yes
+1860,84.0,Female,Allergy,"Headache, Fever, Cough",Cetirizine,4628.0,Yes
+1861,84.0,Female,Asthma,Cough,Insulin,5316.0,Yes
+1862,42.0,Male,Allergy,Fever,Aspirin,4480.0,Yes
+1863,96.0,Female,Diabetes,"Shortness of breath, Fatigue, Sneezing",Cetirizine,4642.0,Yes
+1864,77.0,Other,,"Fatigue, Headache",Aspirin,4994.0,Yes
+1865,39.0,Female,Flu,Sneezing,Paracetamol,7666.0,No
+1866,59.0,Other,Asthma,Sneezing,Metformin,3605.0,Yes
+1867,3.0,Male,Allergy,"Sneezing, Headache",Insulin,6391.0,No
+1868,23.0,Female,Migraine,"Cough, Fatigue, Fever",Paracetamol,4551.0,No
+1869,61.0,Male,COVID-19,"Fever, Cough",Cetirizine,6960.0,No
+1870,51.0,Female,Diabetes,"Fatigue, Sneezing, Fever",Amoxicillin,4752.0,Yes
+1871,46.0,Other,Hypertension,"Fatigue, Headache",Aspirin,4374.0,Yes
+1872,100.0,Female,Hypertension,"Fever, Cough",Paracetamol,3469.0,No
+1873,82.0,Other,Diabetes,"Fever, Headache, Shortness of breath",Metformin,5330.0,No
+1874,1.0,Male,COVID-19,"Shortness of breath, Headache, Fatigue",Metformin,4196.0,Yes
+1875,17.0,Other,Hypertension,"Shortness of breath, Sneezing",Cetirizine,5506.0,No
+1876,53.0,Other,Migraine,"Sneezing, Cough",Amoxicillin,7104.0,Yes
+1877,12.0,Female,Migraine,"Fever, Headache, Sneezing",Insulin,4159.0,Yes
+1878,31.0,Other,Hypertension,"Fatigue, Fever",Cetirizine,2919.0,No
+1879,41.0,Male,Hypertension,Fever,Ventolin,3699.0,Yes
+1880,27.0,Female,Asthma,"Shortness of breath, Cough",Metformin,4768.0,No
+1881,107.0,Other,Allergy,"Sneezing, Headache, Cough",Ventolin,4284.0,No
+1882,28.0,Other,COVID-19,Shortness of breath,Cetirizine,7625.0,No
+1883,51.0,Female,Hypertension,Sneezing,Metformin,3632.0,No
+1884,98.0,Other,Asthma,Headache,Insulin,5956.0,Yes
+1885,28.0,Male,Allergy,"Sneezing, Headache",Aspirin,2199.0,Yes
+1886,75.0,Male,Asthma,Headache,Ventolin,5214.0,No
+1887,67.0,Male,Asthma,"Fever, Cough, Sneezing",Aspirin,2270.0,No
+1888,65.0,Female,Hypertension,"Sneezing, Fever",,5482.0,Yes
+1889,8.0,Female,Allergy,"Fatigue, Fever",Ventolin,5758.0,Yes
+1890,29.0,Male,Allergy,"Cough, Shortness of breath, Fever",Aspirin,6960.0,No
+1891,47.0,Other,Asthma,"Sneezing, Shortness of breath",Cetirizine,,No
+1892,73.0,Male,COVID-19,Shortness of breath,Metformin,7962.0,Yes
+1893,77.0,Male,Migraine,Shortness of breath,Cetirizine,4516.0,Yes
+1894,49.0,Other,Allergy,Fatigue,Amoxicillin,5431.0,Yes
+1895,3.0,Female,Flu,"Sneezing, Fatigue",Paracetamol,2560.0,Yes
+1896,29.0,Male,COVID-19,"Headache, Fatigue, Fever",Amoxicillin,5456.0,No
+1897,85.0,Other,,Shortness of breath,Aspirin,3602.0,No
+1898,87.0,Other,Flu,"Fatigue, Fever",Metformin,6936.0,Yes
+1899,63.0,Female,Allergy,"Fatigue, Headache",Insulin,6461.0,No
+1900,100.0,Male,Asthma,Headache,Cetirizine,2651.0,No
+1901,20.0,Female,Diabetes,"Fever, Fatigue, Headache",Ventolin,2247.0,No
+1902,62.0,Male,Migraine,,Amoxicillin,2343.0,Yes
+1903,60.0,Other,COVID-19,"Fever, Headache, Fatigue",Ventolin,7054.0,Yes
+1904,63.0,Male,Allergy,"Shortness of breath, Headache, Fever",Insulin,7277.0,No
+1905,92.0,Male,Flu,"Shortness of breath, Fatigue",Metformin,4314.0,Yes
+1906,92.0,Other,Hypertension,"Shortness of breath, Cough, Fever",Paracetamol,5574.0,Yes
+1907,10.0,Female,Asthma,"Fatigue, Headache, Sneezing",Metformin,2591.0,Yes
+1908,47.0,Female,Allergy,"Cough, Headache, Fatigue",Aspirin,6203.0,No
+1909,16.0,Male,Diabetes,"Headache, Sneezing",Ventolin,7921.0,Yes
+1910,2.0,Female,Flu,Sneezing,Cetirizine,4925.0,Yes
+1911,51.0,Female,Allergy,Shortness of breath,Insulin,6712.0,Yes
+1912,40.0,Female,Allergy,Shortness of breath,Cetirizine,6453.0,Yes
+1913,6.0,Male,Diabetes,Cough,Paracetamol,4807.0,No
+1914,97.0,Male,Migraine,Cough,Amoxicillin,7749.0,No
+1915,92.0,Male,Allergy,Headache,Aspirin,2978.0,No
+1916,48.0,Other,Allergy,"Headache, Fatigue",Paracetamol,7718.0,No
+1917,93.0,Other,Diabetes,"Shortness of breath, Headache, Sneezing",Amoxicillin,6492.0,No
+1918,33.0,Female,Allergy,"Shortness of breath, Headache",Cetirizine,4120.0,No
+1919,48.0,Other,Flu,Cough,Ventolin,5430.0,Yes
+1920,62.0,Male,Diabetes,Sneezing,Insulin,5421.0,No
+1921,14.0,Male,Diabetes,"Cough, Headache, Sneezing",Cetirizine,7538.0,Yes
+1922,23.0,Male,Flu,"Fatigue, Shortness of breath, Headache",Insulin,6146.0,No
+1923,47.0,Female,Allergy,"Headache, Shortness of breath, Sneezing",Metformin,4297.0,No
+1924,12.0,Other,Diabetes,"Cough, Shortness of breath",Insulin,6514.0,No
+1925,38.0,Female,Flu,Headache,Aspirin,7527.0,Yes
+1926,100.0,Other,Allergy,"Shortness of breath, Headache",Metformin,5287.0,Yes
+1927,49.0,Other,Diabetes,"Cough, Fever, Shortness of breath",Aspirin,3950.0,Yes
+1928,8.0,Other,COVID-19,"Fatigue, Headache",Metformin,2476.0,Yes
+1929,11.0,Female,Flu,Headache,Aspirin,4034.0,Yes
+1930,7.0,Female,Hypertension,Headache,Ventolin,4893.0,No
+1931,36.0,Female,Asthma,"Headache, Sneezing",Metformin,2134.0,No
+1932,72.0,Other,Migraine,"Fever, Headache, Fatigue",Metformin,6570.0,Yes
+1933,9.0,Female,Diabetes,"Shortness of breath, Fatigue",Aspirin,7356.0,Yes
+1934,59.0,Female,Allergy,"Headache, Cough",Insulin,7572.0,No
+1935,,Female,Flu,"Cough, Shortness of breath, Fatigue",Paracetamol,2821.0,Yes
+1936,52.0,Female,COVID-19,"Fatigue, Fever, Sneezing",Amoxicillin,4337.0,Yes
+1937,45.0,Other,Flu,"Fever, Fatigue",Paracetamol,2950.0,Yes
+1938,45.0,Other,Asthma,Sneezing,Metformin,3567.0,Yes
+1939,13.0,Female,Allergy,Cough,Amoxicillin,5898.0,Yes
+1940,16.0,Male,Diabetes,"Sneezing, Fever, Headache",Aspirin,7453.0,No
+1941,14.0,Male,Allergy,,Paracetamol,4161.0,No
+1942,57.0,Male,Hypertension,Fever,Insulin,416.0,No
+1943,63.0,Other,Flu,"Cough, Shortness of breath",Amoxicillin,2187.0,No
+1944,91.0,Female,Allergy,Headache,Amoxicillin,4317.0,Yes
+1945,36.0,Female,COVID-19,"Sneezing, Headache",Aspirin,6653.0,No
+1946,93.0,Female,Migraine,"Headache, Shortness of breath",Ventolin,4239.0,No
+1947,10.0,Female,Flu,"Headache, Sneezing",Metformin,5487.0,No
+1948,17.0,Other,COVID-19,"Fever, Headache",Amoxicillin,3009.0,No
+1949,3.0,Other,COVID-19,"Sneezing, Headache, Cough",Metformin,7588.0,No
+1950,28.0,Other,COVID-19,"Sneezing, Headache, Fatigue",Metformin,4073.0,Yes
+1951,14.0,Other,Hypertension,Sneezing,Amoxicillin,7669.0,Yes
+1952,67.0,Male,Asthma,"Cough, Fever, Shortness of breath",Cetirizine,3199.0,Yes
+1953,16.0,Male,Hypertension,"Cough, Shortness of breath, Sneezing",Amoxicillin,2388.0,No
+1954,87.0,Female,Diabetes,"Fatigue, Fever",Ventolin,5437.0,Yes
+1955,1.0,Other,Migraine,"Shortness of breath, Fatigue, Headache",Aspirin,3507.0,No
+1956,49.0,Other,Hypertension,"Cough, Sneezing, Fever",Metformin,7322.0,No
+1957,76.0,Male,Asthma,"Fatigue, Fever",Metformin,3507.0,No
+1958,37.0,Other,Flu,"Fever, Sneezing, Headache",Aspirin,2026.0,Yes
+1959,93.0,Female,Diabetes,"Sneezing, Fatigue, Fever",Paracetamol,4772.0,No
+1960,23.0,Other,COVID-19,"Headache, Fatigue, Sneezing",Metformin,5287.0,Yes
+1961,99.0,Male,COVID-19,"Fatigue, Headache",Paracetamol,10309.0,No
+1962,90.0,Other,Migraine,Cough,Metformin,3052.0,No
+1963,24.0,Female,Migraine,Sneezing,Aspirin,6659.0,No
+1964,35.0,Female,Allergy,"Sneezing, Headache, Fever",Amoxicillin,7463.0,No
+1965,68.0,Male,Diabetes,"Fever, Fatigue",Aspirin,7200.0,Yes
+1966,89.0,Female,Flu,"Headache, Fatigue, Shortness of breath",Metformin,4292.0,Yes
+1967,25.0,Male,Asthma,"Shortness of breath, Fever, Sneezing",Ventolin,4786.0,No
+1968,70.0,Male,Migraine,"Cough, Shortness of breath",Cetirizine,7231.0,Yes
+1969,46.0,Other,Diabetes,"Headache, Fatigue",Ventolin,7226.0,Yes
+1970,9.0,Other,Flu,Sneezing,,4612.0,Yes
+1971,52.0,Male,Flu,Cough,Amoxicillin,3372.0,No
+1972,5.0,Other,Asthma,Sneezing,Metformin,7884.0,Yes
+1973,17.0,Female,Flu,"Sneezing, Shortness of breath",Amoxicillin,6690.0,No
+1974,90.0,Female,Asthma,"Headache, Sneezing, Shortness of breath",Ventolin,7179.0,No
+1975,29.0,Other,COVID-19,Cough,Paracetamol,6090.0,Yes
+1976,35.0,Male,Allergy,Headache,Ventolin,3510.0,No
+1977,26.0,Female,Asthma,"Headache, Fever",Insulin,3161.0,No
+1978,87.0,Female,Asthma,Shortness of breath,Insulin,2240.0,Yes
+1979,92.0,Male,Diabetes,"Shortness of breath, Fatigue, Cough",Paracetamol,2146.0,Yes
+1980,30.0,Other,COVID-19,Headache,Aspirin,6269.0,
+1981,44.0,Other,Hypertension,"Shortness of breath, Headache, Fatigue",Insulin,2203.0,Yes
+1982,85.0,Male,Allergy,"Fever, Shortness of breath, Fatigue",Insulin,6693.0,Yes
+1983,36.0,Other,COVID-19,"Fatigue, Headache",Amoxicillin,7949.0,Yes
+1984,14.0,Female,Asthma,"Cough, Sneezing",Insulin,2139.0,Yes
+1985,95.0,Male,Flu,"Headache, Fatigue",Metformin,3227.0,No
+1986,82.0,Other,COVID-19,"Shortness of breath, Sneezing",Insulin,2696.0,No
+1987,70.0,Female,Migraine,"Cough, Fever, Fatigue",Insulin,2273.0,Yes
+1988,15.0,Female,Hypertension,"Headache, Shortness of breath",Ventolin,2134.0,No
+1989,23.0,Female,Flu,Shortness of breath,Aspirin,853.0,No
+1990,60.0,Female,Hypertension,"Fatigue, Fever",Cetirizine,2623.0,Yes
+1991,87.0,Female,Asthma,"Cough, Fever, Headache",Amoxicillin,2744.0,Yes
+1992,21.0,Other,Allergy,Fever,,4424.0,No
+1993,73.0,Other,Diabetes,"Shortness of breath, Headache",Ventolin,7595.0,Yes
+1994,39.0,Other,COVID-19,Shortness of breath,Paracetamol,7306.0,No
+1995,7.0,Other,Allergy,"Fever, Sneezing, Shortness of breath",Paracetamol,,Yes
+1996,4.0,Male,Hypertension,Sneezing,Cetirizine,6203.0,Yes
+1997,53.0,Other,Asthma,Fatigue,Cetirizine,7057.0,Yes
+1998,49.0,Other,Hypertension,"Shortness of breath, Fever",Paracetamol,2492.0,Yes
+1999,24.0,Male,Diabetes,Headache,Aspirin,5818.0,No
+2000,52.0,Female,Flu,"Fever, Fatigue",Aspirin,2322.0,No
+2001,71.0,Male,Asthma,"Sneezing, Cough, Fatigue",Paracetamol,6673.0,No
+2002,11.0,Other,Allergy,"Cough, Shortness of breath",Cetirizine,5064.0,Yes
+2003,39.0,Other,COVID-19,Fever,Aspirin,3189.0,Yes
+2004,55.0,Other,Asthma,"Cough, Fatigue, Shortness of breath",Amoxicillin,2603.0,No
+2005,61.0,Female,Asthma,"Shortness of breath, Cough, Fever",Cetirizine,349.0,Yes
+2006,31.0,Male,Hypertension,Sneezing,Cetirizine,5953.0,Yes
+2007,52.0,Male,Flu,"Fever, Sneezing, Fatigue",Cetirizine,4959.0,Yes
+2008,100.0,Female,COVID-19,"Fever, Headache, Sneezing",Insulin,2721.0,Yes
+2009,29.0,Other,Diabetes,"Cough, Fatigue, Sneezing",Amoxicillin,2626.0,No
+2010,83.0,Male,Asthma,"Fever, Fatigue, Sneezing",Insulin,6538.0,No
+2011,91.0,Other,Hypertension,"Headache, Cough, Fatigue",Aspirin,2553.0,Yes
+2012,25.0,Male,Diabetes,"Headache, Sneezing",Aspirin,6945.0,No
+2013,47.0,Female,Flu,"Fever, Cough, Fatigue",Cetirizine,4900.0,
+2014,63.0,Other,Migraine,"Fatigue, Headache, Sneezing",Paracetamol,5119.0,No
+2015,93.0,Male,Flu,"Fatigue, Sneezing",Aspirin,3966.0,Yes
+2016,,Other,Diabetes,Fatigue,Insulin,3988.0,No
+2017,19.0,Female,Flu,Fatigue,Metformin,2087.0,No
+2018,9.0,Female,Allergy,"Headache, Fever, Fatigue",Aspirin,6874.0,Yes
+2019,65.0,Female,Migraine,"Shortness of breath, Cough, Fever",Paracetamol,3857.0,No
+2020,27.0,Male,Asthma,"Headache, Sneezing, Fatigue",Paracetamol,7569.0,Yes
+2021,2.0,Other,Allergy,"Headache, Shortness of breath",Ventolin,127.0,Yes
+2022,9.0,Other,Allergy,"Shortness of breath, Cough",Ventolin,6702.0,No
+2023,90.0,Other,Asthma,Shortness of breath,Cetirizine,7038.0,No
+2024,16.0,Female,Allergy,Sneezing,Ventolin,2930.0,No
+2025,37.0,Male,Flu,"Fever, Sneezing",Aspirin,7850.0,Yes
+2026,27.0,Male,COVID-19,"Sneezing, Cough, Shortness of breath",Ventolin,4892.0,No
+2027,5.0,Male,Allergy,"Sneezing, Headache",Paracetamol,6324.0,No
+2028,105.0,Other,COVID-19,"Sneezing, Shortness of breath, Fever",,381.0,Yes
+2029,12.0,Other,Hypertension,"Sneezing, Fever",Ventolin,3793.0,Yes
+2030,35.0,Female,Allergy,"Sneezing, Cough, Fever",Insulin,6182.0,No
+2031,99.0,Male,Asthma,Cough,Insulin,2466.0,Yes
+2032,2.0,Male,Allergy,Shortness of breath,Metformin,7362.0,Yes
+2033,20.0,Other,Allergy,"Headache, Shortness of breath",Insulin,2981.0,Yes
+2034,6.0,Male,Asthma,"Fever, Fatigue, Cough",Metformin,7401.0,No
+2035,88.0,Male,COVID-19,Shortness of breath,Insulin,,Yes
+2036,75.0,Male,Hypertension,Fatigue,Aspirin,3236.0,Yes
+2037,97.0,Other,Hypertension,"Fever, Cough",Ventolin,6608.0,Yes
+2038,53.0,Male,Migraine,"Shortness of breath, Fever, Fatigue",Paracetamol,5696.0,Yes
+2039,15.0,,Allergy,"Fever, Sneezing, Headache",Ventolin,6519.0,No
+2040,4.0,Female,Migraine,"Sneezing, Cough",Aspirin,3077.0,No
+2041,44.0,Female,Diabetes,"Sneezing, Fatigue, Cough",Metformin,6535.0,Yes
+2042,84.0,Other,Asthma,"Headache, Shortness of breath, Sneezing",Amoxicillin,7766.0,No
+2043,8.0,Male,COVID-19,Fatigue,Metformin,7720.0,Yes
+2044,17.0,Male,Flu,"Shortness of breath, Sneezing",Cetirizine,6590.0,Yes
+2045,48.0,Female,COVID-19,"Sneezing, Cough",Amoxicillin,4366.0,No
+2046,18.0,Other,Diabetes,"Fatigue, Fever, Cough",Amoxicillin,6516.0,No
+2047,67.0,Male,Diabetes,Sneezing,Insulin,2456.0,Yes
+2048,54.0,Female,Allergy,"Cough, Headache",Cetirizine,7596.0,No
+2049,37.0,Male,Diabetes,"Fatigue, Cough, Fever",Aspirin,4774.0,Yes
+2050,28.0,Other,Allergy,"Headache, Sneezing",Amoxicillin,2741.0,Yes
+2051,7.0,Male,Asthma,Fatigue,Amoxicillin,5408.0,Yes
+2052,34.0,Other,Flu,Cough,Insulin,5100.0,
+2053,14.0,Male,Flu,"Fatigue, Shortness of breath",Ventolin,6664.0,Yes
+2054,31.0,Female,Asthma,,Aspirin,11798.0,No
+2055,20.0,Male,Migraine,"Fever, Sneezing, Fatigue",Amoxicillin,3814.0,Yes
+2056,58.0,Female,COVID-19,"Fatigue, Sneezing, Fever",Amoxicillin,4401.0,Yes
+2057,35.0,Male,Allergy,Shortness of breath,Cetirizine,3314.0,No
+2058,93.0,Female,Hypertension,"Fatigue, Fever",Paracetamol,4902.0,No
+2059,30.0,Other,Hypertension,Headache,Ventolin,4722.0,No
+2060,83.0,Male,Hypertension,Sneezing,Metformin,,Yes
+2061,7.0,Other,Flu,Fatigue,Amoxicillin,7637.0,Yes
+2062,28.0,Female,Asthma,,Cetirizine,482.0,Yes
+2063,94.0,Male,Asthma,"Sneezing, Fatigue",Ventolin,4078.0,No
+2064,38.0,Other,Migraine,"Fever, Headache",Cetirizine,3724.0,Yes
+2065,3.0,Other,Asthma,"Headache, Fever",Insulin,3376.0,No
+2066,32.0,Female,Allergy,"Sneezing, Fever",Metformin,2054.0,No
+2067,79.0,Other,Diabetes,"Fatigue, Cough, Sneezing",Insulin,4931.0,Yes
+2068,69.0,Other,Asthma,"Fever, Headache, Shortness of breath",Ventolin,7682.0,No
+2069,57.0,Other,Diabetes,Fatigue,Metformin,5125.0,Yes
+2070,88.0,Female,Allergy,Shortness of breath,Amoxicillin,6052.0,No
+2071,110.0,Other,Allergy,Cough,Aspirin,5676.0,No
+2072,30.0,Other,Hypertension,"Fatigue, Shortness of breath",Insulin,4031.0,Yes
+2073,60.0,Other,Diabetes,Headache,Amoxicillin,2094.0,No
+2074,99.0,Female,COVID-19,"Cough, Fever, Headache",Cetirizine,,Yes
+2075,100.0,Female,Allergy,Fatigue,Paracetamol,5516.0,No
+2076,2.0,Female,Hypertension,"Sneezing, Cough, Shortness of breath",Paracetamol,3528.0,Yes
+2077,,Other,Migraine,"Fatigue, Headache",Ventolin,3680.0,No
+2078,92.0,Other,Flu,"Cough, Fatigue, Sneezing",Ventolin,6475.0,No
+2079,69.0,Male,Flu,Sneezing,Paracetamol,952.0,Yes
+2080,63.0,Male,Flu,"Cough, Sneezing",Metformin,5070.0,Yes
+2081,24.0,Male,COVID-19,"Shortness of breath, Fatigue",Aspirin,4055.0,Yes
+2082,71.0,Female,Flu,Cough,Cetirizine,6473.0,No
+2083,36.0,Female,Allergy,Headache,Aspirin,6675.0,
+2084,22.0,Female,Migraine,"Sneezing, Shortness of breath",Paracetamol,3189.0,No
+2085,71.0,Female,,"Fever, Fatigue",Amoxicillin,6192.0,Yes
+2086,61.0,Male,Asthma,Fever,Paracetamol,3688.0,Yes
+2087,42.0,Female,COVID-19,,Paracetamol,6762.0,Yes
+2088,68.0,Other,Allergy,"Fatigue, Shortness of breath",Insulin,3633.0,No
+2089,2.0,Male,COVID-19,"Cough, Headache, Fever",Amoxicillin,3645.0,No
+2090,75.0,Other,Asthma,"Shortness of breath, Fever, Sneezing",Cetirizine,5192.0,No
+2091,55.0,Male,Migraine,"Fatigue, Sneezing",Amoxicillin,2617.0,Yes
+2092,74.0,Other,Flu,"Headache, Fever, Fatigue",Ventolin,4119.0,No
+2093,46.0,Other,Allergy,"Shortness of breath, Fatigue, Sneezing",Metformin,3397.0,No
+2094,73.0,Female,Allergy,"Fatigue, Cough, Headache",Ventolin,3029.0,No
+2095,34.0,Female,Flu,Sneezing,Aspirin,7151.0,No
+2096,87.0,Other,Hypertension,Headache,Insulin,4809.0,No
+2097,13.0,Male,Hypertension,"Sneezing, Headache, Cough",Metformin,6972.0,Yes
+2098,92.0,Male,Asthma,"Headache, Fever, Cough",Metformin,6425.0,Yes
+2099,78.0,Other,COVID-19,Sneezing,Insulin,4368.0,No
+2100,50.0,Female,Asthma,"Headache, Fatigue",Ventolin,5659.0,Yes
+2101,48.0,Male,COVID-19,Cough,Amoxicillin,3410.0,No
+2102,100.0,Other,Allergy,"Cough, Fatigue",Cetirizine,4701.0,No
+2103,79.0,Male,Flu,"Shortness of breath, Cough",Ventolin,7934.0,Yes
+2104,96.0,Female,Diabetes,Cough,Paracetamol,4534.0,Yes
+2105,84.0,Male,Allergy,"Fever, Sneezing",Cetirizine,3673.0,Yes
+2106,25.0,Other,Flu,"Cough, Shortness of breath, Headache",Paracetamol,4769.0,No
+2107,50.0,Other,Hypertension,Fatigue,Paracetamol,2628.0,Yes
+2108,60.0,Male,Allergy,"Shortness of breath, Sneezing",Aspirin,4057.0,No
+2109,10.0,Other,Migraine,"Fatigue, Cough",Cetirizine,7009.0,No
+2110,87.0,Male,Diabetes,"Sneezing, Fatigue",Metformin,7171.0,Yes
+2111,25.0,Other,Migraine,Cough,Amoxicillin,5897.0,No
+2112,45.0,Male,Hypertension,Shortness of breath,Paracetamol,2815.0,No
+2113,15.0,Female,Asthma,"Shortness of breath, Fatigue, Sneezing",Ventolin,6770.0,Yes
+2114,6.0,Female,Flu,Sneezing,Aspirin,2887.0,No
+2115,95.0,Female,Hypertension,"Fatigue, Cough",Insulin,4142.0,No
+2116,83.0,Other,Asthma,Sneezing,Ventolin,7064.0,No
+2117,60.0,Male,Diabetes,"Headache, Sneezing",Cetirizine,6286.0,Yes
+2118,40.0,Male,Flu,"Sneezing, Shortness of breath",Cetirizine,6193.0,Yes
+2119,88.0,Female,COVID-19,"Fatigue, Cough",Ventolin,2556.0,No
+2120,30.0,Other,Migraine,"Fatigue, Sneezing",Cetirizine,2054.0,Yes
+2121,13.0,Other,Asthma,"Sneezing, Shortness of breath, Fever",Aspirin,4316.0,Yes
+2122,93.0,Other,COVID-19,"Fatigue, Fever",Amoxicillin,4494.0,Yes
+2123,30.0,Female,Migraine,"Sneezing, Cough",Metformin,7835.0,No
+2124,44.0,Male,COVID-19,"Headache, Shortness of breath",Cetirizine,7045.0,Yes
+2125,75.0,Female,Migraine,"Shortness of breath, Cough",Insulin,4733.0,Yes
+2126,100.0,Female,Flu,Fever,Metformin,6815.0,No
+2127,87.0,Male,Asthma,"Shortness of breath, Cough, Fever",Ventolin,7877.0,Yes
+2128,18.0,Male,Hypertension,"Fatigue, Sneezing, Fever",Insulin,4680.0,No
+2129,96.0,Female,COVID-19,Cough,Metformin,4598.0,No
+2130,62.0,Female,Diabetes,"Fever, Sneezing, Fatigue",Metformin,6337.0,No
+2131,100.0,Other,Migraine,Sneezing,Cetirizine,517.0,No
+2132,41.0,Male,Migraine,Headache,Aspirin,7677.0,No
+2133,8.0,Female,Flu,"Cough, Headache",Aspirin,,Yes
+2134,33.0,Female,Flu,Fever,Aspirin,3004.0,No
+2135,80.0,Male,Migraine,"Headache, Fever, Shortness of breath",Aspirin,7181.0,Yes
+2136,,Female,COVID-19,"Shortness of breath, Cough",Metformin,4724.0,No
+2137,27.0,Male,Diabetes,"Shortness of breath, Cough",Aspirin,4491.0,
+2138,8.0,Female,Migraine,"Cough, Headache",Paracetamol,2175.0,No
+2139,100.0,Male,Flu,"Cough, Sneezing, Fatigue",Paracetamol,7409.0,No
+2140,80.0,Male,Migraine,"Shortness of breath, Fever",Insulin,4958.0,No
+2141,1.0,Other,Hypertension,Shortness of breath,Amoxicillin,6292.0,Yes
+2142,24.0,Female,COVID-19,"Shortness of breath, Headache, Fever",Cetirizine,2551.0,Yes
+2143,35.0,Male,Diabetes,"Fever, Cough",Insulin,2479.0,No
+2144,39.0,Other,Diabetes,"Fever, Sneezing",Aspirin,3292.0,No
+2145,37.0,Female,Allergy,Headache,Aspirin,4282.0,Yes
+2146,89.0,Other,COVID-19,"Shortness of breath, Fever, Headache",Ventolin,6575.0,No
+2147,57.0,Female,Flu,"Sneezing, Fever, Headache",Cetirizine,387.0,No
+2148,99.0,Male,Asthma,Fever,Metformin,7706.0,Yes
+2149,84.0,Female,Flu,Cough,Cetirizine,3916.0,No
+2150,47.0,Male,Diabetes,"Sneezing, Shortness of breath",Metformin,5858.0,Yes
+2151,41.0,Female,Flu,"Cough, Fever, Headache",Insulin,5027.0,Yes
+2152,28.0,Other,Asthma,"Shortness of breath, Fever",Paracetamol,13649.0,No
+2153,93.0,Male,COVID-19,"Headache, Fever",Cetirizine,6163.0,No
+2154,64.0,Other,Migraine,"Shortness of breath, Cough, Fever",Metformin,6713.0,Yes
+2155,94.0,Other,Allergy,Sneezing,Ventolin,7551.0,No
+2156,11.0,Male,Diabetes,"Headache, Shortness of breath",Ventolin,7986.0,Yes
+2157,41.0,Female,,"Sneezing, Shortness of breath, Headache",Amoxicillin,6878.0,No
+2158,69.0,Female,Flu,"Fever, Sneezing",Ventolin,6786.0,No
+2159,47.0,Male,Hypertension,Sneezing,Paracetamol,6950.0,No
+2160,66.0,Other,Allergy,Sneezing,Amoxicillin,6930.0,No
+2161,10.0,Other,Allergy,Sneezing,Ventolin,4495.0,Yes
+2162,98.0,Female,Asthma,"Cough, Headache, Fever",Insulin,10463.0,No
+2163,31.0,Male,COVID-19,"Shortness of breath, Fatigue",Paracetamol,3178.0,No
+2164,43.0,Female,COVID-19,Headache,Amoxicillin,6339.0,No
+2165,46.0,Female,COVID-19,Headache,Amoxicillin,5701.0,No
+2166,50.0,Other,Migraine,,Cetirizine,5955.0,Yes
+2167,85.0,Other,Asthma,Sneezing,Insulin,5074.0,Yes
+2168,78.0,Male,COVID-19,"Sneezing, Fever",Metformin,2490.0,Yes
+2169,24.0,Female,Diabetes,"Headache, Fever, Fatigue",Amoxicillin,2795.0,Yes
+2170,47.0,Female,Hypertension,"Headache, Shortness of breath, Fatigue",Insulin,6113.0,No
+2171,62.0,Other,Migraine,"Sneezing, Shortness of breath, Fatigue",Amoxicillin,2031.0,Yes
+2172,57.0,Female,COVID-19,"Headache, Fatigue",Metformin,7600.0,Yes
+2173,6.0,Male,COVID-19,"Sneezing, Cough",Paracetamol,2374.0,Yes
+2174,59.0,Male,Diabetes,"Cough, Sneezing",Amoxicillin,6464.0,No
+2175,53.0,Female,Migraine,"Fatigue, Headache, Fever",Metformin,3321.0,No
+2176,12.0,Male,COVID-19,Shortness of breath,Metformin,6883.0,No
+2177,24.0,Female,Flu,"Sneezing, Headache, Fever",Paracetamol,2150.0,No
+2178,,Male,Hypertension,Shortness of breath,Amoxicillin,3011.0,No
+2179,101.0,Female,COVID-19,"Headache, Fever",Paracetamol,6806.0,Yes
+2180,59.0,Male,Migraine,Sneezing,Ventolin,6078.0,No
+2181,74.0,Male,Asthma,Shortness of breath,Insulin,2353.0,No
+2182,95.0,Female,Allergy,"Sneezing, Shortness of breath, Headache",Cetirizine,6478.0,Yes
+2183,96.0,Male,Diabetes,Shortness of breath,Amoxicillin,687.0,Yes
+2184,84.0,Male,Diabetes,Cough,Cetirizine,2780.0,No
+2185,2.0,Other,Asthma,"Fatigue, Fever",Paracetamol,2455.0,No
+2186,3.0,Female,Allergy,"Shortness of breath, Headache",Cetirizine,2951.0,No
+2187,45.0,Female,COVID-19,Shortness of breath,Cetirizine,6957.0,No
+2188,81.0,Male,Hypertension,Headache,Cetirizine,5016.0,No
+2189,87.0,Male,Diabetes,"Fatigue, Shortness of breath, Sneezing",Ventolin,6584.0,Yes
+2190,3.0,Male,Migraine,"Headache, Cough",Ventolin,321.0,No
+2191,49.0,Female,Hypertension,Cough,Amoxicillin,3346.0,No
+2192,11.0,Female,COVID-19,,Amoxicillin,4689.0,Yes
+2193,85.0,Male,Hypertension,"Fatigue, Cough, Sneezing",Ventolin,7119.0,Yes
+2194,92.0,Other,Asthma,Cough,Ventolin,6375.0,No
+2195,79.0,Other,COVID-19,"Headache, Cough",Ventolin,2311.0,Yes
+2196,60.0,Other,COVID-19,"Sneezing, Headache",Metformin,4440.0,Yes
+2197,48.0,Male,Flu,"Sneezing, Cough, Fever",Metformin,2582.0,Yes
+2198,76.0,Other,Migraine,"Shortness of breath, Fatigue, Headache",Paracetamol,6154.0,No
+2199,43.0,Male,Allergy,Fatigue,Cetirizine,3123.0,Yes
+2200,43.0,Male,COVID-19,Shortness of breath,Ventolin,6442.0,
+2201,,Male,Allergy,"Sneezing, Shortness of breath",Aspirin,3347.0,Yes
+2202,13.0,Other,Migraine,"Sneezing, Fatigue",Insulin,3972.0,Yes
+2203,100.0,Other,Migraine,Cough,Aspirin,6967.0,Yes
+2204,48.0,Male,Diabetes,Fatigue,Insulin,2462.0,No
+2205,24.0,Male,Asthma,Fever,Amoxicillin,3825.0,Yes
+2206,50.0,Other,Hypertension,"Shortness of breath, Headache, Cough",Metformin,3565.0,Yes
+2207,70.0,Other,Allergy,"Headache, Sneezing, Fever",Insulin,6825.0,Yes
+2208,50.0,Other,Diabetes,Fatigue,Aspirin,2329.0,No
+2209,72.0,Male,Migraine,Headache,Aspirin,11346.0,Yes
+2210,67.0,Male,Flu,"Headache, Cough",Aspirin,7364.0,No
+2211,48.0,Male,Diabetes,"Cough, Headache, Sneezing",Paracetamol,5859.0,Yes
+2212,74.0,Female,Asthma,"Sneezing, Fatigue",Aspirin,562.0,
+2213,65.0,Male,Flu,Headache,Aspirin,5499.0,Yes
+2214,83.0,Female,Allergy,"Sneezing, Fatigue, Headache",Metformin,11103.0,Yes
+2215,,Male,Flu,"Sneezing, Fever",Aspirin,4849.0,No
+2216,52.0,Female,Allergy,"Cough, Headache",Insulin,6456.0,No
+2217,52.0,Other,Migraine,"Fever, Headache",Aspirin,6969.0,Yes
+2218,82.0,Other,Hypertension,"Shortness of breath, Cough, Sneezing",Metformin,6136.0,No
+2219,68.0,Male,Flu,"Fatigue, Shortness of breath",Paracetamol,5164.0,Yes
+2220,54.0,Female,Flu,"Shortness of breath, Cough",Insulin,5100.0,No
+2221,100.0,Male,Hypertension,Fever,Ventolin,4226.0,Yes
+2222,11.0,Other,Migraine,"Headache, Cough",Paracetamol,732.0,No
+2223,52.0,Male,Hypertension,"Shortness of breath, Fever",Cetirizine,6284.0,Yes
+2224,33.0,Male,Migraine,"Cough, Fatigue, Fever",Aspirin,311.0,Yes
+2225,11.0,Female,Allergy,"Sneezing, Headache, Shortness of breath",Cetirizine,6975.0,No
+2226,47.0,Male,Allergy,Cough,Insulin,7386.0,Yes
+2227,17.0,Other,Hypertension,"Fatigue, Shortness of breath, Fever",Aspirin,3307.0,No
+2228,51.0,Female,Allergy,Fever,Amoxicillin,6237.0,No
+2229,44.0,Female,Hypertension,"Fatigue, Headache, Fever",Paracetamol,2792.0,No
+2230,22.0,Female,Diabetes,Fever,Ventolin,4036.0,No
+2231,54.0,Male,Allergy,"Headache, Fatigue",Paracetamol,6455.0,No
+2232,46.0,Other,Migraine,"Fever, Sneezing",Metformin,4121.0,Yes
+2233,94.0,Female,Migraine,"Fever, Shortness of breath",Aspirin,7754.0,No
+2234,50.0,Other,Allergy,"Sneezing, Fatigue, Fever",Amoxicillin,6665.0,No
+2235,60.0,Male,Diabetes,"Headache, Shortness of breath, Fatigue",Metformin,3061.0,
+2236,65.0,Female,Asthma,Shortness of breath,Paracetamol,4565.0,No
+2237,31.0,Other,Allergy,Fatigue,Metformin,6539.0,Yes
+2238,48.0,Male,Diabetes,"Cough, Headache, Shortness of breath",Aspirin,2994.0,Yes
+2239,22.0,Female,Diabetes,"Fatigue, Sneezing",Metformin,5761.0,Yes
+2240,58.0,Other,Asthma,Fever,Insulin,4452.0,Yes
+2241,87.0,Other,Migraine,"Headache, Fever, Sneezing",Insulin,,Yes
+2242,36.0,Male,Flu,"Sneezing, Cough, Fever",Cetirizine,6586.0,No
+2243,45.0,Other,Hypertension,"Cough, Headache",Metformin,,Yes
+2244,84.0,Other,Asthma,Fatigue,Metformin,4797.0,No
+2245,70.0,Other,Allergy,"Headache, Fever, Cough",Paracetamol,4768.0,Yes
+2246,1.0,,Allergy,"Fever, Cough, Shortness of breath",Ventolin,5275.0,No
+2247,79.0,Female,Flu,"Shortness of breath, Fever",Metformin,3722.0,Yes
+2248,,Other,COVID-19,"Cough, Sneezing, Fever",Amoxicillin,2960.0,Yes
+2249,14.0,Female,Hypertension,Fever,Aspirin,5280.0,Yes
+2250,76.0,Other,Allergy,"Fever, Headache",Paracetamol,2582.0,Yes
+2251,20.0,Other,COVID-19,"Shortness of breath, Headache",Insulin,2051.0,Yes
+2252,89.0,Female,COVID-19,"Fever, Cough, Fatigue",Insulin,3164.0,No
+2253,73.0,Female,Migraine,"Fever, Headache",Insulin,7562.0,Yes
+2254,49.0,Male,Migraine,Fever,Insulin,6708.0,No
+2255,91.0,Female,COVID-19,"Fatigue, Fever",Paracetamol,2914.0,Yes
+2256,31.0,Other,Migraine,"Sneezing, Cough",Aspirin,2070.0,No
+2257,3.0,Other,Asthma,"Headache, Fatigue, Sneezing",Cetirizine,7285.0,Yes
+2258,35.0,Male,Migraine,"Sneezing, Fever, Headache",Aspirin,6799.0,Yes
+2259,88.0,Female,Asthma,Cough,Paracetamol,2024.0,No
+2260,92.0,Female,,Fever,Aspirin,2944.0,No
+2261,75.0,Other,Asthma,Fatigue,Aspirin,,Yes
+2262,72.0,Male,Hypertension,"Sneezing, Fatigue",Paracetamol,,No
+2263,70.0,Female,Hypertension,Headache,Paracetamol,6691.0,Yes
+2264,24.0,Other,Migraine,Headache,Insulin,6338.0,No
+2265,31.0,Female,Asthma,Cough,Aspirin,5887.0,Yes
+2266,33.0,Male,Migraine,Fatigue,Cetirizine,2556.0,No
+2267,22.0,Other,Hypertension,"Shortness of breath, Fatigue",Amoxicillin,5954.0,
+2268,82.0,Other,COVID-19,"Fatigue, Sneezing",Aspirin,3937.0,No
+2269,44.0,Male,Flu,"Fatigue, Headache",Insulin,7714.0,Yes
+2270,38.0,Other,Hypertension,Sneezing,Aspirin,2235.0,Yes
+2271,14.0,Female,Flu,Shortness of breath,Insulin,5174.0,No
+2272,7.0,Other,Asthma,"Sneezing, Shortness of breath",Cetirizine,2020.0,Yes
+2273,88.0,,COVID-19,"Sneezing, Fever, Shortness of breath",Ventolin,3567.0,No
+2274,65.0,Other,Hypertension,"Shortness of breath, Fatigue",Amoxicillin,3339.0,Yes
+2275,46.0,Other,Migraine,"Sneezing, Fatigue",Cetirizine,5987.0,No
+2276,95.0,Female,Hypertension,"Fever, Cough",Ventolin,2789.0,Yes
+2277,61.0,Other,Diabetes,"Shortness of breath, Fever",Aspirin,2196.0,Yes
+2278,43.0,Other,Diabetes,Fatigue,Aspirin,559.0,Yes
+2279,5.0,Other,Flu,"Shortness of breath, Fatigue, Headache",Insulin,5041.0,No
+2280,51.0,Female,Diabetes,Headache,Amoxicillin,5379.0,No
+2281,,Male,Flu,"Sneezing, Headache, Cough",Aspirin,6997.0,Yes
+2282,78.0,Other,Migraine,Cough,Paracetamol,2374.0,Yes
+2283,1.0,Female,Asthma,"Fatigue, Sneezing, Cough",Cetirizine,5319.0,No
+2284,6.0,Other,Migraine,Headache,Amoxicillin,6083.0,No
+2285,50.0,Female,Diabetes,"Shortness of breath, Fatigue, Headache",Aspirin,7604.0,No
+2286,55.0,Female,Flu,Headache,Paracetamol,5634.0,No
+2287,84.0,Male,Allergy,"Shortness of breath, Headache",Insulin,2593.0,No
+2288,41.0,Other,Diabetes,"Headache, Cough, Fatigue",Ventolin,4471.0,Yes
+2289,88.0,Other,COVID-19,"Fatigue, Fever, Headache",Cetirizine,2017.0,Yes
+2290,95.0,Female,Flu,"Cough, Shortness of breath",Insulin,,No
+2291,95.0,Other,Asthma,"Shortness of breath, Fever",Aspirin,5564.0,No
+2292,94.0,Female,Migraine,"Headache, Shortness of breath, Fever",Ventolin,7865.0,No
+2293,31.0,Other,COVID-19,"Headache, Sneezing",Aspirin,6928.0,No
+2294,95.0,Male,Diabetes,"Sneezing, Headache",Amoxicillin,3054.0,Yes
+2295,47.0,Female,COVID-19,"Sneezing, Fever",Insulin,6995.0,Yes
+2296,13.0,Other,COVID-19,"Sneezing, Fatigue",Amoxicillin,5277.0,No
+2297,71.0,Male,Diabetes,"Headache, Shortness of breath, Sneezing",Metformin,4779.0,No
+2298,28.0,Female,Diabetes,"Fever, Sneezing",Cetirizine,4381.0,Yes
+2299,,Female,Flu,"Headache, Cough, Sneezing",Cetirizine,7779.0,No
+2300,75.0,Other,COVID-19,"Fatigue, Fever",Metformin,4949.0,Yes
+2301,34.0,Male,COVID-19,"Sneezing, Shortness of breath, Cough",Aspirin,12.0,No
+2302,87.0,Female,Flu,"Cough, Headache, Shortness of breath",Ventolin,3951.0,Yes
+2303,5.0,Other,Diabetes,"Headache, Fever, Fatigue",Insulin,2534.0,No
+2304,28.0,Other,COVID-19,"Fever, Headache",Ventolin,2175.0,No
+2305,17.0,Female,Diabetes,"Fatigue, Shortness of breath, Cough",Aspirin,4446.0,No
+2306,11.0,Other,Diabetes,"Headache, Fatigue",Metformin,3586.0,No
+2307,100.0,Female,Flu,"Shortness of breath, Sneezing",Ventolin,4185.0,No
+2308,24.0,Female,Flu,"Sneezing, Cough, Fever",Paracetamol,4836.0,No
+2309,45.0,Male,Hypertension,"Cough, Headache, Sneezing",Cetirizine,7432.0,Yes
+2310,43.0,Other,COVID-19,"Cough, Headache, Sneezing",Insulin,,No
+2311,9.0,Female,Diabetes,Cough,Insulin,2597.0,No
+2312,57.0,Female,COVID-19,"Shortness of breath, Headache, Fatigue",Aspirin,4270.0,No
+2313,46.0,Other,Asthma,Headache,Metformin,6106.0,No
+2314,103.0,Other,Diabetes,"Sneezing, Cough, Fatigue",Amoxicillin,3124.0,Yes
+2315,76.0,Other,Migraine,"Fever, Sneezing, Shortness of breath",Metformin,3653.0,No
+2316,46.0,Male,COVID-19,"Cough, Shortness of breath, Fever",Cetirizine,7683.0,Yes
+2317,66.0,Male,COVID-19,"Headache, Fatigue, Shortness of breath",Paracetamol,4238.0,No
+2318,57.0,Male,Hypertension,"Cough, Fever, Fatigue",Insulin,6570.0,No
+2319,97.0,Other,COVID-19,"Cough, Sneezing",Cetirizine,7268.0,Yes
+2320,77.0,Female,Asthma,"Fatigue, Headache, Shortness of breath",Aspirin,7655.0,No
+2321,1.0,Female,,Shortness of breath,Cetirizine,6088.0,No
+2322,24.0,Female,Hypertension,"Shortness of breath, Fatigue, Sneezing",Ventolin,2413.0,No
+2323,53.0,Male,Hypertension,"Fatigue, Headache, Fever",Amoxicillin,4999.0,No
+2324,12.0,Female,Hypertension,"Fever, Shortness of breath, Headache",Insulin,5092.0,Yes
+2325,20.0,Female,Allergy,"Shortness of breath, Fatigue, Sneezing",Ventolin,2590.0,No
+2326,29.0,Female,COVID-19,"Fever, Cough",Insulin,3182.0,Yes
+2327,32.0,Other,Flu,"Cough, Fever, Sneezing",Ventolin,6020.0,No
+2328,92.0,Male,Asthma,Cough,Cetirizine,7168.0,No
+2329,28.0,Male,Diabetes,"Fever, Fatigue, Sneezing",Cetirizine,3601.0,Yes
+2330,84.0,Male,Flu,Fever,Aspirin,6697.0,Yes
+2331,92.0,Other,Hypertension,"Sneezing, Fatigue, Cough",Aspirin,2335.0,Yes
+2332,92.0,Male,Asthma,"Fatigue, Headache",Metformin,2566.0,Yes
+2333,86.0,Other,Migraine,Sneezing,Insulin,3111.0,Yes
+2334,77.0,Female,Allergy,Shortness of breath,Aspirin,3296.0,Yes
+2335,67.0,Other,Diabetes,"Shortness of breath, Fatigue",Metformin,3261.0,No
+2336,86.0,Other,Flu,"Headache, Cough",Aspirin,5588.0,No
+2337,84.0,Other,Asthma,"Fever, Sneezing",Amoxicillin,7238.0,No
+2338,66.0,Male,Asthma,"Headache, Sneezing",Aspirin,6229.0,No
+2339,32.0,Female,Migraine,"Shortness of breath, Fever, Headache",Amoxicillin,12504.0,Yes
+2340,5.0,Other,COVID-19,"Cough, Shortness of breath",Insulin,7664.0,No
+2341,72.0,Other,Diabetes,Sneezing,Cetirizine,6494.0,No
+2342,47.0,Male,Asthma,"Cough, Shortness of breath",Amoxicillin,5045.0,No
+2343,,Female,Asthma,"Sneezing, Headache",Insulin,3798.0,Yes
+2344,71.0,Female,Asthma,"Headache, Fatigue",Paracetamol,2925.0,No
+2345,49.0,Other,Allergy,Sneezing,Insulin,3602.0,Yes
+2346,34.0,Male,Allergy,Fatigue,Ventolin,4665.0,No
+2347,89.0,Female,Asthma,Sneezing,Cetirizine,6246.0,Yes
+2348,91.0,Male,Hypertension,"Fever, Shortness of breath",Metformin,5551.0,Yes
+2349,39.0,Male,Hypertension,"Fever, Sneezing",Metformin,4074.0,Yes
+2350,2.0,Male,COVID-19,"Shortness of breath, Sneezing",Metformin,3182.0,No
+2351,92.0,Male,Migraine,"Sneezing, Cough, Fatigue",Cetirizine,2673.0,No
+2352,5.0,Other,Asthma,Shortness of breath,Ventolin,4119.0,No
+2353,34.0,Other,Migraine,Fatigue,Metformin,5024.0,Yes
+2354,5.0,Male,Diabetes,"Shortness of breath, Headache, Fever",Paracetamol,6804.0,No
+2355,16.0,Other,Migraine,Cough,Paracetamol,7874.0,Yes
+2356,60.0,Female,Asthma,Fever,Insulin,6304.0,Yes
+2357,93.0,Female,Allergy,Headache,Ventolin,,Yes
+2358,39.0,Female,Asthma,"Headache, Shortness of breath",Aspirin,5386.0,No
+2359,33.0,Female,,Cough,Amoxicillin,5213.0,Yes
+2360,6.0,Female,Diabetes,"Cough, Shortness of breath, Fatigue",Amoxicillin,3350.0,No
+2361,16.0,Male,Flu,Headache,Amoxicillin,5265.0,No
+2362,51.0,Male,Diabetes,Fatigue,Aspirin,3920.0,No
+2363,82.0,Female,Allergy,"Fatigue, Headache",Paracetamol,5569.0,No
+2364,53.0,,Diabetes,"Fever, Sneezing",Aspirin,6798.0,No
+2365,45.0,Other,COVID-19,Sneezing,Amoxicillin,5623.0,No
+2366,21.0,Other,Migraine,Sneezing,Ventolin,2072.0,No
+2367,59.0,Female,Hypertension,Cough,Amoxicillin,3167.0,No
+2368,46.0,Male,Allergy,Fatigue,Metformin,11430.0,No
+2369,83.0,Male,COVID-19,"Shortness of breath, Fatigue, Cough",Metformin,5059.0,Yes
+2370,39.0,Male,Allergy,"Fever, Shortness of breath",Metformin,3129.0,No
+2371,78.0,Other,Migraine,Headache,Paracetamol,7020.0,No
+2372,80.0,Other,COVID-19,"Fever, Headache",Aspirin,7313.0,Yes
+2373,36.0,Male,COVID-19,"Cough, Shortness of breath, Sneezing",Ventolin,7428.0,No
+2374,38.0,Other,COVID-19,Fever,Ventolin,7477.0,No
+2375,72.0,Male,COVID-19,"Headache, Cough",Aspirin,5819.0,No
+2376,92.0,Other,Asthma,"Fatigue, Shortness of breath, Fever",Paracetamol,4792.0,No
+2377,87.0,Male,Diabetes,"Fatigue, Sneezing, Shortness of breath",Ventolin,2918.0,No
+2378,14.0,Male,Migraine,Fatigue,Paracetamol,6884.0,No
+2379,45.0,Female,Diabetes,"Fatigue, Sneezing",Insulin,5743.0,No
+2380,14.0,Other,Allergy,"Cough, Fever",Insulin,2149.0,Yes
+2381,41.0,Male,Asthma,Fatigue,Cetirizine,5320.0,No
+2382,63.0,Other,Flu,"Cough, Fatigue",Amoxicillin,7290.0,No
+2383,35.0,Male,Hypertension,"Cough, Headache, Sneezing",Aspirin,4417.0,Yes
+2384,63.0,Male,,"Headache, Cough",Metformin,4422.0,No
+2385,17.0,Female,Allergy,"Cough, Shortness of breath, Headache",Insulin,4836.0,No
+2386,5.0,Other,Asthma,"Cough, Headache, Shortness of breath",Insulin,3822.0,No
+2387,39.0,Other,COVID-19,"Cough, Sneezing, Headache",Insulin,5492.0,Yes
+2388,75.0,Female,Allergy,Cough,Metformin,7958.0,No
+2389,24.0,Male,Migraine,"Shortness of breath, Fever",Insulin,362.0,Yes
+2390,96.0,Female,Migraine,"Shortness of breath, Headache",Aspirin,5862.0,Yes
+2391,8.0,Male,Migraine,"Cough, Fatigue",Metformin,628.0,Yes
+2392,41.0,Female,Allergy,Sneezing,,4115.0,Yes
+2393,57.0,Female,Flu,"Cough, Sneezing, Headache",Ventolin,2107.0,Yes
+2394,49.0,Female,COVID-19,"Fatigue, Shortness of breath",Ventolin,11060.0,No
+2395,77.0,Other,Migraine,"Sneezing, Cough",Amoxicillin,2168.0,Yes
+2396,13.0,Male,Flu,"Headache, Shortness of breath, Fatigue",Cetirizine,5187.0,No
+2397,44.0,Male,COVID-19,"Fatigue, Fever",Ventolin,4967.0,No
+2398,21.0,Other,Flu,Sneezing,Insulin,4703.0,Yes
+2399,80.0,Other,COVID-19,"Fatigue, Shortness of breath, Cough",Metformin,2318.0,No
+2400,64.0,Other,Hypertension,"Headache, Fever, Cough",Aspirin,2545.0,Yes
+2401,6.0,Female,Diabetes,"Cough, Fatigue, Headache",Ventolin,5459.0,Yes
+2402,80.0,Male,COVID-19,"Headache, Fatigue, Cough",Cetirizine,3825.0,Yes
+2403,56.0,Female,Flu,"Sneezing, Fever, Shortness of breath",Amoxicillin,6181.0,Yes
+2404,24.0,Other,Migraine,Shortness of breath,Cetirizine,3850.0,Yes
+2405,46.0,Other,Migraine,"Shortness of breath, Fatigue, Fever",Aspirin,2345.0,No
+2406,12.0,Male,COVID-19,"Headache, Sneezing, Fever",Metformin,3506.0,Yes
+2407,69.0,Female,Migraine,"Shortness of breath, Sneezing",Aspirin,6885.0,Yes
+2408,34.0,Male,,"Fever, Shortness of breath",Insulin,3227.0,Yes
+2409,90.0,Male,COVID-19,Sneezing,,6796.0,No
+2410,8.0,Male,Migraine,"Headache, Sneezing, Fever",Amoxicillin,2509.0,Yes
+2411,75.0,Other,COVID-19,Cough,Metformin,6210.0,Yes
+2412,67.0,Female,Hypertension,Shortness of breath,Paracetamol,498.0,Yes
+2413,58.0,Male,Hypertension,"Sneezing, Headache",Ventolin,5817.0,No
+2414,99.0,Male,Hypertension,Sneezing,Ventolin,5671.0,Yes
+2415,93.0,Female,Migraine,"Fever, Shortness of breath",Paracetamol,2401.0,No
+2416,100.0,Female,Migraine,"Sneezing, Cough, Fever",Insulin,4009.0,No
+2417,57.0,Male,Migraine,Sneezing,Cetirizine,6495.0,Yes
+2418,28.0,Male,Flu,Sneezing,Insulin,4660.0,No
+2419,30.0,Male,COVID-19,Headache,Insulin,2280.0,No
+2420,80.0,Male,Asthma,Fever,Cetirizine,3286.0,Yes
+2421,3.0,Other,Diabetes,"Fever, Shortness of breath, Cough",Paracetamol,4746.0,No
+2422,68.0,Other,Diabetes,Sneezing,Ventolin,5154.0,No
+2423,32.0,Female,COVID-19,"Sneezing, Fatigue, Shortness of breath",Amoxicillin,2584.0,Yes
+2424,92.0,,COVID-19,"Cough, Fatigue, Shortness of breath",Aspirin,5906.0,Yes
+2425,36.0,Male,Flu,"Shortness of breath, Headache",Cetirizine,6154.0,No
+2426,96.0,Male,Migraine,"Cough, Headache",Cetirizine,4007.0,Yes
+2427,95.0,Other,Diabetes,"Fever, Headache",Ventolin,2601.0,No
+2428,37.0,Other,COVID-19,"Cough, Headache",Paracetamol,6949.0,Yes
+2429,7.0,Female,Migraine,Headache,Cetirizine,7338.0,Yes
+2430,11.0,Other,Diabetes,"Shortness of breath, Fever, Fatigue",Amoxicillin,7647.0,No
+2431,68.0,Other,Asthma,Cough,Paracetamol,2011.0,No
+2432,63.0,Female,Asthma,"Shortness of breath, Cough",Metformin,3147.0,Yes
+2433,86.0,Female,COVID-19,"Fever, Sneezing",Cetirizine,4794.0,Yes
+2434,47.0,Female,COVID-19,"Fatigue, Fever, Sneezing",Paracetamol,2581.0,Yes
+2435,41.0,Other,Hypertension,"Shortness of breath, Fever",Insulin,6160.0,No
+2436,68.0,Female,Flu,Cough,Metformin,4620.0,Yes
+2437,46.0,Female,Allergy,"Shortness of breath, Fever, Sneezing",Aspirin,4662.0,No
+2438,94.0,Male,Asthma,"Sneezing, Fever, Fatigue",Cetirizine,2848.0,Yes
+2439,84.0,Other,COVID-19,"Fever, Fatigue",Paracetamol,2543.0,Yes
+2440,13.0,Female,Asthma,"Fever, Fatigue, Headache",Insulin,2215.0,No
+2441,17.0,Other,Asthma,"Shortness of breath, Fatigue, Fever",Metformin,7662.0,Yes
+2442,6.0,Other,Asthma,"Headache, Fatigue",Aspirin,2054.0,Yes
+2443,96.0,Male,Diabetes,"Shortness of breath, Fatigue",Aspirin,283.0,No
+2444,26.0,Male,Migraine,"Shortness of breath, Headache, Fever",Ventolin,4799.0,Yes
+2445,17.0,Male,COVID-19,"Fatigue, Sneezing, Fever",Amoxicillin,4645.0,No
+2446,44.0,Male,Asthma,"Sneezing, Fatigue, Fever",Amoxicillin,5914.0,No
+2447,63.0,Other,Asthma,"Cough, Fever",Insulin,6511.0,Yes
+2448,23.0,Male,Flu,"Fever, Fatigue",Insulin,7790.0,No
+2449,17.0,Female,COVID-19,"Headache, Sneezing",Ventolin,5131.0,Yes
+2450,87.0,Male,COVID-19,"Fatigue, Shortness of breath",Aspirin,6752.0,No
+2451,18.0,Female,Migraine,Headache,Amoxicillin,3729.0,
+2452,87.0,Female,COVID-19,Shortness of breath,,4309.0,Yes
+2453,62.0,Male,Hypertension,Shortness of breath,Amoxicillin,2456.0,No
+2454,58.0,Female,Flu,"Fever, Fatigue",Amoxicillin,7665.0,Yes
+2455,5.0,Female,Diabetes,"Fever, Fatigue, Shortness of breath",Cetirizine,6315.0,No
+2456,72.0,Male,Hypertension,"Cough, Fatigue",Aspirin,516.0,Yes
+2457,29.0,Other,COVID-19,"Shortness of breath, Fever, Headache",Amoxicillin,3088.0,No
+2458,28.0,Male,Flu,Cough,,4922.0,No
+2459,99.0,Female,Hypertension,"Cough, Shortness of breath",Cetirizine,3692.0,No
+2460,87.0,Other,Allergy,"Headache, Shortness of breath, Cough",Insulin,6833.0,
+2461,87.0,Female,Allergy,"Headache, Fatigue, Shortness of breath",Insulin,5466.0,No
+2462,19.0,Male,Hypertension,"Headache, Sneezing",Cetirizine,4409.0,Yes
+2463,49.0,Female,Flu,"Cough, Fever",Insulin,4809.0,Yes
+2464,29.0,Other,Migraine,"Headache, Fever",Aspirin,2015.0,No
+2465,23.0,Other,Hypertension,"Fatigue, Cough",Paracetamol,6909.0,Yes
+2466,84.0,Male,Allergy,"Sneezing, Cough",Aspirin,5487.0,Yes
+2467,3.0,Male,Allergy,Sneezing,Metformin,5442.0,Yes
+2468,,Other,Asthma,Sneezing,Paracetamol,5735.0,Yes
+2469,68.0,Female,Flu,Sneezing,Insulin,6862.0,Yes
+2470,18.0,Other,Asthma,"Headache, Fever, Fatigue",Amoxicillin,2448.0,No
+2471,63.0,Other,Allergy,Headache,Aspirin,7001.0,No
+2472,33.0,Other,Flu,"Shortness of breath, Fever",Insulin,2611.0,Yes
+2473,20.0,Male,Diabetes,"Sneezing, Fever",Amoxicillin,4292.0,Yes
+2474,33.0,Male,Allergy,Cough,Amoxicillin,5032.0,Yes
+2475,46.0,Female,Allergy,"Cough, Shortness of breath, Sneezing",Aspirin,6353.0,No
+2476,38.0,Female,Allergy,"Sneezing, Shortness of breath, Fever",Ventolin,5128.0,No
+2477,57.0,Female,COVID-19,"Cough, Sneezing",Aspirin,3872.0,No
+2478,61.0,Female,Flu,"Sneezing, Headache, Shortness of breath",Metformin,4440.0,No
+2479,62.0,Other,Diabetes,Sneezing,Insulin,7857.0,No
+2480,50.0,Male,Allergy,"Fatigue, Sneezing",Aspirin,6075.0,No
+2481,26.0,Female,Flu,"Headache, Fatigue",Aspirin,775.0,No
+2482,22.0,Female,Migraine,"Sneezing, Headache",Ventolin,4402.0,Yes
+2483,50.0,Male,Hypertension,"Shortness of breath, Sneezing",Paracetamol,7975.0,No
+2484,56.0,Male,Flu,"Headache, Cough, Fever",Amoxicillin,6461.0,Yes
+2485,99.0,Female,Migraine,Fatigue,Insulin,5322.0,Yes
+2486,81.0,Female,Diabetes,"Fatigue, Fever, Sneezing",Insulin,3111.0,No
+2487,27.0,Other,Diabetes,Fever,Ventolin,5536.0,No
+2488,36.0,Male,Migraine,"Fatigue, Fever",Ventolin,6984.0,Yes
+2489,78.0,Female,Migraine,"Fever, Fatigue",,3754.0,No
+2490,53.0,Other,Allergy,Cough,Ventolin,2544.0,Yes
+2491,15.0,Other,Migraine,"Shortness of breath, Fever, Sneezing",Aspirin,426.0,No
+2492,57.0,Female,Hypertension,,Amoxicillin,2485.0,Yes
+2493,51.0,Male,Flu,"Fever, Cough, Shortness of breath",Cetirizine,3944.0,Yes
+2494,33.0,Other,Hypertension,Fever,Ventolin,2302.0,Yes
+2495,23.0,Other,Migraine,Fever,Amoxicillin,472.0,Yes
+2496,49.0,Other,Diabetes,Headache,Aspirin,4748.0,Yes
+2497,17.0,Female,Flu,"Headache, Cough, Fever",Paracetamol,4796.0,Yes
+2498,88.0,Other,Flu,"Sneezing, Cough, Headache",Ventolin,4169.0,No
+2499,28.0,Male,Flu,Fever,Metformin,,Yes
+2500,88.0,Female,Migraine,"Fever, Shortness of breath",Metformin,4320.0,Yes
+2501,29.0,Female,Hypertension,"Cough, Sneezing",Paracetamol,3360.0,No
+2502,47.0,,Allergy,"Sneezing, Shortness of breath",Ventolin,4202.0,Yes
+2503,54.0,Other,Migraine,"Sneezing, Fatigue, Headache",Ventolin,4190.0,Yes
+2504,70.0,Female,Diabetes,"Cough, Fever, Shortness of breath",Metformin,4869.0,Yes
+2505,8.0,Female,Diabetes,Headache,Aspirin,5490.0,Yes
+2506,98.0,Female,COVID-19,"Fever, Headache",Paracetamol,4281.0,No
+2507,63.0,Male,Asthma,"Headache, Cough",Insulin,5015.0,No
+2508,38.0,Other,Migraine,Fatigue,Paracetamol,7430.0,No
+2509,53.0,Male,Diabetes,Sneezing,Aspirin,2482.0,No
+2510,36.0,Male,Asthma,"Shortness of breath, Headache, Fatigue",Insulin,4236.0,Yes
+2511,65.0,Female,Flu,Shortness of breath,Ventolin,7437.0,No
+2512,89.0,Male,Diabetes,"Headache, Sneezing",Paracetamol,4597.0,No
+2513,72.0,Other,Hypertension,"Sneezing, Headache, Shortness of breath",Amoxicillin,923.0,Yes
+2514,45.0,Other,Asthma,"Cough, Sneezing, Headache",Aspirin,3572.0,Yes
+2515,81.0,Male,Diabetes,Fever,Amoxicillin,4733.0,No
+2516,29.0,Other,Allergy,"Sneezing, Headache, Fatigue",Amoxicillin,6905.0,No
+2517,94.0,Female,Allergy,Headache,Ventolin,4906.0,No
+2518,44.0,Other,Flu,Headache,Insulin,2647.0,No
+2519,14.0,Female,Migraine,Sneezing,Paracetamol,4854.0,No
+2520,97.0,Male,Allergy,"Sneezing, Fever",Ventolin,5827.0,Yes
+2521,65.0,Female,COVID-19,"Headache, Shortness of breath",Cetirizine,12420.0,No
+2522,88.0,Female,COVID-19,"Sneezing, Fever, Fatigue",Cetirizine,7719.0,No
+2523,21.0,Male,Diabetes,Cough,Metformin,3536.0,Yes
+2524,35.0,Male,Diabetes,Sneezing,Paracetamol,,No
+2525,49.0,Other,Migraine,Headache,Insulin,585.0,Yes
+2526,71.0,Female,Migraine,"Cough, Headache",Ventolin,7455.0,No
+2527,64.0,Female,Diabetes,Headache,Insulin,5346.0,Yes
+2528,59.0,Female,Allergy,"Headache, Fever, Sneezing",Cetirizine,11803.0,Yes
+2529,81.0,Female,COVID-19,"Shortness of breath, Fatigue, Cough",Aspirin,2514.0,Yes
+2530,81.0,Male,Allergy,Shortness of breath,,2319.0,Yes
+2531,76.0,Female,Flu,"Sneezing, Headache",Cetirizine,3498.0,Yes
+2532,77.0,Female,Asthma,"Fatigue, Headache, Fever",Cetirizine,6468.0,No
+2533,1.0,Other,Hypertension,Cough,Aspirin,5724.0,No
+2534,26.0,Other,Hypertension,"Headache, Shortness of breath, Fever",Insulin,6142.0,No
+2535,40.0,Other,Flu,Cough,Aspirin,2700.0,Yes
+2536,80.0,Other,Asthma,"Sneezing, Fatigue, Shortness of breath",Amoxicillin,4348.0,No
+2537,74.0,Female,COVID-19,"Fever, Headache, Shortness of breath",,2799.0,No
+2538,5.0,Other,Flu,"Cough, Fever",Insulin,3577.0,Yes
+2539,28.0,Female,COVID-19,"Sneezing, Cough",Ventolin,3692.0,No
+2540,77.0,Male,COVID-19,"Shortness of breath, Sneezing",Paracetamol,6793.0,No
+2541,38.0,Other,Flu,"Shortness of breath, Fever",Metformin,3617.0,No
+2542,86.0,Female,Asthma,Fever,Aspirin,6025.0,Yes
+2543,18.0,Female,Flu,"Cough, Fatigue",Insulin,7706.0,No
+2544,44.0,Male,COVID-19,"Cough, Shortness of breath",Metformin,3657.0,Yes
+2545,87.0,Other,Allergy,"Shortness of breath, Cough, Fatigue",Amoxicillin,2432.0,Yes
+2546,59.0,Other,COVID-19,"Fever, Headache, Fatigue",Amoxicillin,7494.0,No
+2547,17.0,Female,Diabetes,"Cough, Shortness of breath",Insulin,4815.0,No
+2548,98.0,Male,Migraine,"Shortness of breath, Cough",Insulin,7674.0,Yes
+2549,9.0,Female,Diabetes,"Fatigue, Cough, Fever",Amoxicillin,4015.0,No
+2550,47.0,Female,Diabetes,Fatigue,Metformin,5987.0,Yes
+2551,78.0,Female,Flu,"Headache, Shortness of breath, Fever",Paracetamol,3196.0,No
+2552,68.0,Male,Flu,"Fatigue, Headache",Cetirizine,7896.0,No
+2553,48.0,Other,Asthma,"Fever, Fatigue, Cough",Ventolin,3479.0,Yes
+2554,34.0,Other,Flu,Sneezing,Amoxicillin,6735.0,No
+2555,26.0,Male,COVID-19,Shortness of breath,Cetirizine,4905.0,Yes
+2556,25.0,Male,Allergy,"Shortness of breath, Fever",Insulin,2645.0,Yes
+2557,71.0,Other,Hypertension,"Cough, Sneezing",Paracetamol,4033.0,No
+2558,31.0,Female,Migraine,Fever,Amoxicillin,13066.0,No
+2559,77.0,Male,Asthma,"Shortness of breath, Headache, Cough",Amoxicillin,2339.0,No
+2560,89.0,Female,Diabetes,"Headache, Sneezing, Shortness of breath",Ventolin,4945.0,No
+2561,8.0,Male,Asthma,"Headache, Fatigue, Sneezing",Aspirin,6551.0,No
+2562,83.0,Other,Hypertension,"Headache, Sneezing",Ventolin,6752.0,No
+2563,84.0,Other,Asthma,"Fever, Shortness of breath",Insulin,4555.0,No
+2564,14.0,,COVID-19,"Shortness of breath, Cough, Headache",Metformin,2801.0,Yes
+2565,70.0,Female,Flu,Sneezing,Aspirin,6736.0,No
+2566,100.0,Male,Migraine,"Shortness of breath, Cough",Cetirizine,4121.0,Yes
+2567,63.0,Male,Flu,"Headache, Cough, Sneezing",Cetirizine,2941.0,Yes
+2568,54.0,Male,Flu,"Sneezing, Headache",Metformin,3451.0,No
+2569,5.0,Female,Hypertension,"Fatigue, Shortness of breath",Cetirizine,7043.0,Yes
+2570,55.0,Female,Hypertension,"Shortness of breath, Headache",Metformin,3808.0,No
+2571,79.0,Female,COVID-19,"Fatigue, Cough, Sneezing",Ventolin,7224.0,Yes
+2572,,Male,Hypertension,"Shortness of breath, Headache, Fatigue",Ventolin,4769.0,No
+2573,2.0,Other,Diabetes,"Fever, Cough, Fatigue",Paracetamol,2930.0,No
+2574,33.0,Female,Hypertension,Fever,Ventolin,4467.0,Yes
+2575,77.0,Other,Asthma,"Shortness of breath, Sneezing, Headache",Metformin,5251.0,Yes
+2576,88.0,Female,Hypertension,"Cough, Fatigue",Aspirin,6533.0,Yes
+2577,37.0,Other,Allergy,Fever,Aspirin,3317.0,No
+2578,5.0,Other,Diabetes,"Sneezing, Cough, Fever",Insulin,7938.0,No
+2579,5.0,Female,Hypertension,"Fatigue, Headache",Aspirin,5873.0,Yes
+2580,67.0,Other,Hypertension,Sneezing,Insulin,6985.0,Yes
+2581,80.0,Female,COVID-19,"Shortness of breath, Fever, Fatigue",Paracetamol,6756.0,No
+2582,45.0,Other,Hypertension,Sneezing,Paracetamol,774.0,Yes
+2583,58.0,Male,Asthma,Headache,Aspirin,5916.0,Yes
